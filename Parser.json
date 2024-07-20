@@ -1,0 +1,50 @@
+{
+    "m": {
+        "Synchroniseur": "3657243582818", // §%5Cx02%5Cx07%5Cx03%5Cb%5Cx05%5Cx03%5Cx06%5Cx04%5Cx02%5Cb%5Cx01%5Cx03§.as || LIGNE 6 :       public static var §\x03\x06\x05\x07\x02\x04\x03\x05\b\x02\b\x01\b§:Boolean = false;
+        "CSync_class_name": "273853642813", // §%5Cx02%5Cx07%5Cx03%5Cb%5Cx05%5Cx03%5Cx06%5Cx04%5Cx02%5Cb%5Cx01%5Cx03§.as || LIGNE 3 :   public class §\x02\x07\x03\b\x05\x03\x06\x04\x02\b\x01\x03§
+        "loader_url": "6885783715", // §%5Cx04%5Cx07%5Cx01%5Cx06%5Cx03%5Cx06%5Cx02%5Cx05%5Cx06%5Cx05%5Cx01§.as || LIGNE 172 :       public var §\x06\b\b\x05\x07\b\x03\x07\x01\x05§:String;
+        "chat_message2": "27266123442", // §%5Cx05%5Cx01%5Cb%5Cx05%5Cx05%5Cx04%5Cx02%5Cx01%5Cx01%5Cx07%5Cx07§.as || LIGNE 226 :       public static function §\x02\x07\x02\x06\x06\x01\x02\x03\x04\x04\x02§(param1:String, param2:Boolean = false) : void
+        "chat_class_name2": "51855421177", // §%5Cx02%5Cx01%5Cx04%5Cb%5Cx01%5Cx03%5Cx02%5Cx07%5Cx05%5Cx05%5Cx04%5Cx03§.as || LIGNE 167 :          var _loc4_:§\x05\x01\b\x05\x05\x04\x02\x01\x01\x07\x07§ = §\x05\x01\b\x05\x05\x04\x02\x01\x01\x07\x07§.§\x03\b\x04\x06\b\x07\x02\x02\x01\x05\x02\x04\x05§(_loc3_);
+        "menu_title": "SafeMarket - Menu", // LOCAL
+        "player_clip": "44433258463", // §%5Cb%5Cx07%5Cx07%5Cx04%5Cx03%5Cx07%5Cx05%5Cx06%5Cx02%5Cx04%5Cx02§.as || LIGNE 35 :       public var §\x04\x04\x04\x03\x03\x02\x05\b\x04\x06\x03§:Boolean = false;
+        "event_main_socket_close": "1722222887721", // §%5Cx04%5Cx07%5Cx01%5Cx06%5Cx03%5Cx06%5Cx02%5Cx05%5Cx06%5Cx05%5Cx01§.as || LIGNE 2750 :       public function §\x01\x07\x02\x02\x02\x02\x02\b\b\x07\x07\x02\x01§(param1:Event, param2:String = null, param3:Boolean = false) : void
+        "event_bulle_socket_close": "7543137436814", // §%5Cx06%5Cx07%5Cx06%5Cx04%5Cx02%5Cx02%5Cx04%5Cx05%5Cx02%5Cx07%5Cx06%5Cx04%5Cx03§.as || LIGNE 233 :       public function §\x07\x05\x04\x03\x01\x03\x07\x04\x03\x06\b\x01\x04§(param1:Event) : void
+        "x_btnValider": "3751242718185", // §%5Cx01%5Cx01%5Cx05%5Cx06%5Cb%5Cx01%5Cx07%5Cb%5Cx02%5Cx04%5Cx06§.as || LIGNE 25 :       public static var §\x03\x07\x05\x01\x02\x04\x02\x07\x01\b\x01\b\x05§:§\x01\x07\x07\x05\x04\b\x05\x04\x05\x07\x04§;
+        "x_btnValider_class_name": "243365177321", // §%5Cx02%5Cx04%5Cx03%5Cx03%5Cx06%5Cx05%5Cx01%5Cx07%5Cx07%5Cx03%5Cx02%5Cx01§.as || LIGNE 20 :    public class §\x02\x04\x03\x03\x06\x05\x01\x07\x07\x03\x02\x01§ extends §\x04\x04\x02\x05\x04\b\x04\x05\x07\b\x06\x03\x02§
+        "x_pass": "7823322867", // §%5Cx02%5Cx03%5Cx06%5Cx03%5Cx02%5Cx07%5Cx06%5Cb%5Cx07§.as || LIGNE 25 :       public var §\x07\b\x02\x03\x03\x02\x02\b\x06\x07§:TextField;
+        "x_btnValider_2": "64551585168", // §%5Cb%5Cx02%5Cx01%5Cb%5Cx04%5Cb%5Cx05%5Cx03%5Cx07%5Cx07%5Cx06%5Cx03§.as || LIGNE 9 :       public static var §\x06\x04\x05\x05\x01\x05\b\x05\x01\x06\b§:§\b\x02\x01\b\x04\b\x05\x03\x07\x07\x06\x03§;
+        "socket_name3": "8273788226167", // §%5Cx06%5Cx07%5Cx06%5Cx04%5Cx02%5Cx02%5Cx04%5Cx05%5Cx02%5Cx07%5Cx06%5Cx04%5Cx03§.as || LIGNE 32 :       public var §\b\x02\x07\x03\x07\b\b\x02\x02\x06\x01\x06\x07§:String;
+        "packet_keys_array": "7338485721", // §%5Cx01%5Cx05%5Cx01%5Cx02%5Cx06%5Cb%5Cx03%5Cx01%5Cx05%5Cb%5Cx05§.as || LIGNE 15 :       public var §\x07\x03\x03\b\x04\b\x05\x07\x02\x01§:String;
+        "socket2_class_name": "47163625651", // §%5Cx04%5Cx07%5Cx01%5Cx06%5Cx03%5Cx06%5Cx02%5Cx05%5Cx06%5Cx05%5Cx01§.as || LIGNE 46 :    public dynamic class §\x04\x07\x01\x06\x03\x06\x02\x05\x06\x05\x01§ extends MovieClip
+        "tfm_instance1": "3578887468344", // §%5Cx04%5Cx07%5Cx01%5Cx06%5Cx03%5Cx06%5Cx02%5Cx05%5Cx06%5Cx05%5Cx01§.as || LIGNE 328 :       public var §\x03\x05\x07\b\b\b\x07\x04\x06\b\x03\x04\x04§:Object;
+        "tfm_instance2": "4726447344", // §%5Cx04%5Cx07%5Cx01%5Cx06%5Cx03%5Cx06%5Cx02%5Cx05%5Cx06%5Cx05%5Cx01§.as || LIGNE 244 :       public var §\x04\x07\x02\x06\x04\x04\x07\x03\x04\x04§:Stage;
+        "socket69": "1333724141621", // §%5Cx04%5Cx07%5Cx01%5Cx06%5Cx03%5Cx06%5Cx02%5Cx05%5Cx06%5Cx05%5Cx01§.as || LIGNE 466 :       public var §\x01\x03\x03\x03\x07\x02\x04\x01\x04\x01\x06\x02\x01§:*;
+        "socket_list": "323322248531", // §%5Cx04%5Cx07%5Cx01%5Cx06%5Cx03%5Cx06%5Cx02%5Cx05%5Cx06%5Cx05%5Cx01§.as || LIGNE 468 :       public var §\x03\x02\x03\x03\x02\x02\x02\x04\b\x05\x03\x01§:Dictionary;
+        "is_static": "256156553518", // §%5Cx05%5Cx06%5Cx04%5Cx07%5Cx06%5Cx07%5Cx07%5Cb%5Cx04%5Cx04%5Cx06§.as || LIGNE 151 :       public var §\x02\x05\x06\x01\x05\x06\x05\x05\x03\x05\x01\b§:Boolean = true;
+        "function_static": "88517843452", // §%5Cx07%5Cx01%5Cx07%5Cb%5Cb%5Cx06%5Cx03%5Cx03%5Cx05%5Cx03%5Cx01%5Cx04%5Cx04§.as || LIGNE  628:       public function §\b\b\x05\x01\x07\b\x04\x03\x04\x05\x02§() : void
+        "function_static2": "88517843452", // §%5Cx07%5Cx01%5Cx07%5Cb%5Cb%5Cx06%5Cx03%5Cx03%5Cx05%5Cx03%5Cx01%5Cx04%5Cx04§.as || LIGNE  628:       public function §\b\b\x05\x01\x07\b\x04\x03\x04\x05\x02§() : void
+        "friction_charge": "4313245667316", // §%5Cx07%5Cx01%5Cx07%5Cb%5Cb%5Cx06%5Cx03%5Cx03%5Cx05%5Cx03%5Cx01%5Cx04%5Cx04§.as || LIGNE 65 :       public var §\x04\x03\x01\x03\x02\x04\x05\x06\x06\x07\x03\x01\x06§:Number;
+        "friction_rate": "6578212747435", // §%5Cx07%5Cx01%5Cx07%5Cb%5Cb%5Cx06%5Cx03%5Cx03%5Cx05%5Cx03%5Cx01%5Cx04%5Cx04§.as || LIGNE 45 :       public var §\x06\x05\x07\b\x02\x01\x02\x07\x04\x07\x04\x03\x05§:Number;
+        "change_player_pos": "21471222516", // §%5Cx07%5Cx01%5Cx07%5Cb%5Cb%5Cx06%5Cx03%5Cx03%5Cx05%5Cx03%5Cx01%5Cx04%5Cx04§.as || LIGNE 467 :       public function §\x02\x01\x04\x07\x01\x02\x02\x02\x05\x01\x06§(param1:§\x02\x02\x01\b\x06\x02\b\x03\x01\x04\x05§, param2:Number) : Boolean
+        "player_pos_class_name": "22186283145", // §%5Cx02%5Cx02%5Cx01%5Cb%5Cx06%5Cx02%5Cb%5Cx03%5Cx01%5Cx04%5Cx05§.as || LIGNE 11 :       public function §\x02\x02\x01\b\x06\x02\b\x03\x01\x04\x05§(param1:Number = 0, param2:Number = 0)
+        "packets_class_name": "368418467888", // §%5Cx03%5Cx06%5Cb%5Cx04%5Cx01%5Cb%5Cx04%5Cx06%5Cx07%5Cb%5Cb%5Cb§.as || LIGNE 52 :       public function §\x03\x06\b\x04\x01\b\x04\x06\x07\b\b\b§()
+        "move_player_packet": "5658568712113", // §%5Cx04%5Cx07%5Cx01%5Cx06%5Cx03%5Cx06%5Cx02%5Cx05%5Cx06%5Cx05%5Cx01§.as || LIGNE 4834 :       public function §\x05\x06\x05\b\x05\x06\b\x07\x01\x02\x01\x01\x03§(param1:Event = null, param2:Boolean = false, param3:int = 0) : void
+        "is_self_player": "44433258463", // §%5Cb%5Cx07%5Cx07%5Cx04%5Cx03%5Cx07%5Cx05%5Cx06%5Cx02%5Cx04%5Cx02§.as || LIGNE 35 :       public var §\x04\x04\x04\x03\x03\x02\x05\b\x04\x06\x03§:Boolean = false;
+        "socket_name": "64551585168", // §%5Cb%5Cx02%5Cx01%5Cb%5Cx04%5Cb%5Cx05%5Cx03%5Cx07%5Cx07%5Cx06%5Cx03§.as || LIGNE 9 :       public static var §\x06\x04\x05\x05\x01\x05\b\x05\x01\x06\b§:§\b\x02\x01\b\x04\b\x05\x03\x07\x07\x06\x03§;
+        "data_id": "678156183352", // §%5Cx06%5Cx07%5Cx06%5Cx04%5Cx02%5Cx02%5Cx04%5Cx05%5Cx02%5Cx07%5Cx06%5Cx04%5Cx03§.as || LIGNE 52 :       public var §\x06\x07\b\x01\x05\x06\x01\b\x03\x03\x05\x02§:int;
+        "read_data": "3887483636156", // §%5Cx06%5Cx07%5Cx06%5Cx04%5Cx02%5Cx02%5Cx04%5Cx05%5Cx02%5Cx07%5Cx06%5Cx04%5Cx03§.as || LIGNE 58 :       public var §\x03\b\b\x07\x04\b\x03\x06\x03\x06\x01\x05\x06§:Boolean = false;
+        "checker_class_name": "3747285356288", // §%5Cx03%5Cx07%5Cx04%5Cx07%5Cx02%5Cb%5Cx05%5Cx03%5Cx05%5Cx06%5Cx02%5Cb%5Cb§.as || LIGNE 12 :    public class §\x03\x07\x04\x07\x02\b\x05\x03\x05\x06\x02\b\b§
+        "packet_out_class_name": "15126831585", // §%5Cx01%5Cx05%5Cx01%5Cx02%5Cx06%5Cb%5Cx03%5Cx01%5Cx05%5Cb%5Cx05§.as || LIGNE 17 :       public function §\x01\x05\x01\x02\x06\b\x03\x01\x05\b\x05§(param1:int, param2:int = -1)
+        "packet_out_bytes": "6313716258377", // §%5Cx01%5Cx05%5Cx01%5Cx02%5Cx06%5Cb%5Cx03%5Cx01%5Cx05%5Cb%5Cx05§.as || LIGNE 9 :       public var §\x06\x03\x01\x03\x07\x01\x06\x02\x05\b\x03\x07\x07§:ByteArray;
+        "remove_shaman_obj": "343533168653", // §%5Cx04%5Cx07%5Cx01%5Cx06%5Cx03%5Cx06%5Cx02%5Cx05%5Cx06%5Cx05%5Cx01§.as || LIGNE 4188 :       public function §\x03\x04\x03\x05\x03\x03\x01\x06\b\x06\x05\x03§(param1:int) : void
+        "shaman_obj_var": "67568365218", // §%5Cx06%5Cx01%5Cx05%5Cx03%5Cx05%5Cx02%5Cx03%5Cb%5Cx02%5Cx06%5Cx03%5Cx06%5Cx07§.as || LIGNE 7 :       public var §\x06\x07\x05\x06\b\x03\x06\x05\x02\x01\b§:int;
+        "jump": "328867611117", // §%5Cx05%5Cx06%5Cx04%5Cx07%5Cx06%5Cx07%5Cx07%5Cb%5Cx04%5Cx04%5Cx06§.as || LIGNE 727 :       public function §\x03\x02\b\b\x06\x07\x06\x01\x01\x01\x01\x07§(param1:Boolean, param2:int = 0) : void
+        "get_linear_velocity": "42151457288", // §%5Cx07%5Cx01%5Cx07%5Cb%5Cb%5Cx06%5Cx03%5Cx03%5Cx05%5Cx03%5Cx01%5Cx04%5Cx04§.as || LIGNE 105 :       public var §\x04\x02\x01\x05\x01\x04\x05\x07\x02\b\b§:§\x02\x02\x01\b\x06\x02\b\x03\x01\x04\x05§;
+        "current_frame": "134547457561", // §%5Cx05%5Cx06%5Cx04%5Cx07%5Cx06%5Cx07%5Cx07%5Cb%5Cx04%5Cx04%5Cx06§.as || LIGNE 93 :       public var §\x01\x03\x04\x05\x04\x07\x04\x05\x07\x05\x06\x01§:int;
+        "is_jumping": "8718758682634", // §%5Cx05%5Cx06%5Cx04%5Cx07%5Cx06%5Cx07%5Cx07%5Cb%5Cx04%5Cx04%5Cx06§.as || LIGNE 69 :       public var §\b\x07\x01\b\x07\x05\b\x06\b\x02\x06\x03\x04§:Boolean = false;
+        "image_url_class_name": "3754878766", // §%5Cx03%5Cx07%5Cx05%5Cx04%5Cb%5Cx07%5Cb%5Cx07%5Cx06%5Cx06§.as || LIGNE 3 :    public class §\x03\x07\x05\x04\b\x07\b\x07\x06\x06§
+        "image_url": "823672755684", // §%5Cx03%5Cx07%5Cx05%5Cx04%5Cb%5Cx07%5Cb%5Cx07%5Cx06%5Cx06§.as || LIGNE 88 :       public static var §\b\x02\x03\x06\x07\x02\x07\x05\x05\x06\b\x04§:String = "http://transformice.com/images/wallpaper/";
+        "login_screen": "1373613735148", // §%5Cx02%5Cx03%5Cx06%5Cx03%5Cx02%5Cx07%5Cx06%5Cb%5Cx07§.as || LIGNE 21 :       public var §\x01\x03\x07\x03\x06\x01\x03\x07\x03\x05\x01\x04\b§:MovieClip;
+        "discord": ["Jodis"] // LOCAL
+    }
+}
