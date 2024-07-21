@@ -1,0 +1,3245 @@
+UPDATED = "Synchroniseur": "3657243582818" =
+
+sealed protectedNS([protected]\2\7\3\8\5\3\6\4\2\8\1\3) class <q>[public]::\2\7\3\8\5\3\6\4\2\8\1\3 extends <q>[public]::Object{
+     staticconstructor * =()(0 params, 0 optional)
+    [stack:2 locals:1 scope:3-4 flags:]
+    {
+        00000) + 0:0 getlocal_0 
+        00001) + 1:0 pushscope 
+        00002) + 0:1 findproperty <q>[public]::\3\6\5\7\2\4\3\5\8\2\8\1\8
+        00003) + 1:1 pushfalse 
+        00004) + 2:1 setproperty <q>[public]::\3\6\5\7\2\4\3\5\8\2\8\1\8
+        00005) + 0:1 returnvoid 
+    }
+
+    slot 1: var <q>[public]::\3\6\5\7\2\4\3\5\8\2\8\1\8:<q>[public]::Boolean = false
+    final  method <q>[public]::void <q>[public]::\7\1\6\5\2\7\2\7\8\1\5\8\3=()(0 params, 0 optional)
+    [stack:5 locals:2 scope:3-4 flags:] slot:3
+    {
+        00000) + 0:0 getlocal_0 
+        00001) + 1:0 pushscope 
+        00002) + 0:1 getlex <q>[public]::\8\6\6\1\3\8\3\3\8\2\7\6\8
+        00003) + 1:1 getproperty <q>[public]::\5\8\6\5\1\4\4\4\1\2\3\4
+        00004) + 1:1 coerce <q>[public]::\8\6\6\1\3\8\3\3\8\2\7\6\8
+        00005) + 1:1 setlocal_1 
+        00006) + 0:1 getlex <q>[public]::\6\2\6\5\7\8\1\5\4\2\7\2\4
+        00007) + 1:1 getlex <q>[public]::\2\7\3\8\5\3\6\4\2\8\1\3
+        00008) + 2:1 getproperty <q>[public]::\3\6\5\7\2\4\3\5\8\2\8\1\8
+        00009) + 2:1 callproperty <q>[public]::\1\8\3\3\2\1\1\8\3\4\3\7, 1 params
+        00010) + 1:1 iffalse ->26
+        00011) + 0:1 getlex <q>[public]::\6\7\6\4\2\2\4\5\2\7\6\4\3
+        00012) + 1:1 getproperty <q>[public]::\7\7\8\4\8\5\4\4\5\6\5\4
+        00013) + 1:1 getlex <q>[public]::\4\4\4\5\4\4\4\5\3\5\3\6\1
+        00014) + 2:1 getlex <q>[public]::\6\2\6\5\7\8\1\5\4\2\7\2\4
+        00015) + 3:1 getlex <q>[public]::\6\2\6\5\7\8\1\5\4\2\7\2\4
+        00016) + 4:1 getlocal_1 
+        00017) + 5:1 callproperty <q>[public]::\7\1\4\3\1\5\2\7\1\1\6\5\3, 1 params
+        00018) + 4:1 callproperty <q>[public]::\7\1\4\3\1\5\2\7\1\1\6\5\3, 1 params
+        00019) + 3:1 getproperty <q>[public]::\7\1\6\7\4\2\8\3\2\4\7
+        00020) + 3:1 getproperty <q>[public]::\1\5\3\5\8\5\3\2\5\1\3\4
+        00021) + 3:1 getlocal_1 
+        00022) + 4:1 getproperty <q>[public]::\7\1\6\7\4\2\8\3\2\4\7
+        00023) + 4:1 getproperty <q>[public]::\2\1\1\6\8\2\4\4\5\1\4\3
+        00024) + 4:1 callproperty <q>[public]::\4\7\4\4\6\3\1\7\3\4\5\7, 2 params
+        00025) + 2:1 callpropvoid <q>[public]::\8\7\7\3\8\8\5\7\7\5\2\7, 1 params
+        00026) + 0:1 returnvoid 
+    }
+
+    final  method <q>[public]::void <q>[public]::\2\1\2\2\2\6\8\2\1\6\2=(<q>[public]::int)(1 params, 0 optional)
+    [stack:3 locals:2 scope:3-4 flags:] slot:4
+    {
+        00000) + 0:0 getlocal_0 
+        00001) + 1:0 pushscope 
+        00002) + 0:1 getlocal_1 
+        00003) + 1:1 getlex <q>[public]::\6\2\6\5\7\8\1\5\4\2\7\2\4
+        00004) + 2:1 getlex <q>[public]::\2\3\8\4\8\2GH__cX
+        00005) + 3:1 getproperty <q>[public]::\1\5\3\5\1\4\4\8\8\8\1\4
+        00006) + 3:1 callproperty <q>[public]::\7\7\6\1\8\5\8\8\3\1\1, 1 params
+        00007) + 2:1 negate 
+        00008) + 2:1 ifne ->14
+        00009) + 0:1 getlex <q>[public]::\2\7\3\8\5\3\6\4\2\8\1\3
+        00010) + 1:1 getlex <q>[public]::\8\2\1\5\2\1\3\5\7\3\2\6\4
+        00011) + 2:1 getproperty <q>[public]::\6\3\4\8\3\8\7\6\8\2\3
+        00012) + 2:1 setproperty <q>[public]::\3\6\5\7\2\4\3\5\8\2\8\1\8
+        00013) + 0:1 jump ->20
+        00014) + 0:1 getlex <q>[public]::\2\7\3\8\5\3\6\4\2\8\1\3
+        00015) + 1:1 getlocal_1 
+        00016) + 2:1 getlex <q>[public]::\8\1\7\2\6\1\3\4\4\7\2\8\4
+        00017) + 3:1 getproperty <q>[public]::\4\2\2\2\1\5\4\3\7\1\4\8
+        00018) + 3:1 equals 
+        00019) + 2:1 setproperty <q>[public]::\3\6\5\7\2\4\3\5\8\2\8\1\8
+        00020) + 0:1 getlex <q>[public]::\2\7\3\8\5\3\6\4\2\8\1\3
+        00021) + 1:1 callpropvoid <q>[public]::\7\1\6\5\2\7\2\7\8\1\5\8\3, 0 params
+        00022) + 0:1 returnvoid 
+    }
+
+     constructor * <q>[public]::\2\7\3\8\5\3\6\4\2\8\1\3=()(0 params, 0 optional)
+    [stack:1 locals:1 scope:4-5 flags:]
+    {
+        00000) + 0:0 getlocal_0 
+        00001) + 1:0 pushscope 
+        00002) + 0:1 getlocal_0 
+        00003) + 1:1 constructsuper 0 params
+        00004) + 0:1 returnvoid 
+    }
+
+}
+
+
+
+
+
+
+
+UPDATED = "CSync_class_name": "273853642813" =
+
+sealed protectedNS([protected]\2\7\3\8\5\3\6\4\2\8\1\3) class <q>[public]::\2\7\3\8\5\3\6\4\2\8\1\3 extends <q>[public]::Object{
+     staticconstructor * =()(0 params, 0 optional)
+    [stack:2 locals:1 scope:3-4 flags:]
+    {
+        00000) + 0:0 getlocal_0 
+        00001) + 1:0 pushscope 
+        00002) + 0:1 findproperty <q>[public]::\3\6\5\7\2\4\3\5\8\2\8\1\8
+        00003) + 1:1 pushfalse 
+        00004) + 2:1 setproperty <q>[public]::\3\6\5\7\2\4\3\5\8\2\8\1\8
+        00005) + 0:1 returnvoid 
+    }
+
+    slot 1: var <q>[public]::\3\6\5\7\2\4\3\5\8\2\8\1\8:<q>[public]::Boolean = false
+    final  method <q>[public]::void <q>[public]::\7\1\6\5\2\7\2\7\8\1\5\8\3=()(0 params, 0 optional)
+    [stack:5 locals:2 scope:3-4 flags:] slot:3
+    {
+        00000) + 0:0 getlocal_0 
+        00001) + 1:0 pushscope 
+        00002) + 0:1 getlex <q>[public]::\8\6\6\1\3\8\3\3\8\2\7\6\8
+        00003) + 1:1 getproperty <q>[public]::\5\8\6\5\1\4\4\4\1\2\3\4
+        00004) + 1:1 coerce <q>[public]::\8\6\6\1\3\8\3\3\8\2\7\6\8
+        00005) + 1:1 setlocal_1 
+        00006) + 0:1 getlex <q>[public]::\6\2\6\5\7\8\1\5\4\2\7\2\4
+        00007) + 1:1 getlex <q>[public]::\2\7\3\8\5\3\6\4\2\8\1\3
+        00008) + 2:1 getproperty <q>[public]::\3\6\5\7\2\4\3\5\8\2\8\1\8
+        00009) + 2:1 callproperty <q>[public]::\1\8\3\3\2\1\1\8\3\4\3\7, 1 params
+        00010) + 1:1 iffalse ->26
+        00011) + 0:1 getlex <q>[public]::\6\7\6\4\2\2\4\5\2\7\6\4\3
+        00012) + 1:1 getproperty <q>[public]::\7\7\8\4\8\5\4\4\5\6\5\4
+        00013) + 1:1 getlex <q>[public]::\4\4\4\5\4\4\4\5\3\5\3\6\1
+        00014) + 2:1 getlex <q>[public]::\6\2\6\5\7\8\1\5\4\2\7\2\4
+        00015) + 3:1 getlex <q>[public]::\6\2\6\5\7\8\1\5\4\2\7\2\4
+        00016) + 4:1 getlocal_1 
+        00017) + 5:1 callproperty <q>[public]::\7\1\4\3\1\5\2\7\1\1\6\5\3, 1 params
+        00018) + 4:1 callproperty <q>[public]::\7\1\4\3\1\5\2\7\1\1\6\5\3, 1 params
+        00019) + 3:1 getproperty <q>[public]::\7\1\6\7\4\2\8\3\2\4\7
+        00020) + 3:1 getproperty <q>[public]::\1\5\3\5\8\5\3\2\5\1\3\4
+        00021) + 3:1 getlocal_1 
+        00022) + 4:1 getproperty <q>[public]::\7\1\6\7\4\2\8\3\2\4\7
+        00023) + 4:1 getproperty <q>[public]::\2\1\1\6\8\2\4\4\5\1\4\3
+        00024) + 4:1 callproperty <q>[public]::\4\7\4\4\6\3\1\7\3\4\5\7, 2 params
+        00025) + 2:1 callpropvoid <q>[public]::\8\7\7\3\8\8\5\7\7\5\2\7, 1 params
+        00026) + 0:1 returnvoid 
+    }
+
+    final  method <q>[public]::void <q>[public]::\2\1\2\2\2\6\8\2\1\6\2=(<q>[public]::int)(1 params, 0 optional)
+    [stack:3 locals:2 scope:3-4 flags:] slot:4
+    {
+        00000) + 0:0 getlocal_0 
+        00001) + 1:0 pushscope 
+        00002) + 0:1 getlocal_1 
+        00003) + 1:1 getlex <q>[public]::\6\2\6\5\7\8\1\5\4\2\7\2\4
+        00004) + 2:1 getlex <q>[public]::\2\3\8\4\8\2GH__cX
+        00005) + 3:1 getproperty <q>[public]::\1\5\3\5\1\4\4\8\8\8\1\4
+        00006) + 3:1 callproperty <q>[public]::\7\7\6\1\8\5\8\8\3\1\1, 1 params
+        00007) + 2:1 negate 
+        00008) + 2:1 ifne ->14
+        00009) + 0:1 getlex <q>[public]::\2\7\3\8\5\3\6\4\2\8\1\3
+        00010) + 1:1 getlex <q>[public]::\8\2\1\5\2\1\3\5\7\3\2\6\4
+        00011) + 2:1 getproperty <q>[public]::\6\3\4\8\3\8\7\6\8\2\3
+        00012) + 2:1 setproperty <q>[public]::\3\6\5\7\2\4\3\5\8\2\8\1\8
+        00013) + 0:1 jump ->20
+        00014) + 0:1 getlex <q>[public]::\2\7\3\8\5\3\6\4\2\8\1\3
+        00015) + 1:1 getlocal_1 
+        00016) + 2:1 getlex <q>[public]::\8\1\7\2\6\1\3\4\4\7\2\8\4
+        00017) + 3:1 getproperty <q>[public]::\4\2\2\2\1\5\4\3\7\1\4\8
+        00018) + 3:1 equals 
+        00019) + 2:1 setproperty <q>[public]::\3\6\5\7\2\4\3\5\8\2\8\1\8
+        00020) + 0:1 getlex <q>[public]::\2\7\3\8\5\3\6\4\2\8\1\3
+        00021) + 1:1 callpropvoid <q>[public]::\7\1\6\5\2\7\2\7\8\1\5\8\3, 0 params
+        00022) + 0:1 returnvoid 
+    }
+
+     constructor * <q>[public]::\2\7\3\8\5\3\6\4\2\8\1\3=()(0 params, 0 optional)
+    [stack:1 locals:1 scope:4-5 flags:]
+    {
+        00000) + 0:0 getlocal_0 
+        00001) + 1:0 pushscope 
+        00002) + 0:1 getlocal_0 
+        00003) + 1:1 constructsuper 0 params
+        00004) + 0:1 returnvoid 
+    }
+
+}
+
+
+
+
+
+
+
+UPDATED = "loader_url": "6885783715" =
+
+    slot 0: var <q>[public]::\3\8\6\4\2\7\7\7\6\3\3:<q>[public]::int = 825.000000
+    slot 0: var <q>[public]::\2\4\6\8\3\2\6\4\7\6\1:<q>[public]::int = 825.000000
+    slot 0: const <q>[public]::\3\8\5\3\6\7\6\7\3\8\4\3:<q>[public]::String  
+    slot 0: var <q>[public]::\6\4\7\8\3\2\4\1\2\2\8\4\7:<q>[public]::String  
+    slot 0: var <q>[public]::\6\5\5\8\8\3\7\3\8\3\8\1:<q>[public]::Boolean  
+    slot 0: var <q>[public]::\3\1\8\6\6\4\6\4\1\8:<q>[public]::int  
+    slot 0: var <q>[public]::\2\6\2\8\6\8\6\8\6\1\5:<q>[public]flash.display::Loader  
+    slot 0: var <q>[public]::\5\8\2\5\6\3\2\8\5\3\3:<q>[public]::int  
+    slot 0: var <q>[public]::\1\4\1\4\2\3\7\5\6\3:<q>[public]flash.utils::Dictionary  
+    slot 0: var <q>[public]::\2\4\6\2\6\5\4\3\7\1\3:<q>[public]::Boolean = false
+    slot 0: var <q>[public]::\6\2\1\2\7\4\6\3\3\3:<q>[public]::int  
+    slot 0: var <q>[public]::\4\8\3\7\5\2\8\7\7\8\6:<q>[public]::Object  
+    slot 0: var <q>[public]::\7\4\5\2\1\3\3\8\4\7\4\4\1:<q>[public]flash.display::Shape  
+    slot 0: var <q>[public]::\1\8\3\5\8\2\2\8\2\5:<q>[public]::String  
+    slot 0: var <q>[public]::\8\3\5\1\1\2\2\5\8\3:<q>[public]flash.utils::ByteArray  
+    slot 0: var <q>[public]::\6\8\8\5\7\8\3\7\1\5:<q>[public]::String  
+
+
+
+
+
+
+
+UPDATED = "chat_message2": "27266123442" =
+
+
+    final  method <q>[public]::void <q>[public]::\2\7\2\6\6\1\2\3\4\4\2=(<q>[public]::String, <q>[public]::Boolean = false)(2 params, 1 optional)
+    [stack:4 locals:3 scope:3-4 flags: has_optional] slot:10
+    {
+        00000) + 0:0 getlocal_0 
+        00001) + 1:0 pushscope 
+        00002) + 0:1 getlocal_2 
+        00003) + 1:1 iffalse ->14
+        00004) + 0:1 getlex <q>[public]::\4\3\5\1\6\6\8\2\5\3
+        00005) + 1:1 getproperty <q>[public]::\6\4\5\5\1\5\8\5\1\6\8
+        00006) + 1:1 getlocal_1 
+        00007) + 2:1 getlex <q>[public]::\6\2\6\5\7\8\1\5\4\2\7\2\4
+        00008) + 3:1 getlex <q>[public]::\8\5\6\6\7\7\8\6\7\7\3
+        00009) + 4:1 getproperty <q>[public]::\2\7\4\4\5\7\8\2\4\1\2\8
+        00010) + 4:1 callproperty <q>[public]::\2\3\2\5\4\2\1\1\8\4\2\2\7, 1 params
+        00011) + 3:1 getlocal_2 
+        00012) + 4:1 callpropvoid <q>[public]::\3\3\3\3\5\2\4\8\3\8\5, 3 params
+        00013) + 0:1 jump ->22
+        00014) + 0:1 getlex <q>[public]::\4\3\5\1\6\6\8\2\5\3
+        00015) + 1:1 getproperty <q>[public]::\6\4\5\5\1\5\8\5\1\6\8
+        00016) + 1:1 getlex <q>[public]::\2\1\4\8\1\3\2\7\5\5\4\3
+        00017) + 2:1 getproperty <q>[public]::\7\5\1\1\4\4\5\5\7\7\2
+        00018) + 2:1 getlocal_1 
+        00019) + 3:1 getlex <q>[public]::\8\5\6\6\7\7\8\6\7\7\3
+        00020) + 4:1 getproperty <q>[public]::\2\7\4\4\5\7\8\2\4\1\2\8
+        00021) + 4:1 callpropvoid <q>[public]::\6\1\6\5\5\6\1\1\4\6\8, 3 params
+        00022) + 0:1 returnvoid 
+    }
+
+
+
+
+
+
+
+
+UPDATED = "chat_class_name2": "51855421177" =
+
+
+slot 0: class <q>[public]::\5\1\8\5\5\4\2\1\1\7\7=
+ initmethod * init=()(0 params, 0 optional)
+[stack:2 locals:1 scope:1-3 flags:]
+{
+    00000) + 0:0 getlocal_0 
+    00001) + 1:0 pushscope 
+    00002) + 0:1 findpropstrict <multi>{[public]tribulle.auto.protocole.entree}::V_ET_SignaleAjoutAmi
+    00003) + 1:1 getlex <q>[public]::Object
+    00004) + 2:1 pushscope 
+    00005) + 1:2 getlex <q>[public]::Object
+    00006) + 2:2 newclass [classinfo 00000000 <q>[public]tribulle.auto.protocole.entree::V_ET_SignaleAjoutAmi]
+    00007) + 2:2 popscope 
+    00008) + 2:1 initproperty <q>[public]tribulle.auto.protocole.entree::V_ET_SignaleAjoutAmi
+    00009) + 0:1 returnvoid 
+}
+
+
+
+
+
+
+
+"menu_title": "DisneyClient - Menu"
+
+
+
+
+
+
+
+
+
+"player_clip": "44433258463" =
+
+    slot 0: var <q>[public]::\2\4\5\4\3\1\8\5\8\5\2\7:<q>[public]::\2\2\1\8\6\2\8\3\1\4\5  
+    slot 0: var <q>[public]::\7\6\4\4\8\1\6\6\6\1\3:<q>[public]::Boolean = false
+    slot 0: var <q>[public]::\6\3\8\2\6\3\7\5\6\1\2\7:<q>[public]::Number = 1.#QNAN0
+    slot 0: var <q>[public]::\5\2\8\2\4\6\2\5\1\5\8\3:<q>[public]::int  
+    slot 0: var <q>[public]::\7\3\7\6\7\8\4\3\3\2\7\1:<q>[public]::Boolean = true
+    slot 0: var <q>[public]::\8\1\6\2\6\3\7\5\8\6\2\1\6:<q>[public]::int  
+    slot 0: var <q>[public]::\5\2\6\7\5\3\7\2\4\2\5\1:<q>[public]::Number  
+    slot 0: var <q>[public]::\7\5\8\4\1\6\6\6\3\7\2:<q>[public]::Boolean = false
+    slot 0: var <q>[public]::\6\5\7\8\2\1\2\7\4\7\4\3\5:<q>[public]::Number  
+    slot 0: var <q>[public]::\5\5\2\4\5\6\3\6\7\2\2\3\4:<q>[public]::Boolean = false
+    slot 0: var <q>[public]::\8\5\3\4\2\5\5\3\7\2\1\7:<q>[public]::\7\6\1\2\3\6\7\2\5\6\4\5  
+    slot 0: var <q>[public]::\3\6\2\7\8\7\5\2\8\2\5:<q>[public]::Number  
+    slot 0: var <q>[public]::\6\7\3\4\1\5\7\7\7\6\5\2:<q>[public]::Boolean = false
+    slot 0: var <q>[public]::\4\2\8\6\3\4\8\5\5\5\7\7\1:<q>[public]::Boolean = false
+    slot 0: var <q>[public]::\5\3\1\2\7\2\5\6\1\2\6\6\4:<q>[public]::Number  
+    slot 0: var <q>[public]::\1\5\6\5\1\1\6\4\3\3\2\7:<q>[public]::Boolean = true
+    slot 0: var <q>[public]::\8\6\7\1\4\2\3\3\8\5\2:<q>[public]::Number  
+    slot 0: var <q>[public]::\4\5\8\7\8\4\2\8\5\3\5\3:<q>[public]::Number  
+    slot 0: var <q>[public]::\4\3\1\3\2\4\5\6\6\7\3\1\6:<q>[public]::Number  
+    slot 0: var <q>[public]::\3\7\7\4\1\1\8\3\4\8\8\7\5:<q>[public]::Number  
+    slot 0: var <q>[public]::\5\2\2\2\8\5\7\5\1\7\7\8:<q>[public]::\8\5\3\4\1\4\8\3\4\8\3\2\6  
+    slot 0: var <q>[public]::\3\2\2\7\7\6\2\2\7\2\8\8\6:<q>[public]::\2\8\1\5\2\3\3\2\4\4\8\4  
+    slot 0: var <q>[public]::\4\4\6\4\4\4\7\8\8\7\4\4\8:<q>[public]::Number  
+    slot 0: var <q>[public]::\1\5\6\2\6\1\1\3\3\7\6\3:<q>[public]::Number  
+    slot 0: var <q>[public]::\8\6\5\8\1\1\5\6\3\4\8:<q>[public]::String  
+    slot 0: var <q>[public]::\4\7\7\1\8\6\3\5\7\1\2\6:<q>[public]::int  
+    slot 0: var <q>[public]::\7\2\4\3\5\6\6\7\6\3\3:<q>[public]::Number  
+    slot 0: var <q>[public]::\2\8\1\8\3\2\3\5\1\2\6:<q>[public]::int  
+    slot 0: var <q>[public]::\8\2\1\3\2\6\4\1\6\4\4\4\1:<q>[public]::Number  
+    slot 0: var <q>[public]::\2\8\7\5\5\2\6\7\7\2\8\7:<q>[public]::Boolean = false
+    slot 0: var <q>[public]::\6\7\5\6\8\3\6\5\2\1\8:<q>[public]::int  
+    slot 0: var <q>[public]::\1\2\2\4\7\1\8\4\6\3\8\8:<q>[public]::int  
+    slot 0: var <q>[public]::\2\8\2\7\2\3\3\7\8\2\3\6:<q>[public]::\2\6\6\5\7\2\6\8\2\3\3\3  
+    slot 0: var <q>[public]::\4\4\4\3\3\2\5\8\4\6\3:<q>[public]::Boolean = false
+
+
+
+
+
+
+
+UPDATED = "event_main_socket_close": "1722222887721" =
+
+
+     method <q>[public]::void <q>[public]::\1\7\2\2\2\2\2\8\8\7\7\2\1=(<q>[public]flash.events::Event, <q>[public]::String = null, <q>[public]::Boolean = false)(3 params, 2 optional)
+    [stack:4 locals:7 scope:10-11 flags: has_optional] slot:0
+    {
+        00000) + 0:0 getlocal_0 
+        00001) + 1:0 pushscope 
+        00002) + 0:1 pushnull 
+        00003) + 1:1 coerce_s 
+        00004) + 1:1 setlocal r6
+        00005) + 0:1 getlex <q>[public]::\4\3\1\8\1\3\8\2\8\7\6
+        00006) + 1:1 pushfalse 
+        00007) + 2:1 callpropvoid <q>[public]::\6\7\6\3\8\4\3\5\2\3\5\2\4, 1 params
+        00008) + 0:1 getlex <q>[public]::\2\3\5\2\5\1\2\7\7\4\4\4
+        00009) + 1:1 pushfalse 
+        00010) + 2:1 callpropvoid <q>[public]::\2\5\8\6\8\6\3\3\5\4\3, 1 params
+        00011) + 0:1 getlex <q>[public]::\4\3\7\4\6\3\7\1\1\7\7\4\6
+        00012) + 1:1 pushfalse 
+        00013) + 2:1 callpropvoid <q>[public]::\5\5\6\4\5\5\5\2\7\7\6\2\3, 1 params
+        00014) + 0:1 getlocal_0 
+        00015) + 1:1 getproperty <q>[public]::\8\8\6\2\3\1\3\4\2\1\2
+        00016) + 1:1 callpropvoid <q>[public]::stop, 0 params
+        00017) + 0:1 getlocal_0 
+        00018) + 1:1 getproperty <q>[public]::\4\6\8\8\3\3\6\4\3\7
+        00019) + 1:1 callpropvoid <q>[public]::stop, 0 params
+        00020) + 0:1 getlex <q>[public]::numChildren
+        00021) + 1:1 convert_i 
+        00022) + 1:1 setlocal r4
+        00023) + 0:1 getlex <q>[public]::\6\5\6\3\7\2\1\5\8\1\7
+        00024) + 1:1 getproperty <q>[public]::\3\2\5\6\5\2\2\6\7\7\4
+        00025) + 1:1 convert_i 
+        00026) + 1:1 setlocal r5
+        00027) + 0:1 jump ->36
+        00028) + 0:1 label 
+        00029) + 0:1 findpropstrict <q>[public]::getChildAt
+        00030) + 1:1 getlocal r5
+        00031) + 2:1 callproperty <q>[public]::getChildAt, 1 params
+        00032) + 1:1 getlex <q>[public]::\8\2\1\5\2\1\3\5\7\3\2\6\4
+        00033) + 2:1 getproperty <q>[public]::\6\3\4\8\3\8\7\6\8\2\3
+        00034) + 2:1 setproperty <q>[public]::visible
+        00035) + 0:1 inclocal_i r5
+        00036) + 0:1 getlocal r5
+        00037) + 1:1 getlocal r4
+        00038) + 2:1 iflt ->28
+        00039) + 0:1 getlocal_2 
+        00040) + 1:1 iffalse ->45
+        00041) + 0:1 getlocal_2 
+        00042) + 1:1 coerce_s 
+        00043) + 1:1 setlocal r6
+        00044) + 0:1 jump ->67
+        00045) + 0:1 getlex <q>[public]::\6\7\6\4\2\2\4\5\2\7\6\4\3
+        00046) + 1:1 getproperty <q>[public]::\1\6\5\5\2\7\3\6\8\2\1\7
+        00047) + 1:1 iffalse ->53
+        00048) + 0:1 getlex <q>[public]::\6\7\6\4\2\2\4\5\2\7\6\4\3
+        00049) + 1:1 getproperty <q>[public]::\1\6\5\5\2\7\3\6\8\2\1\7
+        00050) + 1:1 coerce_s 
+        00051) + 1:1 setlocal r6
+        00052) + 0:1 jump ->67
+        00053) + 0:1 getlex <q>[public]::\6\7\6\4\2\2\4\5\2\7\6\4\3
+        00054) + 1:1 getproperty <q>[public]::\7\2\3\6\1\4\2\4\4\5\4\4\3
+        00055) + 1:1 iftrue ->61
+        00056) + 0:1 getlex <q>[public]::\7\4\1\6\5\7\6\1\1\8
+        00057) + 1:1 getproperty <q>[public]::\3\1\6\2\3\5\8\6\6\4\6\4\7
+        00058) + 1:1 coerce_s 
+        00059) + 1:1 setlocal r6
+        00060) + 0:1 jump ->67
+        00061) + 0:1 getlex <q>[public]::\1\2\2\2\4\1\1\4\6\6\4\2\5
+        00062) + 1:1 getlex <q>[public]::\8\5\6\6\7\7\8\6\7\7\3
+        00063) + 2:1 getproperty <q>[public]::\2\8\4\6\7\6\3\6\7\8\2
+        00064) + 2:1 callproperty <q>[public]::\4\3\4\2\2\2\1\2\3\5\4, 1 params
+        00065) + 1:1 coerce_s 
+        00066) + 1:1 setlocal r6
+        00067) + 0:1 getlex <q>[public]::\4\3\5\6\3\4\4\8\4\5\6\2
+        00068) + 1:1 getlocal r6
+        00069) + 2:1 getlocal_3 
+        00070) + 3:1 callpropvoid <q>[public]::\2\5\8\6\8\6\3\3\5\4\3, 2 params
+        00071) + 0:1 getlex <q>[public]::\2\4\3\3\6\5\1\7\7\3\2\1
+        00072) + 1:1 getproperty <q>[public]::\6\4\5\5\1\5\8\5\1\6\8
+        00073) + 1:1 convert_b 
+        00074) + 1:1 dup 
+        00075) + 2:1 iffalse ->81
+        00076) + 1:1 pop 
+        00077) + 0:1 getlex <q>[public]::\2\4\3\3\6\5\1\7\7\3\2\1
+        00078) + 1:1 getproperty <q>[public]::\6\4\5\5\1\5\8\5\1\6\8
+        00079) + 1:1 getproperty <q>[public]::parent
+        00080) + 1:1 convert_b 
+        00081) + 1:1 iffalse ->88
+        00082) + 0:1 getlex <q>[public]::\2\4\3\3\6\5\1\7\7\3\2\1
+        00083) + 1:1 getproperty <q>[public]::\6\4\5\5\1\5\8\5\1\6\8
+        00084) + 1:1 getproperty <q>[public]::parent
+        00085) + 1:1 getlex <q>[public]::\2\4\3\3\6\5\1\7\7\3\2\1
+        00086) + 2:1 getproperty <q>[public]::\6\4\5\5\1\5\8\5\1\6\8
+        00087) + 2:1 callpropvoid <q>[public]::removeChild, 1 params
+        00088) + 0:1 getlex <q>[public]::\6\7\6\4\2\2\4\5\2\7\6\4\3
+        00089) + 1:1 getproperty <q>[public]::\5\5\8\1\5\8\1\5\2\1\5\2
+        00090) + 1:1 callpropvoid <q>[public]::reset, 0 params
+        00091) + 0:1 getlocal_0 
+        00092) + 1:1 getproperty <q>[public]::\4\4\5\3\2\1\8\2\4\4\7\1
+        00093) + 1:1 iffalse ->116
+        00094) + 0:1 getlex <q>[public]::\4\3\5\6\3\4\4\8\4\5\6\2
+        00095) + 1:1 getlex <q>[public]::\6\2\6\5\7\8\1\5\4\2\7\2\4
+        00096) + 2:1 getlex <q>[public]::\1\5\1\5\6\2\3\6\1\1\6\4\1
+        00097) + 3:1 getproperty <q>[public]::\7\7\1\1\1\7\8\8\5\8\6
+        00098) + 3:1 callproperty <q>[public]::\2\3\2\5\4\2\1\1\8\4\2\2\7, 1 params
+        00099) + 2:1 getlex <q>[public]::\1\2\2\2\4\1\1\4\6\6\4\2\5
+        00100) + 3:1 getlex <q>[public]::\3\1\5\8\6\6\8\8\1\4\7\4\4
+        00101) + 4:1 getproperty <q>[public]::\3\3\4\8\5\2\2\3\3\5\5
+        00102) + 4:1 callproperty <q>[public]::\4\3\4\2\2\2\1\2\3\5\4, 1 params
+        00103) + 3:1 add 
+        00104) + 2:1 getlex <q>[public]::\1\5\1\5\6\2\3\6\1\1\6\4\1
+        00105) + 3:1 getproperty <q>[public]::\7\7\1\1\1\7\8\8\5\8\6
+        00106) + 3:1 add 
+        00107) + 2:1 getlocal_0 
+        00108) + 3:1 getproperty <q>[public]::\3\3\7\2\6\6\3\8\2\1\3\5
+        00109) + 3:1 getproperty <multi>{[private]NULL,[public]"",[namespace]http://adobe.com/AS3/2006/builtin,[private]NULL,[packageinternal]"",[protected]\4\7\1\6\3\6\2\5\6\5\1,[staticprotected]\4\7\1\6\3\6\2\5\6\5\1,[staticprotected]flash.display:MovieClip,[staticprotected]flash.display:Sprite,[staticprotected]flash.display:DisplayObjectContainer,[staticprotected]flash.display:InteractiveObject,[staticprotected]flash.display:DisplayObject,[staticprotected]flash.events:EventDispatcher}::_Editeur
+        00110) + 3:1 getlex <q>[public]::\6\5\6\3\7\2\1\5\8\1\7
+        00111) + 4:1 getproperty <q>[public]::\3\4\6\8\2\6\6\2\1\5\1\4
+        00112) + 4:1 getproperty <l,multi>{[private]NULL,[public]"",[namespace]http://adobe.com/AS3/2006/builtin,[private]NULL,[packageinternal]"",[protected]\4\7\1\6\3\6\2\5\6\5\1,[staticprotected]\4\7\1\6\3\6\2\5\6\5\1,[staticprotected]flash.display:MovieClip,[staticprotected]flash.display:Sprite,[staticprotected]flash.display:DisplayObjectContainer,[staticprotected]flash.display:InteractiveObject,[staticprotected]flash.display:DisplayObject,[staticprotected]flash.events:EventDispatcher}
+        00113) + 3:1 callproperty <multi>{[private]NULL,[public]"",[namespace]http://adobe.com/AS3/2006/builtin,[private]NULL,[packageinternal]"",[protected]\4\7\1\6\3\6\2\5\6\5\1,[staticprotected]\4\7\1\6\3\6\2\5\6\5\1,[staticprotected]flash.display:MovieClip,[staticprotected]flash.display:Sprite,[staticprotected]flash.display:DisplayObjectContainer,[staticprotected]flash.display:InteractiveObject,[staticprotected]flash.display:DisplayObject,[staticprotected]flash.events:EventDispatcher}::toString, 0 params
+        00114) + 3:1 add 
+        00115) + 2:1 callpropvoid <q>[public]::\3\4\6\4\6\7\2\2\5\3\4, 1 params
+        00116) + 0:1 getlex <q>[public]::\6\7\6\4\2\2\4\5\2\7\6\4\3
+        00117) + 1:1 getproperty <q>[public]::\7\7\8\4\8\5\4\4\5\6\5\4
+        00118) + 1:1 callpropvoid <q>[public]::reset, 0 params
+        00119) + 0:1 findpropstrict <q>[public]::dispatchEvent
+        00120) + 1:1 findpropstrict <q>[public]flash.events::Event
+        00121) + 2:1 getlex <q>[public]flash.events::Event
+        00122) + 3:1 getproperty <q>[public]::CLOSE
+        00123) + 3:1 constructprop <q>[public]flash.events::Event, 1 params
+        00124) + 2:1 callpropvoid <q>[public]::dispatchEvent, 1 params
+        00125) + 0:1 getlex <q>[public]::\4\7\1\6\3\6\2\5\6\5\1
+        00126) + 1:1 getproperty <q>[public]::\3\8\4\7\7\2\8\8\1\2\8\6\1
+        00127) + 1:1 callpropvoid <q>[public]::\5\7\1\8\6\6\2\5\2\5\7\4\5, 0 params
+        00128) + 0:1 getlex <q>[public]::\8\7\4\4\1\4\6\7\4\6
+        00129) + 1:1 callpropvoid <q>[public]::\1\7\1\3\7\7\1\5\8\2\6, 0 params
+        00130) + 0:1 getlex <q>[public]::\4\7\1\6\3\6\2\5\6\5\1
+        00131) + 1:1 getproperty <q>[public]::\1\2\4\5\7\4\7\2\1\2
+        00132) + 1:1 iffalse ->135
+        00133) + 0:1 getlex <q>[public]::\4\7\1\6\3\6\2\5\6\5\1
+        00134) + 1:1 callpropvoid <q>[public]::\4\5\4\4\1\4\5\5\6\4, 0 params
+        00135) + 0:1 returnvoid 
+    }
+
+
+
+
+
+
+
+
+UPDATED = "event_bulle_socket_close": "7543137436814" =
+
+
+     method <q>[public]::void <q>[public]::\7\5\4\3\1\3\7\4\3\6\8\1\4=(<q>[public]flash.events::Event)(1 params, 0 optional)
+    [stack:3 locals:2 scope:4-5 flags:] slot:0
+    {
+        00000) + 0:0 getlocal_0 
+        00001) + 1:0 pushscope 
+        00002) + 0:1 getlex <q>[public]::\5\2\8\4\1\4\5\2\4\8\8\2\2
+        00003) + 1:1 callproperty <q>[public]::\7\5\6\8\5\1\1\3\3\3\6\4\7, 0 params
+        00004) + 1:1 iffalse ->11
+        00005) + 0:1 getlex <q>[public]::\5\2\8\4\1\4\5\2\4\8\8\2\2
+        00006) + 1:1 getlex <q>[public]::\6\2\6\5\7\8\1\5\4\2\7\2\4
+        00007) + 2:1 getlex <q>[public]::\8\5\3\8\8\6\8\3\2\3\1\6\4
+        00008) + 3:1 getproperty <q>[public]::\6\1\6\5\5\1\1\5\5\7\4\8\5
+        00009) + 3:1 callproperty <q>[public]::\2\3\2\5\4\2\1\1\8\4\2\2\7, 1 params
+        00010) + 2:1 callpropvoid <q>[public]::\8\8\8\2\2\1\2\6\8\4\3, 1 params
+        00011) + 0:1 returnvoid 
+    }
+
+
+
+
+
+
+
+UPDATED = "x_btnValider": "3751242718185" =
+
+
+    slot 0: var <q>[public]::\1\7\1\3\4\1\6\6\4\6\6\6\2:<q>[public]::\6\3\5\1\3\2\3\3\5\5  
+    slot 0: var <q>[public]::\3\7\4\6\1\5\1\6\7\4\5\7\8:<q>[public]::\6\3\5\1\3\2\3\3\5\5  
+    slot 0: var <q>[public]::\2\6\7\5\3\5\5\2\5\5\6:<q>[public]::\6\3\5\1\3\2\3\3\5\5  
+    slot 0: var <q>[public]::\1\6\2\1\3\1\8\8\2\3\5:<q>[public]::\6\3\5\1\3\2\3\3\5\5  
+    slot 0: var <q>[public]::\8\4\2\3\7\5\7\6\6\8\7\6\6:<q>[public]::\6\3\5\1\3\2\3\3\5\5  
+    slot 0: var <q>[public]::\6\7\7\7\7\2\6\7\2\2\2:<q>[public]::\6\3\5\1\3\2\3\3\5\5  
+    slot 0: var <q>[public]::\6\7\1\5\8\5\3\4\8\8\3:<q>[public]::\1\7\7\5\4\8\5\4\5\7\4  
+    slot 0: var <q>[public]::\3\7\5\1\2\4\2\7\1\8\1\8\5:<q>[public]::\1\7\7\5\4\8\5\4\5\7\4  
+    slot 0: var <q>[public]::\8\7\3\3\6\8\8\8\3\8\1:<q>[public]::\1\7\5\7\4\3\8\1\6\2\7\4\8  
+    slot 0: var <q>[public]::\7\6\4\6\7\5\3\4\8\2:<q>[public]::String  
+    slot 0: var <q>[public]::\1\7\6\4\8\4\8\2\2\3\1\8\1:<q>[public]flash.display::Bitmap  
+    slot 0: var <q>[public]::\7\8\4\4\6\6\2\1\6\3\7:<q>[public]::\4\4\2\5\4\8\4\5\7\8\6\3\2  
+    slot 0: var <q>[public]::\6\6\8\8\4\7\5\8\3\5:<q>[public]::\4\4\2\5\4\8\4\5\7\8\6\3\2  
+    slot 0: var <q>[public]::\3\8\4\1\2\6\4\3\4\7\5:<q>[public]flash.display::Bitmap  
+    slot 0: var <q>[public]::\7\3\6\8\8\8\1\5\4\7\5\8:<q>[public]::\7\7\6\3\2\8\5\6\6\5  
+    slot 0: var <q>[public]::\2\1\7\4\8\5\7\2\1\7\4\5:<q>[public]::\4\4\2\5\4\8\4\5\7\8\6\3\2  
+     method <q>[public]::void <q>[public]::\1\1\6\4\1\8\3\5\4\1\3\1=(<q>[public]flash.events::Event)(1 params, 0 optional)
+
+
+
+
+
+
+
+
+UPDATED = "x_btnValider_class_name": "243365177321" =
+
+sealed protectedNS([protected]\2\3\6\3\2\7\6\8\7) class <q>[public]::\2\3\6\3\2\7\6\8\7 extends <q>[public]::\2\4\3\3\6\5\1\7\7\3\2\1{
+     staticconstructor * =()(0 params, 0 optional)
+    [stack:1 locals:1 scope:11-12 flags:]
+    {
+        00000) + 0:0 getlocal_0 
+        00001) + 1:0 pushscope 
+        00002) + 0:1 returnvoid 
+    }
+
+    final  method <q>[public]::void <q>[public]::\6\2\8\3\8\1\1\5\7\3\4\1=(<q>[public]::\4\4\2\5\4\8\4\5\7\8\6\3\2, <q>[public]::Boolean)(2 params, 0 optional)
+    [stack:3 locals:3 scope:11-12 flags:] slot:3
+    {
+        00000) + 0:0 getlocal_0 
+        00001) + 1:0 pushscope 
+        00002) + 0:1 getlocal_1 
+        00003) + 1:1 getlocal_2 
+        00004) + 2:1 setproperty <q>[public]::mouseChildren
+        00005) + 0:1 getlocal_1 
+        00006) + 1:1 getlocal_2 
+        00007) + 2:1 iffalse ->12
+        00008) + 1:1 findpropstrict <q>[public]::Array
+        00009) + 2:1 constructprop <q>[public]::Array, 0 params
+        00010) + 2:1 coerce <q>[public]::Array
+        00011) + 2:1 jump ->17
+        00012) + 1:1 findpropstrict <q>[public]::Array
+        00013) + 2:1 getlex <q>[public]::\5\8\6\7\8\5\6\5\3\8
+        00014) + 3:1 getproperty <q>[public]::\8\6\2\7\8\3\3\8\7\4
+        00015) + 3:1 constructprop <q>[public]::Array, 1 params
+        00016) + 2:1 coerce <q>[public]::Array
+        00017) + 2:1 setproperty <q>[public]::filters
+        00018) + 0:1 returnvoid 
+    }
+
+
+
+
+
+
+
+UPDATED ="x_pass": "7823322867" =
+
+
+    slot 0: var <q>[public]::\1\3\7\3\6\1\3\7\3\5\1\4\8:<q>[public]flash.display::MovieClip  
+    slot 0: var <q>[public]::\7\8\1\2\8\8\7\3\5\3\8\2:<q>[public]flash.text::TextField  
+    slot 0: var <q>[public]::\7\8\2\3\3\2\2\8\6\7:<q>[public]flash.text::TextField  
+    slot 0: var <q>[public]::\6\5\8\8\5\7\6\4\2\6\1\8\5:<q>[public]flash.display::MovieClip  
+    slot 0: var <q>[public]::\1\1\1\5\8\6\8\1\2\1\2\3\3:<q>[public]flash.display::MovieClip  
+    slot 0: var <q>[public]::\3\8\4\7\5\5\7\5\1\1\7\3\7:<q>[public]flash.display::MovieClip  
+    slot 0: var <q>[public]::\2\1\6\4\4\3\6\3\8\8\7\3:<q>[public]flash.display::MovieClip  
+    slot 0: var <q>[public]::\3\2\7\5\7\7\3\7\1\2\3\6:<q>[public]flash.display::MovieClip  
+    slot 0: var <q>[public]::\6\5\3\5\3\8\4\2\1\3\3\1:<q>[public]flash.display::MovieClip  
+    slot 0: var <q>[public]::\8\7\7\5\7\7\6\1\2\1:<q>[public]flash.text::TextField  
+    slot 0: var <q>[public]::\2\4\3\6\8\1\3\5\7\7\1\8:<q>[public]flash.text::TextField  
+    slot 0: var <q>[public]::\4\6\8\5\1\7\7\6\5\1\2\8:<q>[public]flash.text::TextField  
+    slot 0: var <q>[public]::\2\1\1\4\2\6\6\6\3\7\2:<q>[public]flash.display::MovieClip  
+    slot 0: var <q>[public]::\7\5\5\3\8\4\5\1\1\7\5\7:<q>[public]flash.display::Sprite  
+    slot 0: var <q>[public]::\3\3\1\6\5\4\7\3\7\2:<q>[public]flash.display::MovieClip  
+    slot 0: var <q>[public]::\3\7\5\1\2\4\2\7\1\8\1\8\5:<q>[public]flash.display::MovieClip  
+    slot 0: var <q>[public]::\1\2\2\2\3\3\5\3\2\5\2\6\4:<q>[public]flash.text::TextField  
+    slot 0: var <q>[public]::\8\1\3\6\7\7\5\2\5\3\2\8:<q>[public]flash.display::MovieClip  
+    slot 0: var <q>[public]::\7\4\4\3\6\7\2\7\7\7\1\5\8:<q>[public]flash.text::TextField  
+    slot 0: var <q>[public]::\3\4\8\4\4\3\6\8\2\4\1\5\3:<q>[public]flash.display::MovieClip  
+    slot 0: var <q>[public]::\7\6\7\7\8\2\8\2\6\6\7:<q>[public]flash.text::TextField  
+    slot 0: var <q>[public]::\6\3\2\2\3\7\6\5\2\3\8\3:<q>[public]flash.display::MovieClip  
+    slot 0: var <q>[public]::\4\2\8\5\4\1\2\2\8\4\5\4\1:<q>[public]flash.text::TextField  
+    slot 0: var <q>[public]::\2\4\8\6\7\2\4\6\8\1\8\1\6:<q>[public]::\6\7\1\4\6\6\4\3\2  
+    slot 0: var <q>[public]::\7\4\6\4\3\7\2\2\8\5\2:<q>[public]::\4\3\5\8\2\7\3\3\2  
+    slot 0: var <q>[public]::\3\1\1\4\4\1\7\3\5\3\8\2\8:<q>[public]::\7\7\6\3\2\8\5\6\6\5  
+    slot 0: var <q>[public]::\6\6\2\4\2\2\2\4\1\2\3\3:<q>[public]flash.text::TextField  
+    slot 0: var <q>[public]::\2\3\4\5\8\1\3\2\4\1\8\3:<q>[public]::\4\4\2\5\4\8\4\5\7\8\6\3\2  
+    slot 0: var <q>[public]::\4\2\4\7\6\2\4\6\2\4\6:<q>[public]::Boolean = true
+    slot 0: var <q>[public]::\4\1\3\3\4\8\8\2\6\3\4\7\5:<q>[public]::Boolean = true
+    slot 0: var <q>[public]::\2\2\4\5\1\2\4\6\8\6\2:<q>[public]flash.display::MovieClip  
+    slot 0: var <q>[public]::\2\1\4\4\5\4\5\1\6\2\2\5\8:<q>[public]flash.display::MovieClip  
+    slot 0: var <q>[public]::\3\8\1\1\4\7\1\3\4\2\8\7:<q>[public]::\5\5\4\4\3\4\8\3\7\3  
+    slot 0: var <q>[public]::\1\8\8\5\3\2\1\3\3\2\4:<q>[public]::Boolean = false
+    slot 0: var <q>[public]::\4\6\1\6\2\7\8\6\4\7\8\3\2:<q>[public]::\8\7\7\3\3\8\3\5\7\6  
+    slot 0: var <q>[public]::\5\5\6\4\6\2\4\6\8\6\3\2:<q>[public]flash.display::Sprite  
+    slot 0: var <q>[public]::\1\6\5\5\5\2\3\7\1\2\8\3\1:<q>[public]flash.display::Bitmap  
+    slot 0: var <q>[public]::\7\8\8\3\8\8\5\7\3\7\8\8:<q>[public]flash.display::Bitmap  
+     method <q>[public]::void <q>[public]::\1\7\1\4\3\1\4\1\2\2\8\5\8=()(0 params, 0 optional)
+    [stack:11 locals:3 scope:13-18 flags: need_activation] slot:0
+    slot 1: var <q>[packageinternal]::\8\3\5\3\2\3\7\2\2\3:<q>[public]::String  
+    slot 2: var <q>[packageinternal]::\4\8\4\2\3\6\8\2\8\4\8\2\5:<q>[public]::Array  
+    slot 3: var <q>[packageinternal]::\8\6\2\8\5\7\5\5\6\2\6:<q>[public]__AS3__.vec::Vector  
+
+
+
+
+
+
+
+
+UPDATED = "x_btnValider_2": "64551585168" =
+
+sealed protectedNS([protected]\8\2\1\8\4\8\5\3\7\7\6\3) class <q>[public]::\8\2\1\8\4\8\5\3\7\7\6\3 extends <q>[public]flash.display::Sprite{
+     staticconstructor * =()(0 params, 0 optional)
+    [stack:1 locals:1 scope:8-9 flags:]
+    {
+        00000) + 0:0 getlocal_0 
+        00001) + 1:0 pushscope 
+        00002) + 0:1 returnvoid 
+    }
+
+    slot 1: var <q>[public]::\6\4\5\5\1\5\8\5\1\6\8:<q>[public]::\8\2\1\8\4\8\5\3\7\7\6\3  
+    final  method <q>[public]::int <q>[public]::\4\6\4\1\5\7\7\4\2\5\3\1\4=()(0 params, 0 optional)
+    [stack:3 locals:1 scope:8-9 flags:] slot:3
+    {
+        00000) + 0:0 getlocal_0 
+        00001) + 1:0 pushscope 
+        00002) + 0:1 getlex <q>[public]::\8\2\1\8\4\8\5\3\7\7\6\3
+        00003) + 1:1 getproperty <q>[public]::\6\4\5\5\1\5\8\5\1\6\8
+        00004) + 1:1 iftrue ->8
+        00005) + 0:1 getlex <q>[public]::\6\5\6\3\7\2\1\5\8\1\7
+        00006) + 1:1 getproperty <q>[public]::\3\2\5\6\5\2\2\6\7\7\4
+        00007) + 1:1 returnvalue 
+        00008) + 0:1 getlex <q>[public]::\8\2\1\8\4\8\5\3\7\7\6\3
+        00009) + 1:1 getproperty <q>[public]::\6\4\5\5\1\5\8\5\1\6\8
+        00010) + 1:1 getproperty <q>[public]::\7\7\3\8\4\5\7\8\3\2\7\7
+        00011) + 1:1 getlex <q>[public]::\6\2\6\5\7\8\1\5\4\2\7\2\4
+        00012) + 2:1 getlex <q>[public]::\1\7\8\1\1\6\3\2\7\5\3\7
+        00013) + 3:1 getproperty <q>[public]::\5\2\6\2\7\2\7\7\7\7\2\5
+        00014) + 3:1 callproperty <q>[public]::\2\3\2\5\4\2\1\1\8\4\2\2\7, 1 params
+        00015) + 2:1 getproperty <l,multi>{[private]NULL,[public]"",[private]NULL,[packageinternal]"",[namespace]http://adobe.com/AS3/2006/builtin,[protected]\8\2\1\8\4\8\5\3\7\7\6\3,[staticprotected]\8\2\1\8\4\8\5\3\7\7\6\3,[staticprotected]flash.display:Sprite,[staticprotected]flash.display:DisplayObjectContainer,[staticprotected]flash.display:InteractiveObject,[staticprotected]flash.display:DisplayObject,[staticprotected]flash.events:EventDispatcher}
+        00016) + 1:1 returnvalue 
+    }
+
+
+
+
+
+
+
+
+UPDATED = "socket_name3": "8273788226167" =
+
+sealed protectedNS([protected]\6\7\6\4\2\2\4\5\2\7\6\4\3) class <q>[public]::\6\7\6\4\2\2\4\5\2\7\6\4\3 extends <q>[public]::Object{
+     staticconstructor * =()(0 params, 0 optional)
+    [stack:2 locals:1 scope:3-4 flags:]
+    {
+        00000) + 0:0 getlocal_0 
+        00001) + 1:0 pushscope 
+        00002) + 0:1 findproperty <q>[public]::\7\2\3\6\1\4\2\4\4\5\4\4\3
+        00003) + 1:1 pushfalse 
+        00004) + 2:1 setproperty <q>[public]::\7\2\3\6\1\4\2\4\4\5\4\4\3
+        00005) + 0:1 returnvoid 
+    }
+
+    slot 1: var <q>[public]::\5\5\8\1\5\8\1\5\2\1\5\2:<q>[public]::\6\7\6\4\2\2\4\5\2\7\6\4\3  
+    slot 2: var <q>[public]::\7\7\8\4\8\5\4\4\5\6\5\4:<q>[public]::\6\7\6\4\2\2\4\5\2\7\6\4\3  
+    slot 3: var <q>[public]::\7\8\2\7\1\8\7\1\7\6\7:<q>[public]::String  
+    slot 4: var <q>[public]::\6\8\8\2\8\6\4\1\8\5\1\4\8:<q>[public]::int  
+    slot 5: var <q>[public]::\1\6\5\5\2\7\3\6\8\2\1\7:<q>[public]::String  
+    slot 6: var <q>[public]::\7\2\3\6\1\4\2\4\4\5\4\4\3:<q>[public]::Boolean = false
+     constructor * <q>[public]::\6\7\6\4\2\2\4\5\2\7\6\4\3=()(0 params, 0 optional)
+    [stack:4 locals:1 scope:4-5 flags:]
+    {
+        00000) + 0:0 getlocal_0 
+        00001) + 1:0 pushscope 
+        00002) + 0:1 getlocal_0 
+        00003) + 1:1 getlex <q>[public]::Math
+        00004) + 2:1 callproperty <q>[public]::random, 0 params
+        00005) + 2:1 getlex <q>[public]::\6\2\6\5\7\8\1\5\4\2\7\2\4
+        00006) + 3:1 getlex <q>[public]::\8\7\7\2\7\4\6\3\5\6\6
+        00007) + 4:1 getproperty <q>[public]::\4\1\1\7\6\2\8\4\4\7\6\4
+        00008) + 4:1 callproperty <q>[public]::\7\7\6\1\8\5\8\8\3\1\1, 1 params
+        00009) + 3:1 multiply 
+        00010) + 2:1 initproperty <q>[public]::\7\3\1\8\6\7\6\8\7\3\6\5\1
+        00011) + 0:1 getlocal_0 
+        00012) + 1:1 findpropstrict <q>[public]::Array
+        00013) + 2:1 getlex <q>[public]::\6\5\6\3\7\2\1\5\8\1\7
+        00014) + 3:1 getproperty <q>[public]::\7\6\4\7\3\2\2\5\6\6\3\2\2
+        00015) + 3:1 constructprop <q>[public]::Array, 1 params
+        00016) + 2:1 initproperty <q>[public]::\3\5\4\4\4\2\8\4\6\3\2\7\1
+        00017) + 0:1 getlocal_0 
+        00018) + 1:1 findpropstrict <q>[public]flash.utils::ByteArray
+        00019) + 2:1 constructprop <q>[public]flash.utils::ByteArray, 0 params
+        00020) + 2:1 initproperty <q>[public]::\6\3\1\3\7\1\6\2\5\8\3\7\7
+        00021) + 0:1 getlocal_0 
+        00022) + 1:1 getlex <q>[public]::\6\5\6\3\7\2\1\5\8\1\7
+        00023) + 2:1 getproperty <q>[public]::\3\2\5\6\5\2\2\6\7\7\4
+        00024) + 2:1 initproperty <q>[public]::\2\4\1\6\4\4\6\2\3\7\3\5
+        00025) + 0:1 getlocal_0 
+        00026) + 1:1 findpropstrict <q>[public]::\6\4\5\4\7\8\8\8\4\2\5\3\5
+        00027) + 2:1 constructprop <q>[public]::\6\4\5\4\7\8\8\8\4\2\5\3\5, 0 params
+        00028) + 2:1 initproperty <q>[public]::\7\5\4\3\7\8\5\6\3\4\5
+        00029) + 0:1 getlocal_0 
+        00030) + 1:1 getlex <q>[public]::\6\5\6\3\7\2\1\5\8\1\7
+        00031) + 2:1 getproperty <q>[public]::\3\2\5\6\5\2\2\6\7\7\4
+        00032) + 2:1 initproperty <q>[public]::\6\7\8\1\5\6\1\8\3\3\5\2
+        00033) + 0:1 getlocal_0 
+        00034) + 1:1 getlex <q>[public]::\6\2\6\5\7\8\1\5\4\2\7\2\4
+        00035) + 2:1 getlex <q>[public]::\6\5\6\3\7\2\1\5\8\1\7
+        00036) + 3:1 getproperty <q>[public]::\3\2\5\6\5\2\2\6\7\7\4
+        00037) + 3:1 callproperty <q>[public]::\7\7\6\1\8\5\8\8\3\1\1, 1 params
+        00038) + 2:1 initproperty <q>[public]::\8\5\8\7\6\1\7\5\1\2\7\3
+        00039) + 0:1 getlocal_0 
+        00040) + 1:1 getlex <q>[public]::\6\5\6\3\7\2\1\5\8\1\7
+        00041) + 2:1 getproperty <q>[public]::\3\2\5\6\5\2\2\6\7\7\4
+        00042) + 2:1 initproperty <q>[public]::\7\8\1\2\3\5\1\8\4\4\7\4
+        00043) + 0:1 getlocal_0 
+        00044) + 1:1 constructsuper 0 params
+        00045) + 0:1 returnvoid 
+    }
+
+    slot 0: var <q>[public]::\1\3\5\5\4\4\2\5\5\2\6\5:<q>[public]::String  
+    slot 0: var <q>[public]::\8\2\7\3\7\8\8\2\2\6\1\6\7:<q>[public]::String  
+    slot 0: var <q>[public]::\7\3\1\8\6\7\6\8\7\3\6\5\1:<q>[public]::int  
+    slot 0: var <q>[public]::\3\5\4\4\4\2\8\4\6\3\2\7\1:<q>[public]::Array  
+    slot 0: var <q>[public]::\6\3\1\3\7\1\6\2\5\8\3\7\7:<q>[public]flash.utils::ByteArray  
+    slot 0: var <q>[public]::\1\4\2\4\6\1\1\8\3\6\7\5\7:<q>[public]::String  
+    slot 0: var <q>[public]::\3\2\2\1\2\4\7\5\1\7\8\1:<q>[public]::Array  
+    slot 0: var <q>[public]::\3\2\6\1\2\7\4\6\2\5\4\3:<q>[public]::Boolean = false
+    slot 0: var <q>[public]::\1\8\5\5\4\2\6\5\3\3\2\3:<q>[public]::\1\5\1\2\6\8\3\1\5\8\5  
+    slot 0: var <q>[public]::\2\4\1\6\4\4\6\2\3\7\3\5:<q>[public]::Object  
+    slot 0: var <q>[public]::\7\5\4\3\7\8\5\6\3\4\5:<q>[public]::\6\4\5\4\7\8\8\8\4\2\5\3\5  
+    slot 0: var <q>[public]::\6\7\8\1\5\6\1\8\3\3\5\2:<q>[public]::int  
+    slot 0: var <q>[public]::\8\5\8\7\6\1\7\5\1\2\7\3:<q>[public]::int  
+    slot 0: var <q>[public]::\7\8\1\2\3\5\1\8\4\4\7\4:<q>[public]::int  
+    slot 0: var <q>[public]::\3\8\8\7\4\8\3\6\3\6\1\5\6:<q>[public]::Boolean = false
+    slot 0: var <q>[public]::\1\3\3\3\7\2\4\1\4\1\6\2\1:<q>[public]::int  
+     method <q>[public]::void <q>[public]::\8\1\3\4\3\3\6\3\8\5\3\8=(<q>[public]::String = null, <q>[public]::Boolean = false)(2 params, 2 optional)
+
+
+
+
+
+
+
+
+UPDATED = "packet_keys_array": "7338485721" =
+
+sealed protectedNS([protected]\1\5\1\2\6\8\3\1\5\8\5) class <q>[public]::\1\5\1\2\6\8\3\1\5\8\5 extends <q>[public]::Object{
+     staticconstructor * =()(0 params, 0 optional)
+    [stack:1 locals:1 scope:3-4 flags:]
+    {
+        00000) + 0:0 getlocal_0 
+        00001) + 1:0 pushscope 
+        00002) + 0:1 returnvoid 
+    }
+
+     constructor * <q>[public]::\1\5\1\2\6\8\3\1\5\8\5=(<q>[public]::int, <q>[public]::int = -1)(2 params, 1 optional)
+    [stack:4 locals:3 scope:4-5 flags: has_optional]
+    {
+        00000) + 0:0 getlocal_0 
+        00001) + 1:0 pushscope 
+        00002) + 0:1 getlocal_0 
+        00003) + 1:1 constructsuper 0 params
+        00004) + 0:1 getlocal_0 
+        00005) + 1:1 findpropstrict <q>[public]flash.utils::ByteArray
+        00006) + 2:1 constructprop <q>[public]flash.utils::ByteArray, 0 params
+        00007) + 2:1 initproperty <q>[public]::\6\3\1\3\7\1\6\2\5\8\3\7\7
+        00008) + 0:1 getlocal_2 
+        00009) + 1:1 getlex <q>[public]::\2\3\8\4\8\2GH__cX
+        00010) + 2:1 getproperty <q>[public]::\1\5\3\5\1\4\4\8\8\8\1\4
+        00011) + 2:1 negate 
+        00012) + 2:1 ifne ->21
+        00013) + 0:1 getlocal_0 
+        00014) + 1:1 getproperty <q>[public]::\6\3\1\3\7\1\6\2\5\8\3\7\7
+        00015) + 1:1 getlocal_1 
+        00016) + 2:1 callpropvoid <q>[public]::writeShort, 1 params
+        00017) + 0:1 getlocal_0 
+        00018) + 1:1 getlocal_1 
+        00019) + 2:1 initproperty <q>[public]::\8\7\6\2\7\5\7\5\3\8\5
+        00020) + 0:1 jump ->41
+        00021) + 0:1 getlocal_0 
+        00022) + 1:1 getproperty <q>[public]::\6\3\1\3\7\1\6\2\5\8\3\7\7
+        00023) + 1:1 getlocal_1 
+        00024) + 2:1 callpropvoid <q>[public]::writeByte, 1 params
+        00025) + 0:1 getlocal_0 
+        00026) + 1:1 getproperty <q>[public]::\6\3\1\3\7\1\6\2\5\8\3\7\7
+        00027) + 1:1 getlocal_2 
+        00028) + 2:1 callpropvoid <q>[public]::writeByte, 1 params
+        00029) + 0:1 getlocal_0 
+        00030) + 1:1 getlocal_1 
+        00031) + 2:1 getlex <q>[public]::\6\2\6\5\7\8\1\5\4\2\7\2\4
+        00032) + 3:1 getlex <q>[public]::\4\5\1\4\8\5\1\1\6\8\8
+        00033) + 4:1 getproperty <q>[public]::\1\4\8\2\3\4\1\4\6\8\4\3
+        00034) + 4:1 callproperty <q>[public]::\7\7\6\1\8\5\8\8\3\1\1, 1 params
+        00035) + 3:1 lshift 
+        00036) + 2:1 getlocal_2 
+        00037) + 3:1 pushshort 255
+        00038) + 4:1 bitand 
+        00039) + 3:1 bitor 
+        00040) + 2:1 initproperty <q>[public]::\8\7\6\2\7\5\7\5\3\8\5
+        00041) + 0:1 returnvoid 
+    }
+
+    slot 0: var <q>[public]::\6\3\1\3\7\1\6\2\5\8\3\7\7:<q>[public]flash.utils::ByteArray  
+    slot 0: var <q>[public]::\7\7\1\7\8\1\7\7\6\5\3:<q>[public]::Boolean = false
+    slot 0: var <q>[public]::\8\7\6\2\7\5\7\5\3\8\5:<q>[public]::int  
+    slot 0: var <q>[public]::\7\3\3\8\4\8\5\7\2\1:<q>[public]::String  
+     method * <q>[public]::\5\4\4\3\3\6\1\2\5\8\2\6\5=(<q>[public]::int)(1 params, 0 optional)
+
+
+
+
+
+
+
+
+UPDATED = "socket2_class_name": "47163625651" =
+
+     method <q>[public]::void <q>[public]::\5\1\2\1\3\2\1\3\2\6\6\8\8=(<q>[public]::int, <q>[public]::int, <q>[public]::int, <q>[public]::\7\1\7\8\8\6\3\3\5\3\1\4\4 = null, <q>[public]::Boolean = false, <q>[public]::Number = 0, <q>[public]::Number = 0, <q>[public]::Boolean = false)(8 params, 5 optional)
+    [stack:5 locals:44 scope:10-11 flags: has_optional] slot:0
+    {
+        00000) + 0:0 getlocal_0 
+        00001) + 1:0 pushscope 
+        00002) + 0:1 pushfalse 
+        00003) + 1:1 setlocal r9
+        00004) + 0:1 pushnull 
+        00005) + 1:1 coerce <q>[public]::Array
+        00006) + 1:1 setlocal r10
+        00007) + 0:1 pushnull 
+        00008) + 1:1 coerce <q>[public]flash.geom::Point
+        00009) + 1:1 setlocal r11
+        00010) + 0:1 pushbyte 0
+        00011) + 1:1 setlocal r17
+        00012) + 0:1 pushbyte 0
+        00013) + 1:1 setlocal r18
+        00014) + 0:1 pushbyte 0
+        00015) + 1:1 setlocal r19
+        00016) + 0:1 pushnull 
+        00017) + 1:1 coerce <q>[public]::\7\1\7\8\8\6\3\3\5\3\1\4\4
+        00018) + 1:1 setlocal r20
+        00019) + 0:1 pushnull 
+        00020) + 1:1 coerce <q>[public]::\7\1\7\8\8\6\3\3\5\3\1\4\4
+        00021) + 1:1 setlocal r21
+        00022) + 0:1 pushnull 
+        00023) + 1:1 coerce <q>[public]flash.display::MovieClip
+        00024) + 1:1 setlocal r22
+        00025) + 0:1 pushnan 
+        00026) + 1:1 setlocal r23
+        00027) + 0:1 pushnan 
+        00028) + 1:1 setlocal r24
+        00029) + 0:1 pushnull 
+        00030) + 1:1 coerce <q>[public]flash.display::DisplayObject
+        00031) + 1:1 setlocal r25
+        00032) + 0:1 pushfalse 
+        00033) + 1:1 setlocal r26
+        00034) + 0:1 pushnull 
+        00035) + 1:1 coerce <q>[public]::\5\6\4\7\6\7\7\8\4\4\6
+        00036) + 1:1 setlocal r27
+        00037) + 0:1 pushnull 
+        00038) + 1:1 coerce_s 
+        00039) + 1:1 setlocal r28
+        00040) + 0:1 pushnull 
+        00041) + 1:1 coerce <q>[public]::\2\2\1\8\6\2\8\3\1\4\5
+        00042) + 1:1 setlocal r29
+        00043) + 0:1 pushbyte 0
+        00044) + 1:1 setlocal r30
+        00045) + 0:1 pushnull 
+        00046) + 1:1 coerce <q>[public]::\7\1\7\8\8\6\3\3\5\3\1\4\4
+        00047) + 1:1 setlocal r31
+        00048) + 0:1 pushnull 
+        00049) + 1:1 coerce <q>[public]::\2\2\1\8\6\2\8\3\1\4\5
+        00050) + 1:1 setlocal r32
+        00051) + 0:1 pushnan 
+        00052) + 1:1 setlocal r33
+        00053) + 0:1 pushnan 
+        00054) + 1:1 setlocal r34
+        00055) + 0:1 pushnan 
+        00056) + 1:1 setlocal r35
+        00057) + 0:1 pushbyte 0
+        00058) + 1:1 setlocal r36
+        00059) + 0:1 pushnull 
+        00060) + 1:1 coerce <q>[public]::\2\2\1\8\6\2\8\3\1\4\5
+        00061) + 1:1 setlocal r37
+        00062) + 0:1 pushnan 
+        00063) + 1:1 setlocal r38
+        00064) + 0:1 pushnan 
+        00065) + 1:1 setlocal r39
+        00066) + 0:1 pushnan 
+        00067) + 1:1 setlocal r40
+        00068) + 0:1 pushbyte 0
+        00069) + 1:1 setlocal r41
+        00070) + 0:1 getlocal_1 
+        00071) + 1:1 getlex <q>[public]::\7\2\4\5\1\3\6\4\6\6\5\5\5
+        00072) + 2:1 getproperty <q>[public]::\3\3\6\2\5\6\2\1\5\3\6\5\6
+        00073) + 2:1 equals 
+        00074) + 1:1 dup 
+        00075) + 2:1 iftrue ->81
+        00076) + 1:1 pop 
+        00077) + 0:1 getlocal_1 
+        00078) + 1:1 getlex <q>[public]::\7\2\4\5\1\3\6\4\6\6\5\5\5
+        00079) + 2:1 getproperty <q>[public]::\3\7\8\7\3\7\3\1\5\2\5\5
+        00080) + 2:1 equals 
+        00081) + 1:1 dup 
+        00082) + 2:1 iftrue ->88
+        00083) + 1:1 pop 
+        00084) + 0:1 getlocal_1 
+        00085) + 1:1 getlex <q>[public]::\7\2\4\5\1\3\6\4\6\6\5\5\5
+        00086) + 2:1 getproperty <q>[public]::\1\1\2\7\5\2\5\2\4\5\5\4
+        00087) + 2:1 equals 
+        00088) + 1:1 dup 
+        00089) + 2:1 iftrue ->95
+        00090) + 1:1 pop 
+        00091) + 0:1 getlocal_1 
+        00092) + 1:1 getlex <q>[public]::\7\2\4\5\1\3\6\4\6\6\5\5\5
+        00093) + 2:1 getproperty <q>[public]::\5\7\2\7\1\6\4\6\7\4\7\5\5
+        00094) + 2:1 equals 
+        00095) + 1:1 dup 
+        00096) + 2:1 iftrue ->102
+        00097) + 1:1 pop 
+        00098) + 0:1 getlocal_1 
+        00099) + 1:1 getlex <q>[public]::\7\2\4\5\1\3\6\4\6\6\5\5\5
+        00100) + 2:1 getproperty <q>[public]::\8\6\4\3\1\5\4\6\4\3\8
+        00101) + 2:1 equals 
+        00102) + 1:1 convert_b 
+        00103) + 1:1 setlocal r9
+        00104) + 0:1 findpropstrict <q>[public]::Array
+        00105) + 1:1 constructprop <q>[public]::Array, 0 params
+        00106) + 1:1 coerce <q>[public]::Array
+        00107) + 1:1 setlocal r10
+        00108) + 0:1 getlocal r4
+        00109) + 1:1 iffalse ->113
+        00110) + 0:1 getlocal r10
+        00111) + 1:1 getlocal r4
+        00112) + 2:1 callpropvoid <q>[namespace]http://adobe.com/AS3/2006/builtin::push, 1 params
+        00113) + 0:1 getlocal_0 
+        00114) + 1:1 getproperty <q>[public]::\2\3\5\7\6\6\3\5\7\1\5\4\4
+        00115) + 1:1 findpropstrict <q>[public]flash.geom::Point
+        00116) + 2:1 getlocal_2 
+        00117) + 3:1 getlocal_3 
+        00118) + 4:1 constructprop <q>[public]flash.geom::Point, 2 params
+        00119) + 2:1 callproperty <q>[public]::localToGlobal, 1 params
+        00120) + 1:1 coerce <q>[public]flash.geom::Point
+        00121) + 1:1 setlocal r11
+        00122) + 0:1 getlocal r11
+        00123) + 1:1 getlex <q>[public]::\6\2\6\5\7\8\1\5\4\2\7\2\4
+        00124) + 2:1 getlex <q>[public]::\4\5\2\8\1\8\3\8\8\3\6
+        00125) + 3:1 getproperty <q>[public]::\6\4\4\2\1\6\2\8\2\5\7\5\2
+        00126) + 3:1 callproperty <q>[public]::\2\3\2\5\4\2\1\1\8\4\2\2\7, 1 params
+        00127) + 2:1 getproperty <l,multi>{[private]NULL,[public]"",[namespace]http://adobe.com/AS3/2006/builtin,[private]NULL,[packageinternal]"",[protected]\4\7\1\6\3\6\2\5\6\5\1,[staticprotected]\4\7\1\6\3\6\2\5\6\5\1,[staticprotected]flash.display:MovieClip,[staticprotected]flash.display:Sprite,[staticprotected]flash.display:DisplayObjectContainer,[staticprotected]flash.display:InteractiveObject,[staticprotected]flash.display:DisplayObject,[staticprotected]flash.events:EventDispatcher}
+        00128) + 1:1 getlex <q>[public]::\8\7\3\5\3\7\2\2\2\1\8\2\6
+        00129) + 2:1 getproperty <q>[public]::\1\5\4\2\8\1\1\3\1\8\7
+        00130) + 2:1 divide 
+        00131) + 1:1 convert_d 
+        00132) + 1:1 setlocal r12
+        00133) + 0:1 getlex <q>[public]::\6\2\6\5\7\8\1\5\4\2\7\2\4
+        00134) + 1:1 getlocal r11
+        00135) + 2:1 getlex <q>[public]::\6\2\6\5\7\8\1\5\4\2\7\2\4
+        00136) + 3:1 getlex <q>[public]::\1\7\8\1\1\6\3\2\7\5\3\7
+        00137) + 4:1 getproperty <q>[public]::\3\3\2\1\4\5\4\4\8\1\8\2\6
+        00138) + 4:1 callproperty <q>[public]::\2\3\2\5\4\2\1\1\8\4\2\2\7, 1 params
+        00139) + 3:1 getproperty <l,multi>{[private]NULL,[public]"",[namespace]http://adobe.com/AS3/2006/builtin,[private]NULL,[packageinternal]"",[protected]\4\7\1\6\3\6\2\5\6\5\1,[staticprotected]\4\7\1\6\3\6\2\5\6\5\1,[staticprotected]flash.display:MovieClip,[staticprotected]flash.display:Sprite,[staticprotected]flash.display:DisplayObjectContainer,[staticprotected]flash.display:InteractiveObject,[staticprotected]flash.display:DisplayObject,[staticprotected]flash.events:EventDispatcher}
+        00140) + 2:1 callproperty <q>[public]::\2\3\2\6\4\4\1\7\2\3\4\5, 1 params
+        00141) + 1:1 getlex <q>[public]::\6\2\6\5\7\8\1\5\4\2\7\2\4
+        00142) + 2:1 getlex <q>[public]::\8\7\3\5\3\7\2\2\2\1\8\2\6
+        00143) + 3:1 getproperty <q>[public]::\1\5\4\2\8\1\1\3\1\8\7
+        00144) + 3:1 callproperty <q>[public]::\2\3\2\6\4\4\1\7\2\3\4\5, 1 params
+        00145) + 2:1 divide 
+        00146) + 1:1 convert_d 
+        00147) + 1:1 setlocal r13
+        00148) + 0:1 getlex <q>[public]::\8\7\3\5\3\7\2\2\2\1\8\2\6
+        00149) + 1:1 getproperty <q>[public]::\6\6\2\3\2\4\6\4\8\1\2\5
+        00150) + 1:1 getlex <q>[public]::\8\7\3\5\3\7\2\2\2\1\8\2\6
+        00151) + 2:1 getproperty <q>[public]::\1\5\4\2\8\1\1\3\1\8\7
+        00152) + 2:1 divide 
+        00153) + 1:1 convert_d 
+        00154) + 1:1 setlocal r14
+        00155) + 0:1 findpropstrict <q>[public]::\5\8\6\3\1\1\2\3\2\1
+        00156) + 1:1 constructprop <q>[public]::\5\8\6\3\1\1\2\3\2\1, 0 params
+        00157) + 1:1 coerce <q>[public]::\5\8\6\3\1\1\2\3\2\1
+        00158) + 1:1 setlocal r15
+        00159) + 0:1 getlocal r15
+        00160) + 1:1 getproperty <q>[public]::\3\2\5\2\7\3\6\6\5\5\5\2
+        00161) + 1:1 getlocal r12
+        00162) + 2:1 getlocal r14
+        00163) + 3:1 subtract 
+        00164) + 2:1 getlocal r13
+        00165) + 3:1 getlocal r14
+        00166) + 4:1 subtract 
+        00167) + 3:1 callpropvoid <q>[public]::\1\8\7\3\7\5\6\3\6\6\8\3, 2 params
+        00168) + 0:1 getlocal r15
+        00169) + 1:1 getproperty <q>[public]::\2\7\3\6\5\2\3\6\7\6\5\5
+        00170) + 1:1 getlocal r12
+        00171) + 2:1 getlocal r14
+        00172) + 3:1 add 
+        00173) + 2:1 getlocal r13
+        00174) + 3:1 getlocal r14
+        00175) + 4:1 add 
+        00176) + 3:1 callpropvoid <q>[public]::\1\8\7\3\7\5\6\3\6\6\8\3, 2 params
+        00177) + 0:1 findpropstrict <q>[public]::Array
+        00178) + 1:1 constructprop <q>[public]::Array, 0 params
+        00179) + 1:1 coerce <q>[public]::Array
+        00180) + 1:1 setlocal r16
+        00181) + 0:1 getlex <q>[public]::\8\6\6\1\3\8\3\3\8\2\7\6\8
+        00182) + 1:1 getproperty <q>[public]::\5\8\6\5\1\4\4\4\1\2\3\4
+        00183) + 1:1 getproperty <q>[public]::\1\6\4\5\3\7\3\7\1\7\7\3\4
+        00184) + 1:1 getlocal r15
+        00185) + 2:1 getlocal r16
+        00186) + 3:1 getlex <q>[public]::\6\2\6\5\7\8\1\5\4\2\7\2\4
+        00187) + 4:1 getlex <q>[public]::\6\5\6\3\7\2\1\5\8\1\7
+        00188) + 5:1 getproperty <q>[public]::\7\6\4\7\3\2\2\5\6\6\3\2\2
+        00189) + 5:1 callproperty <q>[public]::\7\7\6\1\8\5\8\8\3\1\1, 1 params
+        00190) + 4:1 callpropvoid <q>[public]::\6\7\1\1\8\1\5\8\5\8\2\7, 3 params
+        00191) + 0:1 getlex <q>[public]::\6\5\6\3\7\2\1\5\8\1\7
+        00192) + 1:1 getproperty <q>[public]::\3\2\5\6\5\2\2\6\7\7\4
+        00193) + 1:1 convert_i 
+        00194) + 1:1 setlocal r17
+        00195) + 0:1 jump ->305
+        00196) + 0:1 label 
+        00197) + 0:1 getlocal_0 
+        00198) + 1:1 getproperty <q>[public]::\4\4\4\7\4\1\2\6\3\1\5\8
+        00199) + 1:1 getlocal r17
+        00200) + 2:1 getproperty <l,multi>{[private]NULL,[public]"",[namespace]http://adobe.com/AS3/2006/builtin,[private]NULL,[packageinternal]"",[protected]\4\7\1\6\3\6\2\5\6\5\1,[staticprotected]\4\7\1\6\3\6\2\5\6\5\1,[staticprotected]flash.display:MovieClip,[staticprotected]flash.display:Sprite,[staticprotected]flash.display:DisplayObjectContainer,[staticprotected]flash.display:InteractiveObject,[staticprotected]flash.display:DisplayObject,[staticprotected]flash.events:EventDispatcher}
+        00201) + 1:1 coerce <q>[public]::\7\1\7\8\8\6\3\3\5\3\1\4\4
+        00202) + 1:1 setlocal r21
+        00203) + 0:1 getlocal r21
+        00204) + 1:1 iffalse ->304
+        00205) + 0:1 getlocal r21
+        00206) + 1:1 getproperty <q>[public]::\2\1\6\2\5\5\6\8\8\2\4\3\7
+        00207) + 1:1 getlex <q>[public]flash.display::MovieClip
+        00208) + 2:1 astypelate 
+        00209) + 1:1 coerce <q>[public]flash.display::MovieClip
+        00210) + 1:1 setlocal r22
+        00211) + 0:1 getlocal r9
+        00212) + 1:1 convert_b 
+        00213) + 1:1 dup 
+        00214) + 2:1 iffalse ->219
+        00215) + 1:1 pop 
+        00216) + 0:1 getlocal r22
+        00217) + 1:1 getproperty <multi>{[private]NULL,[public]"",[namespace]http://adobe.com/AS3/2006/builtin,[private]NULL,[packageinternal]"",[protected]\4\7\1\6\3\6\2\5\6\5\1,[staticprotected]\4\7\1\6\3\6\2\5\6\5\1,[staticprotected]flash.display:MovieClip,[staticprotected]flash.display:Sprite,[staticprotected]flash.display:DisplayObjectContainer,[staticprotected]flash.display:InteractiveObject,[staticprotected]flash.display:DisplayObject,[staticprotected]flash.events:EventDispatcher}::Sol
+        00218) + 1:1 convert_b 
+        00219) + 1:1 iffalse ->221
+        00220) + 0:1 jump ->304
+        00221) + 0:1 getlex <q>[public]::\6\2\6\5\7\8\1\5\4\2\7\2\4
+        00222) + 1:1 getlex <q>[public]::\4\7\1\6\3\6\2\5\6\5\1
+
+
+
+
+
+
+
+UPDATED = "tfm_instance1": "3578887468344" =
+
+    slot 0: var <q>[public]::\3\8\6\4\2\7\7\7\6\3\3:<q>[public]::int = 825.000000
+    slot 0: var <q>[public]::\2\4\6\8\3\2\6\4\7\6\1:<q>[public]::int = 825.000000
+    slot 0: const <q>[public]::\3\8\5\3\6\7\6\7\3\8\4\3:<q>[public]::String  
+    slot 0: var <q>[public]::\6\4\7\8\3\2\4\1\2\2\8\4\7:<q>[public]::String  
+    slot 0: var <q>[public]::\6\5\5\8\8\3\7\3\8\3\8\1:<q>[public]::Boolean  
+    slot 0: var <q>[public]::\3\1\8\6\6\4\6\4\1\8:<q>[public]::int  
+    slot 0: var <q>[public]::\2\6\2\8\6\8\6\8\6\1\5:<q>[public]flash.display::Loader  
+    slot 0: var <q>[public]::\5\8\2\5\6\3\2\8\5\3\3:<q>[public]::int  
+    slot 0: var <q>[public]::\1\4\1\4\2\3\7\5\6\3:<q>[public]flash.utils::Dictionary  
+    slot 0: var <q>[public]::\2\4\6\2\6\5\4\3\7\1\3:<q>[public]::Boolean = false
+    slot 0: var <q>[public]::\6\2\1\2\7\4\6\3\3\3:<q>[public]::int  
+    slot 0: var <q>[public]::\4\8\3\7\5\2\8\7\7\8\6:<q>[public]::Object  
+    slot 0: var <q>[public]::\7\4\5\2\1\3\3\8\4\7\4\4\1:<q>[public]flash.display::Shape  
+    slot 0: var <q>[public]::\1\8\3\5\8\2\2\8\2\5:<q>[public]::String  
+    slot 0: var <q>[public]::\8\3\5\1\1\2\2\5\8\3:<q>[public]flash.utils::ByteArray  
+    slot 0: var <q>[public]::\6\8\8\5\7\8\3\7\1\5:<q>[public]::String  
+    slot 0: var <q>[public]::\4\6\3\4\4\3\4\3\3\4\3\4\4:<q>[public]::int  
+    slot 0: var <q>[public]::\6\8\4\5\6\2\3\6\4\1\6\1:<q>[public]::int  
+    slot 0: var <q>[public]::\7\6\4\7\4\5\1\5\2\5:<q>[public]::int  
+    slot 0: const <q>[public]::\4\2\7\6\5\1\1\7\1\8\4\6\6:<q>[public]flash.geom::ColorTransform  
+    slot 0: var <q>[public]::\1\2\2\1\4\6\5\2\2\1\2\8:<q>[public]::Boolean = false
+    slot 0: var <q>[public]::\4\5\3\5\6\1\7\1\6\3:<q>[public]::Object  
+    slot 0: var <q>[public]::\6\4\4\4\8\4\3\4\8\1\4:<q>[public]::Boolean = true
+    slot 0: var <q>[public]::\8\3\6\7\4\3\1\8\7\2\7\1\6:<q>[public]::int  
+    slot 0: var <q>[public]::\2\3\7\7\4\6\2\5\1\6\5\4\3:<q>[public]flash.display::MovieClip  
+    slot 0: var <q>[public]::\6\2\6\7\4\3\8\5\4\4:<q>[public]::\1\1\4\7\2\8\3\8\4\8\2\1\4  
+    slot 0: var <q>[public]::\6\3\4\1\8\5\7\5\7\4\3:<q>[public]::Object  
+    slot 0: var <q>[public]::tempsPartieZero:<q>[public]::int  
+    slot 0: var <q>[public]::\7\7\7\2\3\5\7\2\3\8\3:<q>[public]::int  
+    slot 0: var <q>[public]::\1\6\1\7\7\2\3\5\8\8\7:<q>[public]flash.utils::Dictionary  
+    slot 0: var <q>[public]::\8\5\7\3\5\3\6\5\8\6\1:<q>[public]::int  
+    slot 0: var <q>[public]::\8\2\7\7\2\2\4\8\3\3\2\7\1:<q>[public]::int  
+    slot 0: var <q>[public]::\4\2\4\5\7\8\8\6\2\7\7\3:<q>[public]::Object  
+    slot 0: var <q>[public]::\3\7\1\6\3\6\6\5\4\2\4\3\1:<q>[public]flash.display::MovieClip  
+    slot 0: var <q>[public]::\2\4\1\2\4\5\6\4\4\7\7\7\5:<q>[public]::\5\6\4\7\6\7\7\8\4\4\6 = null
+    slot 0: var <q>[public]::\1\1\2\4\5\2\3\3\6\7\7:<q>[public]::int  
+    slot 0: var <q>[public]::\6\2\2\1\8\4\1\1\4\4:<q>[public]flash.display::MovieClip  
+    slot 0: var <q>[public]::\1\8\3\7\4\5\1\3\7\5\3\2\4:<q>[public]flash.display::MovieClip  
+    slot 0: var <q>[public]::\4\4\4\7\4\1\2\6\3\1\5\8:<q>[public]__AS3__.vec::Vector  
+    slot 0: var <q>[public]::\5\5\1\6\5\4\3\3\3\5\3\2:<q>[public]::Boolean = false
+    slot 0: var <q>[public]::\6\8\3\7\3\4\5\2\3\5\7\5\2:<q>[public]::\5\5\4\4\3\4\8\3\7\3  
+    slot 0: var <q>[public]::\1\5\8\3\3\7\3\6\1\4\8\2:<q>[public]::int  
+    slot 0: var <q>[public]::\3\2\4\1\3\5\7\4\8\7\3:<q>[public]::int  
+    slot 0: var <q>[public]::\5\4\8\4\1\8\7\7\6\2\1:<q>[public]__AS3__.vec::Vector  
+    slot 0: var <q>[public]::\8\3\4\6\6\7\1\2\3\3\4\8\4:<q>[public]::int  
+    slot 0: const <q>[public]::\5\5\4\5\3\5\2\6\5\1\7:<q>[public]::\2\2\1\8\6\2\8\3\1\4\5  
+    slot 0: var <q>[public]::\2\8\5\8\5\7\8\6\5\1\7\4:<q>[public]::Boolean = false
+    slot 0: const <q>[public]::\2\5\1\1\4\1\8\7\2\6\1\8\2:<q>[public]__AS3__.vec::Vector  
+    slot 0: var <q>[public]::\4\5\1\3\1\3\4\6\5\7:<q>[public]::Boolean = false
+    slot 0: var <q>[public]::\8\7\1\6\3\1\7\2\1\4:<q>[public]::Boolean = false
+    slot 0: var <q>[public]::\7\3\2\6\8\6\1\3\4\5\8\7:<q>[public]::\4\1\6\8\4\8\4\3\7\2\8\7  
+    slot 0: var <q>[public]::\4\7\2\6\4\4\7\3\4\4:<q>[public]flash.display::Stage  
+    slot 0: var <q>[public]::\5\5\1\7\5\3\5\1\6\7\4\6:<q>[public]::\5\6\4\7\6\7\7\8\4\4\6  
+    slot 0: var <q>[public]::\5\5\4\1\1\8\1\2\3\6\5\1\2:<q>[public]::Function  
+    slot 0: var <q>[public]::\2\1\5\6\3\1\7\4\5\1\1:<q>[public]flash.display::DisplayObject  
+    slot 0: var <q>[public]::\1\4\3\5\2\1\5\3\8\5\1\8:<q>[public]::Boolean = false
+    slot 0: var <q>[public]::\1\6\5\5\5\1\2\3\7\8:<q>[public]::int  
+    slot 0: var <q>[public]::\1\2\3\1\7\5\4\6\4\5\7\2\4:<q>[public]::Boolean = false
+    slot 0: var <q>[public]::\7\1\8\7\1\1\5\5\4\7\3\1\5:<q>[public]::int  
+    slot 0: var <q>[public]::\4\3\3\3\3\1\6\1\2\4\3\8\7:<q>[public]::\5\6\4\7\6\7\7\8\4\4\6  
+    slot 0: var <q>[public]::\7\5\4\6\6\7\4\2\6\7:<q>[public]::Class  
+    slot 0: var <q>[public]::\4\5\1\6\5\7\7\8\5\5\6:<q>[public]::int  
+    slot 0: var <q>[public]::\3\3\7\2\6\6\3\8\2\1\3\5:<q>[public]flash.display::MovieClip  
+    slot 0: var <q>[public]::\3\3\1\7\3\8\8\2\5\6\2\6:<q>[public]::Object  
+    slot 0: var <q>[public]::\5\4\2\4\8\2\4\5\7\4\4\7\3:<q>[public]::Boolean = false
+    slot 0: var <q>[public]::\2\6\6\3\6\4\5\8\5\2\3\6:<q>[public]::int  
+    slot 0: var <q>[public]::\5\1\4\1\3\5\4\6\4\6\4\8:<q>[public]::int  
+    slot 0: var <q>[public]::\1\3\7\8\1\3\4\1\5\8:<q>[public]flash.net::Socket  
+    slot 0: var <q>[public]::\8\7\3\4\7\8\5\7\4\5\2\3\6:<q>[public]::Object  
+    slot 0: var <q>[public]::\7\5\6\7\6\8\4\7\4\5\5:<q>[public]::Object  
+    slot 0: var <q>[public]::\7\8\4\8\6\8\3\8\1\5\3\1\8:<q>[public]::\4\1\6\8\4\8\4\3\7\2\8\7  
+    slot 0: var <q>[public]::\4\1\7\5\3\8\2\6\8\4\1\4\4:<q>[public]::int  
+    slot 0: var <q>[public]::\3\6\8\1\2\6\2\7\3\7\5\5\6:<q>[public]::\2\2\1\6\7\8\5\4\8\1\7\4  
+    slot 0: var <q>[public]::\2\3\5\3\7\3\5\5\2\8\3:<q>[public]::String  
+    slot 0: var <q>[public]::\3\3\3\1\6\7\8\4\6\4\5\4\5:<q>[public]::String  
+    slot 0: var <q>[public]::\5\6\1\6\3\3\4\7\4\4:<q>[public]::int  
+    slot 0: var <q>[public]::\1\1\1\2\8\1\7\1\2\8:<q>[public]__AS3__.vec::Vector  
+    slot 0: var <q>[public]::\1\1\6\3\6\8\5\2\8\5\5\5\8:<q>[public]::String  
+    slot 0: var <q>[public]::\4\3\3\1\3\6\1\7\6\8\8\4\3:<q>[public]::uint = 6788234
+    slot 0: var <q>[public]::\4\7\5\3\8\1\3\4\4\8\2\3\2:<q>[public]::\4\1\6\8\4\8\4\3\7\2\8\7  
+    slot 0: var <q>[public]::\8\4\2\1\3\3\1\4\5\4:<q>[public]::int  
+    slot 0: var <q>[public]::\8\2\2\2\5\1\8\7\3\5:<q>[public]flash.net::Socket  
+    slot 0: var <q>[public]::\8\8\6\2\3\1\3\4\2\1\2:<q>[public]flash.utils::Timer  
+    slot 0: var <q>[public]::\7\7\8\8\4\6\2\6\8\7:<q>[public]::Boolean = false
+    slot 0: var <q>[public]::\5\4\2\1\1\1\2\3\5\1\3:<q>[public]flash.display::MovieClip  
+    slot 0: var <q>[public]::\6\8\7\8\4\4\7\6\5\5\7\7:<q>[public]::Boolean = false
+    slot 0: var <q>[public]::x_nombreBonusDefilante:<q>[public]::int  
+    slot 0: var <q>[public]::\1\3\7\1\7\3\2\6\7\7\3:<q>[public]::int  
+    slot 0: var <q>[public]::\5\6\8\2\8\7\7\7\8\4\3\5:<q>[public]::int  
+    slot 0: var <q>[public]::\7\8\8\7\8\3\4\7\5\1\8\5\2:<q>[public]__AS3__.vec::Vector  
+    slot 0: var <q>[public]::\5\3\2\6\6\8\2\5\4\2\7\1:<q>[public]::Object  
+    slot 0: var <q>[public]::\4\2\4\1\8\6\5\8\3\6\4\1:<q>[public]::Boolean = false
+    slot 0: var <q>[public]::\1\6\5\2\7\1\1\8\1\2\4\1:<q>[public]::Object  
+    slot 0: var <q>[public]::\3\5\7\8\8\8\7\4\6\8\3\4\4:<q>[public]::Object  
+
+
+
+
+
+
+
+UPDATED = "tfm_instance2": "4726447344" =
+
+    slot 0: var <q>[public]::\3\8\6\4\2\7\7\7\6\3\3:<q>[public]::int = 825.000000
+    slot 0: var <q>[public]::\2\4\6\8\3\2\6\4\7\6\1:<q>[public]::int = 825.000000
+    slot 0: const <q>[public]::\3\8\5\3\6\7\6\7\3\8\4\3:<q>[public]::String  
+    slot 0: var <q>[public]::\6\4\7\8\3\2\4\1\2\2\8\4\7:<q>[public]::String  
+    slot 0: var <q>[public]::\6\5\5\8\8\3\7\3\8\3\8\1:<q>[public]::Boolean  
+    slot 0: var <q>[public]::\3\1\8\6\6\4\6\4\1\8:<q>[public]::int  
+    slot 0: var <q>[public]::\2\6\2\8\6\8\6\8\6\1\5:<q>[public]flash.display::Loader  
+    slot 0: var <q>[public]::\5\8\2\5\6\3\2\8\5\3\3:<q>[public]::int  
+    slot 0: var <q>[public]::\1\4\1\4\2\3\7\5\6\3:<q>[public]flash.utils::Dictionary  
+    slot 0: var <q>[public]::\2\4\6\2\6\5\4\3\7\1\3:<q>[public]::Boolean = false
+    slot 0: var <q>[public]::\6\2\1\2\7\4\6\3\3\3:<q>[public]::int  
+    slot 0: var <q>[public]::\4\8\3\7\5\2\8\7\7\8\6:<q>[public]::Object  
+    slot 0: var <q>[public]::\7\4\5\2\1\3\3\8\4\7\4\4\1:<q>[public]flash.display::Shape  
+    slot 0: var <q>[public]::\1\8\3\5\8\2\2\8\2\5:<q>[public]::String  
+    slot 0: var <q>[public]::\8\3\5\1\1\2\2\5\8\3:<q>[public]flash.utils::ByteArray  
+    slot 0: var <q>[public]::\6\8\8\5\7\8\3\7\1\5:<q>[public]::String  
+    slot 0: var <q>[public]::\4\6\3\4\4\3\4\3\3\4\3\4\4:<q>[public]::int  
+    slot 0: var <q>[public]::\6\8\4\5\6\2\3\6\4\1\6\1:<q>[public]::int  
+    slot 0: var <q>[public]::\7\6\4\7\4\5\1\5\2\5:<q>[public]::int  
+    slot 0: const <q>[public]::\4\2\7\6\5\1\1\7\1\8\4\6\6:<q>[public]flash.geom::ColorTransform  
+    slot 0: var <q>[public]::\1\2\2\1\4\6\5\2\2\1\2\8:<q>[public]::Boolean = false
+    slot 0: var <q>[public]::\4\5\3\5\6\1\7\1\6\3:<q>[public]::Object  
+    slot 0: var <q>[public]::\6\4\4\4\8\4\3\4\8\1\4:<q>[public]::Boolean = true
+    slot 0: var <q>[public]::\8\3\6\7\4\3\1\8\7\2\7\1\6:<q>[public]::int  
+    slot 0: var <q>[public]::\2\3\7\7\4\6\2\5\1\6\5\4\3:<q>[public]flash.display::MovieClip  
+    slot 0: var <q>[public]::\6\2\6\7\4\3\8\5\4\4:<q>[public]::\1\1\4\7\2\8\3\8\4\8\2\1\4  
+    slot 0: var <q>[public]::\6\3\4\1\8\5\7\5\7\4\3:<q>[public]::Object  
+    slot 0: var <q>[public]::tempsPartieZero:<q>[public]::int  
+    slot 0: var <q>[public]::\7\7\7\2\3\5\7\2\3\8\3:<q>[public]::int  
+    slot 0: var <q>[public]::\1\6\1\7\7\2\3\5\8\8\7:<q>[public]flash.utils::Dictionary  
+    slot 0: var <q>[public]::\8\5\7\3\5\3\6\5\8\6\1:<q>[public]::int  
+    slot 0: var <q>[public]::\8\2\7\7\2\2\4\8\3\3\2\7\1:<q>[public]::int  
+    slot 0: var <q>[public]::\4\2\4\5\7\8\8\6\2\7\7\3:<q>[public]::Object  
+    slot 0: var <q>[public]::\3\7\1\6\3\6\6\5\4\2\4\3\1:<q>[public]flash.display::MovieClip  
+    slot 0: var <q>[public]::\2\4\1\2\4\5\6\4\4\7\7\7\5:<q>[public]::\5\6\4\7\6\7\7\8\4\4\6 = null
+    slot 0: var <q>[public]::\1\1\2\4\5\2\3\3\6\7\7:<q>[public]::int  
+    slot 0: var <q>[public]::\6\2\2\1\8\4\1\1\4\4:<q>[public]flash.display::MovieClip  
+    slot 0: var <q>[public]::\1\8\3\7\4\5\1\3\7\5\3\2\4:<q>[public]flash.display::MovieClip  
+    slot 0: var <q>[public]::\4\4\4\7\4\1\2\6\3\1\5\8:<q>[public]__AS3__.vec::Vector  
+    slot 0: var <q>[public]::\5\5\1\6\5\4\3\3\3\5\3\2:<q>[public]::Boolean = false
+    slot 0: var <q>[public]::\6\8\3\7\3\4\5\2\3\5\7\5\2:<q>[public]::\5\5\4\4\3\4\8\3\7\3  
+    slot 0: var <q>[public]::\1\5\8\3\3\7\3\6\1\4\8\2:<q>[public]::int  
+    slot 0: var <q>[public]::\3\2\4\1\3\5\7\4\8\7\3:<q>[public]::int  
+    slot 0: var <q>[public]::\5\4\8\4\1\8\7\7\6\2\1:<q>[public]__AS3__.vec::Vector  
+    slot 0: var <q>[public]::\8\3\4\6\6\7\1\2\3\3\4\8\4:<q>[public]::int  
+    slot 0: const <q>[public]::\5\5\4\5\3\5\2\6\5\1\7:<q>[public]::\2\2\1\8\6\2\8\3\1\4\5  
+    slot 0: var <q>[public]::\2\8\5\8\5\7\8\6\5\1\7\4:<q>[public]::Boolean = false
+    slot 0: const <q>[public]::\2\5\1\1\4\1\8\7\2\6\1\8\2:<q>[public]__AS3__.vec::Vector  
+    slot 0: var <q>[public]::\4\5\1\3\1\3\4\6\5\7:<q>[public]::Boolean = false
+    slot 0: var <q>[public]::\8\7\1\6\3\1\7\2\1\4:<q>[public]::Boolean = false
+    slot 0: var <q>[public]::\7\3\2\6\8\6\1\3\4\5\8\7:<q>[public]::\4\1\6\8\4\8\4\3\7\2\8\7  
+    slot 0: var <q>[public]::\4\7\2\6\4\4\7\3\4\4:<q>[public]flash.display::Stage  
+
+
+
+
+
+
+
+UPDATED = "socket69": "1333724141621" =
+
+    slot 0: var <q>[public]::\1\3\5\5\4\4\2\5\5\2\6\5:<q>[public]::String  
+    slot 0: var <q>[public]::\8\2\7\3\7\8\8\2\2\6\1\6\7:<q>[public]::String  
+    slot 0: var <q>[public]::\7\3\1\8\6\7\6\8\7\3\6\5\1:<q>[public]::int  
+    slot 0: var <q>[public]::\3\5\4\4\4\2\8\4\6\3\2\7\1:<q>[public]::Array  
+    slot 0: var <q>[public]::\6\3\1\3\7\1\6\2\5\8\3\7\7:<q>[public]flash.utils::ByteArray  
+    slot 0: var <q>[public]::\1\4\2\4\6\1\1\8\3\6\7\5\7:<q>[public]::String  
+    slot 0: var <q>[public]::\3\2\2\1\2\4\7\5\1\7\8\1:<q>[public]::Array  
+    slot 0: var <q>[public]::\3\2\6\1\2\7\4\6\2\5\4\3:<q>[public]::Boolean = false
+    slot 0: var <q>[public]::\1\8\5\5\4\2\6\5\3\3\2\3:<q>[public]::\1\5\1\2\6\8\3\1\5\8\5  
+    slot 0: var <q>[public]::\2\4\1\6\4\4\6\2\3\7\3\5:<q>[public]::Object  
+    slot 0: var <q>[public]::\7\5\4\3\7\8\5\6\3\4\5:<q>[public]::\6\4\5\4\7\8\8\8\4\2\5\3\5  
+    slot 0: var <q>[public]::\6\7\8\1\5\6\1\8\3\3\5\2:<q>[public]::int  
+    slot 0: var <q>[public]::\8\5\8\7\6\1\7\5\1\2\7\3:<q>[public]::int  
+    slot 0: var <q>[public]::\7\8\1\2\3\5\1\8\4\4\7\4:<q>[public]::int  
+    slot 0: var <q>[public]::\3\8\8\7\4\8\3\6\3\6\1\5\6:<q>[public]::Boolean = false
+    slot 0: var <q>[public]::\1\3\3\3\7\2\4\1\4\1\6\2\1:<q>[public]::int  
+     method <q>[public]::void <q>[public]::\8\1\3\4\3\3\6\3\8\5\3\8=(<q>[public]::String = null, <q>[public]::Boolean = false)(2 params, 2 optional)
+ 
+
+
+
+
+
+
+UPDATED = "socket_list": "323322248531" =
+
+
+    slot 0: var <q>[public]::\3\8\6\4\2\7\7\7\6\3\3:<q>[public]::int = 825.000000
+    slot 0: var <q>[public]::\2\4\6\8\3\2\6\4\7\6\1:<q>[public]::int = 825.000000
+    slot 0: const <q>[public]::\3\8\5\3\6\7\6\7\3\8\4\3:<q>[public]::String  
+    slot 0: var <q>[public]::\6\4\7\8\3\2\4\1\2\2\8\4\7:<q>[public]::String  
+    slot 0: var <q>[public]::\6\5\5\8\8\3\7\3\8\3\8\1:<q>[public]::Boolean  
+    slot 0: var <q>[public]::\3\1\8\6\6\4\6\4\1\8:<q>[public]::int  
+    slot 0: var <q>[public]::\2\6\2\8\6\8\6\8\6\1\5:<q>[public]flash.display::Loader  
+    slot 0: var <q>[public]::\5\8\2\5\6\3\2\8\5\3\3:<q>[public]::int  
+    slot 0: var <q>[public]::\1\4\1\4\2\3\7\5\6\3:<q>[public]flash.utils::Dictionary  
+    slot 0: var <q>[public]::\2\4\6\2\6\5\4\3\7\1\3:<q>[public]::Boolean = false
+    slot 0: var <q>[public]::\6\2\1\2\7\4\6\3\3\3:<q>[public]::int  
+    slot 0: var <q>[public]::\4\8\3\7\5\2\8\7\7\8\6:<q>[public]::Object  
+    slot 0: var <q>[public]::\7\4\5\2\1\3\3\8\4\7\4\4\1:<q>[public]flash.display::Shape  
+    slot 0: var <q>[public]::\1\8\3\5\8\2\2\8\2\5:<q>[public]::String  
+    slot 0: var <q>[public]::\8\3\5\1\1\2\2\5\8\3:<q>[public]flash.utils::ByteArray  
+    slot 0: var <q>[public]::\6\8\8\5\7\8\3\7\1\5:<q>[public]::String  
+    slot 0: var <q>[public]::\4\6\3\4\4\3\4\3\3\4\3\4\4:<q>[public]::int  
+    slot 0: var <q>[public]::\6\8\4\5\6\2\3\6\4\1\6\1:<q>[public]::int  
+    slot 0: var <q>[public]::\7\6\4\7\4\5\1\5\2\5:<q>[public]::int  
+    slot 0: const <q>[public]::\4\2\7\6\5\1\1\7\1\8\4\6\6:<q>[public]flash.geom::ColorTransform  
+    slot 0: var <q>[public]::\1\2\2\1\4\6\5\2\2\1\2\8:<q>[public]::Boolean = false
+    slot 0: var <q>[public]::\4\5\3\5\6\1\7\1\6\3:<q>[public]::Object  
+    slot 0: var <q>[public]::\6\4\4\4\8\4\3\4\8\1\4:<q>[public]::Boolean = true
+    slot 0: var <q>[public]::\8\3\6\7\4\3\1\8\7\2\7\1\6:<q>[public]::int  
+    slot 0: var <q>[public]::\2\3\7\7\4\6\2\5\1\6\5\4\3:<q>[public]flash.display::MovieClip  
+    slot 0: var <q>[public]::\6\2\6\7\4\3\8\5\4\4:<q>[public]::\1\1\4\7\2\8\3\8\4\8\2\1\4  
+    slot 0: var <q>[public]::\6\3\4\1\8\5\7\5\7\4\3:<q>[public]::Object  
+    slot 0: var <q>[public]::tempsPartieZero:<q>[public]::int  
+    slot 0: var <q>[public]::\7\7\7\2\3\5\7\2\3\8\3:<q>[public]::int  
+    slot 0: var <q>[public]::\1\6\1\7\7\2\3\5\8\8\7:<q>[public]flash.utils::Dictionary  
+    slot 0: var <q>[public]::\8\5\7\3\5\3\6\5\8\6\1:<q>[public]::int  
+    slot 0: var <q>[public]::\8\2\7\7\2\2\4\8\3\3\2\7\1:<q>[public]::int  
+    slot 0: var <q>[public]::\4\2\4\5\7\8\8\6\2\7\7\3:<q>[public]::Object  
+    slot 0: var <q>[public]::\3\7\1\6\3\6\6\5\4\2\4\3\1:<q>[public]flash.display::MovieClip  
+    slot 0: var <q>[public]::\2\4\1\2\4\5\6\4\4\7\7\7\5:<q>[public]::\5\6\4\7\6\7\7\8\4\4\6 = null
+    slot 0: var <q>[public]::\1\1\2\4\5\2\3\3\6\7\7:<q>[public]::int  
+    slot 0: var <q>[public]::\6\2\2\1\8\4\1\1\4\4:<q>[public]flash.display::MovieClip  
+    slot 0: var <q>[public]::\1\8\3\7\4\5\1\3\7\5\3\2\4:<q>[public]flash.display::MovieClip  
+    slot 0: var <q>[public]::\4\4\4\7\4\1\2\6\3\1\5\8:<q>[public]__AS3__.vec::Vector  
+    slot 0: var <q>[public]::\5\5\1\6\5\4\3\3\3\5\3\2:<q>[public]::Boolean = false
+    slot 0: var <q>[public]::\6\8\3\7\3\4\5\2\3\5\7\5\2:<q>[public]::\5\5\4\4\3\4\8\3\7\3  
+    slot 0: var <q>[public]::\1\5\8\3\3\7\3\6\1\4\8\2:<q>[public]::int  
+    slot 0: var <q>[public]::\3\2\4\1\3\5\7\4\8\7\3:<q>[public]::int  
+    slot 0: var <q>[public]::\5\4\8\4\1\8\7\7\6\2\1:<q>[public]__AS3__.vec::Vector  
+    slot 0: var <q>[public]::\8\3\4\6\6\7\1\2\3\3\4\8\4:<q>[public]::int  
+    slot 0: const <q>[public]::\5\5\4\5\3\5\2\6\5\1\7:<q>[public]::\2\2\1\8\6\2\8\3\1\4\5  
+    slot 0: var <q>[public]::\2\8\5\8\5\7\8\6\5\1\7\4:<q>[public]::Boolean = false
+    slot 0: const <q>[public]::\2\5\1\1\4\1\8\7\2\6\1\8\2:<q>[public]__AS3__.vec::Vector  
+    slot 0: var <q>[public]::\4\5\1\3\1\3\4\6\5\7:<q>[public]::Boolean = false
+    slot 0: var <q>[public]::\8\7\1\6\3\1\7\2\1\4:<q>[public]::Boolean = false
+    slot 0: var <q>[public]::\7\3\2\6\8\6\1\3\4\5\8\7:<q>[public]::\4\1\6\8\4\8\4\3\7\2\8\7  
+    slot 0: var <q>[public]::\4\7\2\6\4\4\7\3\4\4:<q>[public]flash.display::Stage  
+    slot 0: var <q>[public]::\5\5\1\7\5\3\5\1\6\7\4\6:<q>[public]::\5\6\4\7\6\7\7\8\4\4\6  
+    slot 0: var <q>[public]::\5\5\4\1\1\8\1\2\3\6\5\1\2:<q>[public]::Function  
+    slot 0: var <q>[public]::\2\1\5\6\3\1\7\4\5\1\1:<q>[public]flash.display::DisplayObject  
+    slot 0: var <q>[public]::\1\4\3\5\2\1\5\3\8\5\1\8:<q>[public]::Boolean = false
+    slot 0: var <q>[public]::\1\6\5\5\5\1\2\3\7\8:<q>[public]::int  
+    slot 0: var <q>[public]::\1\2\3\1\7\5\4\6\4\5\7\2\4:<q>[public]::Boolean = false
+    slot 0: var <q>[public]::\7\1\8\7\1\1\5\5\4\7\3\1\5:<q>[public]::int  
+    slot 0: var <q>[public]::\4\3\3\3\3\1\6\1\2\4\3\8\7:<q>[public]::\5\6\4\7\6\7\7\8\4\4\6  
+    slot 0: var <q>[public]::\7\5\4\6\6\7\4\2\6\7:<q>[public]::Class  
+    slot 0: var <q>[public]::\4\5\1\6\5\7\7\8\5\5\6:<q>[public]::int  
+    slot 0: var <q>[public]::\3\3\7\2\6\6\3\8\2\1\3\5:<q>[public]flash.display::MovieClip  
+    slot 0: var <q>[public]::\3\3\1\7\3\8\8\2\5\6\2\6:<q>[public]::Object  
+    slot 0: var <q>[public]::\5\4\2\4\8\2\4\5\7\4\4\7\3:<q>[public]::Boolean = false
+    slot 0: var <q>[public]::\2\6\6\3\6\4\5\8\5\2\3\6:<q>[public]::int  
+    slot 0: var <q>[public]::\5\1\4\1\3\5\4\6\4\6\4\8:<q>[public]::int  
+    slot 0: var <q>[public]::\1\3\7\8\1\3\4\1\5\8:<q>[public]flash.net::Socket  
+    slot 0: var <q>[public]::\8\7\3\4\7\8\5\7\4\5\2\3\6:<q>[public]::Object  
+    slot 0: var <q>[public]::\7\5\6\7\6\8\4\7\4\5\5:<q>[public]::Object  
+    slot 0: var <q>[public]::\7\8\4\8\6\8\3\8\1\5\3\1\8:<q>[public]::\4\1\6\8\4\8\4\3\7\2\8\7  
+    slot 0: var <q>[public]::\4\1\7\5\3\8\2\6\8\4\1\4\4:<q>[public]::int  
+    slot 0: var <q>[public]::\3\6\8\1\2\6\2\7\3\7\5\5\6:<q>[public]::\2\2\1\6\7\8\5\4\8\1\7\4  
+    slot 0: var <q>[public]::\2\3\5\3\7\3\5\5\2\8\3:<q>[public]::String  
+    slot 0: var <q>[public]::\3\3\3\1\6\7\8\4\6\4\5\4\5:<q>[public]::String  
+    slot 0: var <q>[public]::\5\6\1\6\3\3\4\7\4\4:<q>[public]::int  
+    slot 0: var <q>[public]::\1\1\1\2\8\1\7\1\2\8:<q>[public]__AS3__.vec::Vector  
+    slot 0: var <q>[public]::\1\1\6\3\6\8\5\2\8\5\5\5\8:<q>[public]::String  
+    slot 0: var <q>[public]::\4\3\3\1\3\6\1\7\6\8\8\4\3:<q>[public]::uint = 6788234
+    slot 0: var <q>[public]::\4\7\5\3\8\1\3\4\4\8\2\3\2:<q>[public]::\4\1\6\8\4\8\4\3\7\2\8\7  
+    slot 0: var <q>[public]::\8\4\2\1\3\3\1\4\5\4:<q>[public]::int  
+    slot 0: var <q>[public]::\8\2\2\2\5\1\8\7\3\5:<q>[public]flash.net::Socket  
+    slot 0: var <q>[public]::\8\8\6\2\3\1\3\4\2\1\2:<q>[public]flash.utils::Timer  
+    slot 0: var <q>[public]::\7\7\8\8\4\6\2\6\8\7:<q>[public]::Boolean = false
+    slot 0: var <q>[public]::\5\4\2\1\1\1\2\3\5\1\3:<q>[public]flash.display::MovieClip  
+    slot 0: var <q>[public]::\6\8\7\8\4\4\7\6\5\5\7\7:<q>[public]::Boolean = false
+    slot 0: var <q>[public]::x_nombreBonusDefilante:<q>[public]::int  
+    slot 0: var <q>[public]::\1\3\7\1\7\3\2\6\7\7\3:<q>[public]::int  
+    slot 0: var <q>[public]::\5\6\8\2\8\7\7\7\8\4\3\5:<q>[public]::int  
+    slot 0: var <q>[public]::\7\8\8\7\8\3\4\7\5\1\8\5\2:<q>[public]__AS3__.vec::Vector  
+    slot 0: var <q>[public]::\5\3\2\6\6\8\2\5\4\2\7\1:<q>[public]::Object  
+    slot 0: var <q>[public]::\4\2\4\1\8\6\5\8\3\6\4\1:<q>[public]::Boolean = false
+    slot 0: var <q>[public]::\1\6\5\2\7\1\1\8\1\2\4\1:<q>[public]::Object  
+    slot 0: var <q>[public]::\3\5\7\8\8\8\7\4\6\8\3\4\4:<q>[public]::Object  
+    slot 0: var <q>[public]::\3\6\1\2\2\8\5\8\3\1\8\7\7:<q>[public]::int  
+    slot 0: var <q>[public]::\7\3\3\8\4\8\5\7\2\1:<q>[public]::Object  
+    slot 0: var <q>[public]::\6\7\5\8\8\7\4\8\8\5\7\2\6:<q>[public]::Boolean = false
+    slot 0: var <q>[public]::\4\4\8\6\8\1\7\8\2\2\1:<q>[public]::int  
+    slot 0: var <q>[public]::\7\4\4\8\3\3\3\6\2\8:<q>[public]flash.utils::Dictionary  
+    slot 0: var <q>[public]::\1\4\2\8\1\2\6\5\3\5\6\4:<q>[public]flash.text::StyleSheet  
+    slot 0: var <q>[public]::\4\3\7\3\5\5\1\8\4\6\5\5:<q>[public]::Object  
+    slot 0: var <q>[public]::\4\4\6\5\7\2\4\1\6\3\2\6:<q>[public]::int  
+    slot 0: const <q>[public]::\4\3\8\1\3\2\1\2\6\8\4:<q>[public]::Boolean = false
+    slot 0: var <q>[public]::\4\4\5\3\2\1\8\2\4\4\7\1:<q>[public]::Boolean = false
+    slot 0: var <q>[public]::x_proxySteam:<q>[public]::\5\5\3\4\4\5\8\3\7\8\7  
+    slot 0: var <q>[public]::\6\4\4\2\7\2\6\3\5\5\2:<q>[public]::\2\3\8\4\8\2__cX  
+    slot 0: var <q>[public]::\6\6\1\6\7\6\7\7\2\7\2\8\1:<q>[public]flash.utils::Dictionary  
+    slot 0: var <q>[public]::\7\4\6\6\5\4\6\5\4\2\7\1:<q>[public]flash.utils::Dictionary = null
+    slot 0: var <q>[public]::\7\7\6\2\7\3\4\4\1\7\3:<q>[public]::int  
+    slot 0: var <q>[public]::\7\5\8\1\1\4\3\1\2\2\2:<q>[public]::int  
+    slot 0: var <q>[public]::\6\3\8\8\5\5\4\3\3\6\6\8:<q>[public]flash.display::MovieClip  
+    slot 0: var <q>[public]::\5\6\7\7\4\2\5\6\1\1:<q>[public]::int  
+    slot 0: var <q>[public]::\5\6\2\2\1\6\1\8\1\6\2:<q>[public]flash.display::Loader  
+    slot 0: var <q>[public]::\8\4\1\8\5\3\6\6\7\3\4\2\1:<q>[public]::Boolean = false
+    slot 0: var <q>[public]::\2\3\8\3\3\8\2\5\2\2:<q>[public]::\1\8\1\6\2\7\3\2\6\8\7\8\7  
+    slot 0: var <q>[public]::x_proxyModule801:<q>[public]::\7\8\3\1\5\7\5\5\5\1\2\5  
+    slot 0: var <q>[public]::_I:<q>[public]flash.display::MovieClip  
+    slot 0: var <q>[public]::\2\2\8\6\6\1\6\7\5\3\7\5\3:<q>[public]::Object  
+    slot 0: var <q>[public]::\6\1\7\6\6\2\7\7\2\4\8:<q>[public]::Boolean = false
+    slot 0: const <q>[public]::\8\6\3\7\6\5\6\1\6\1\7:<q>[public]flash.system::LoaderContext  
+    slot 0: var <q>[public]::\8\8\2\2\3\7\6\8\4\2\5\2\2:<q>[public]::Boolean = false
+    slot 0: var <q>[public]::\4\8\8\2\7\3\7\2\3\6\5\4:<q>[public]::int  
+    slot 0: var <q>[public]::\2\2\5\1\4\3\4\2\7\3\3\8\1:<q>[public]::int  
+    slot 0: var <q>[public]::\5\5\8\6\2\4\7\6\2\4\3\3\7:<q>[public]::\5\5\4\4\3\4\8\3\7\3  
+    slot 0: var <q>[public]::\6\8\2\7\6\8\6\1\7\5\4\6\6:<q>[public]::Boolean = true
+    slot 0: var <q>[public]::\8\6\4\8\7\8\8\6\2\3\1:<q>[public]::Array  
+    slot 0: var <q>[public]::\1\3\8\5\7\5\7\5\1\3\7:<q>[public]::int  
+    slot 0: var <q>[public]::\5\3\6\5\2\5\2\6\3\5\2\5\3:<q>[public]::\8\2\7\6\6\3\4\3\6\5\5  
+    slot 0: var <q>[public]::\7\2\7\5\7\5\8\8\8\4\8:<q>[public]::int  
+    slot 0: var <q>[public]::\6\1\2\1\6\5\2\7\1\6\6\5\6:<q>[public]::Function  
+    slot 0: var <q>[public]::\4\4\5\8\6\7\4\7\6\8:<q>[public]::Object  
+    slot 0: var <q>[public]::\1\6\3\3\7\3\4\4\6\8\3\6:<q>[public]::int  
+    slot 0: var <q>[public]::\2\2\5\2\1\7\2\3\3\7\3\5:<q>[public]::String  
+    slot 0: var <q>[public]::\4\6\4\4\2\3\4\2\8\8\4:<q>[public]::Function  
+    slot 0: var <q>[public]::\1\3\3\7\8\1\7\7\5\7\8\7:<q>[public]::int  
+    slot 0: var <q>[public]::\6\7\4\2\5\6\2\4\2\4\7:<q>[public]::int  
+    slot 0: var <q>[public]::\5\5\5\2\8\6\1\1\6\4\6:<q>[public]::int  
+    slot 0: const <q>[public]::\3\3\8\2\2\5\8\4\6\8\2\1\3:<q>[public]flash.display::Loader  
+    slot 0: var <q>[public]::\4\7\5\2\4\7\1\2\5\6\5\8\3:<q>[public]::int  
+    slot 0: var <q>[public]::\8\7\6\3\8\4\2\4\4\2\4\2:<q>[public]::int  
+    slot 0: var <q>[public]::\1\8\7\4\6\8\5\6\1\5:<q>[public]flash.display::MovieClip  
+    slot 0: var <q>[public]::\1\1\2\7\3\4\8\2\3\7:<q>[public]::Boolean  
+    slot 0: var <q>[public]::\4\7\8\1\5\5\6\2\6\7\7:<q>[public]::int  
+    slot 0: var <q>[public]::\5\1\2\2\8\3\7\4\8\8\5\4\8:<q>[public]::int  
+    slot 0: var <q>[public]::\8\1\8\3\8\3\3\3\8\8\8:<q>[public]::Object  
+    slot 0: var <q>[public]::\8\8\2\1\5\7\2\6\3\1\6\1:<q>[public]::int  
+    slot 0: var <q>[public]::\2\4\8\5\8\2\8\2\7\2:<q>[public]::Boolean  
+    slot 0: var <q>[public]::\7\2\1\8\1\7\4\7\7\3\8\4:<q>[public]::Boolean = false
+    slot 0: var <q>[public]::\7\1\3\6\5\8\1\7\1\1\5:<q>[public]::Boolean = false
+    slot 0: var <q>[public]::\1\2\7\7\4\8\3\4\8\6\7:<q>[public]::Boolean = false
+    slot 0: var <q>[public]::\5\2\7\4\1\8\8\2\2\7\5\6:<q>[public]::Boolean = false
+    slot 0: var <q>[public]::\5\5\3\5\8\1\1\4\2\5\3\5:<q>[public]::String  
+    slot 0: var <q>[public]::\1\4\4\4\8\7\2\7\2\1\4\2:<q>[public]::int  
+    slot 0: var <q>[public]::\3\1\3\3\4\3\5\4\7\6\1\2\8:<q>[public]flash.display::Sprite  
+    slot 0: var <q>[public]::\2\4\4\6\5\4\8\8\1\3\8:<q>[public]::int  
+    slot 0: var <q>[public]::\6\1\5\8\2\2\3\6\3\1\7\2\2:<q>[public]::Boolean  
+    slot 0: var <q>[public]::\3\4\7\7\5\5\6\8\7\4\1:<q>[public]::String  
+    slot 0: var <q>[public]::\1\5\6\7\7\7\2\2\3\2:<q>[public]flash.text::TextField  
+    slot 0: var <q>[public]::\2\3\5\7\6\6\3\5\7\1\5\4\4:<q>[public]flash.display::MovieClip  
+    slot 0: var <q>[public]::\2\7\6\7\2\2\7\8\7\8\7\4\2:<q>[public]::Boolean = false
+    slot 0: var <q>[public]::\5\7\2\1\7\6\7\1\2\4\1\2\3:<q>[public]flash.utils::Dictionary = null
+    slot 0: var <q>[public]::serveurSocket:NULL = null
+    slot 0: var <q>[public]::\1\3\3\3\7\2\4\1\4\1\6\2\1:NULL  
+    slot 0: var <q>[public]::\3\2\3\3\2\2\2\4\8\5\3\1:<q>[public]flash.utils::Dictionary  
+    slot 0: var <q>[public]::\1\5\4\8\3\6\8\3\6\7\4\1:<q>[public]::Function  
+     method <q>[public]::String <q>[public]::\4\3\1\8\7\8\6\8\1\2\4=()(0 params, 0 optional)
+
+
+
+
+
+
+
+UPDATED = "is_static": "256156553518" =
+
+    slot 0: var <q>[public]::\7\8\7\5\3\3\2\6\6\4\5:<q>[public]::Number  
+    slot 0: var <q>[public]::\8\5\5\2\5\4\4\1\1\2\6\5:<q>[public]flash.display::MovieClip  
+    slot 0: var <q>[public]::\4\6\4\3\1\2\1\6\7\4\7\7:<q>[public]::Boolean = true
+    slot 0: var <q>[public]::\2\8\4\3\2\2\8\5\1\2\5\2:<q>[public]::int  
+    slot 0: var <q>[public]::\1\6\8\1\4\4\4\3\3\3\1\1:<q>[public]flash.display::MovieClip  
+    slot 0: var <q>[public]::\1\3\5\1\6\3\1\3\8\1\1\2\2:<q>[public]flash.display::MovieClip  
+    slot 0: var <q>[public]::\4\8\1\6\2\6\2\2\7\2\8\1\5:<q>[public]flash.display::Sprite  
+    slot 0: var <q>[public]::\3\6\3\6\4\5\8\2\1\4\3\1\3:<q>[public]::Boolean = true
+    slot 0: var <q>[public]::\1\8\3\4\6\6\1\3\3\7\3\8:<q>[public]::Boolean = false
+    slot 0: var <q>[public]::\5\6\2\8\1\1\6\6\6\3\7\6:<q>[public]::Boolean = false
+    slot 0: var <q>[public]::\5\5\2\3\1\2\8\1\8\6\2:<q>[public]::int  
+    slot 0: var <q>[public]::\5\4\2\5\2\7\2\8\3\3\1\7\4:<q>[public]::Boolean = true
+    slot 0: var <q>[public]::\7\5\1\8\5\5\8\3\8\6\4\5:<q>[public]::int  
+    slot 0: var <q>[public]::\8\3\1\1\1\8\8\1\3\7\4\6\4:<q>[public]__AS3__.vec::Vector  
+    slot 0: var <q>[public]::\8\6\2\8\5\7\5\5\6\2\6:<q>[public]__AS3__.vec::Vector  
+    slot 0: var <q>[public]::\3\7\8\8\3\2\8\8\3\4\4:<q>[public]::\1\7\5\5\6\3\3\2\5\3  
+    slot 0: var <q>[public]::\4\2\4\7\8\7\8\7\4\1\5\5:<q>[public]::Boolean = false
+    slot 0: var <q>[public]::\8\7\1\8\7\5\8\6\8\2\6\3\4:<q>[public]::Boolean = false
+    slot 0: var <q>[public]::\7\6\6\7\3\6\7\3\4\3\6\2\5:<q>[public]flash.display::MovieClip  
+    slot 0: var <q>[public]::\3\3\5\7\7\8\2\8\4\4\8\2\3:<q>[public]::int  
+    slot 0: var <q>[public]::\3\7\8\5\5\6\4\6\4\7\6\1\2:<q>[public]::Boolean = true
+    slot 0: var <q>[public]::\8\5\3\8\7\1\2\5\7\8\8\2\6:<q>[public]::Boolean  
+    slot 0: var <q>[public]::\2\1\4\2\6\4\6\6\3\1\5\8:<q>[public]::Boolean = false
+    slot 0: var <q>[public]::\4\5\7\3\7\7\6\8\4\7\6\8\4:<q>[public]::Boolean = false
+    slot 0: var <q>[public]::\2\6\5\1\8\8\1\1\4\6\3\8:<q>[public]::Boolean = false
+    slot 0: var <q>[public]::\3\2\5\8\7\8\4\1\6\1\3\1:<q>[public]flash.display::Sprite  
+    slot 0: var <q>[public]::\2\7\4\1\8\6\8\3\7\8\7:<q>[public]::Boolean = false
+    slot 0: var <q>[public]::\3\3\5\8\3\2\6\5\5\3\5\3:<q>[public]::\7\3\4\7\2\6\2\8\3\4\7\3  
+    slot 0: var <q>[public]::\3\3\4\2\6\5\6\4\5\5\1\4\4:<q>[public]::\6\5\3\3\4\4\5\3\3\2\8\8\4  
+    slot 0: var <q>[public]::\1\3\4\5\4\7\4\5\7\5\6\1:<q>[public]::int  
+    slot 0: var <q>[public]::\8\7\4\2\1\5\7\1\4\7\4:<q>[public]::Boolean = false
+    slot 0: var <q>[public]::\1\4\7\3\3\2\4\2\6\1\5\8:<q>[public]::Boolean = false
+    slot 0: var <q>[public]::\4\6\3\8\4\6\4\5\1\3\1\4:<q>[public]::Number  
+    slot 0: var <q>[public]::\4\5\5\5\3\4\4\4\3\8\7:<q>[public]::int  
+    slot 0: var <q>[public]::\7\7\6\2\1\1\2\1\5\1\3:<q>[public]::int  
+    slot 0: var <q>[public]::\7\3\8\6\3\6\8\4\3\4\1:<q>[public]::String  
+    slot 0: var <q>[public]::\7\6\2\5\8\4\5\8\7\3\3\3\7:<q>[public]::Boolean = true
+    slot 0: var <q>[public]::\5\5\7\3\8\7\6\6\1\1\6\3:<q>[public]::Boolean = false
+    slot 0: var <q>[public]::\4\6\1\2\6\6\7\8\8\5\7\8\2:<q>[public]::int  
+    slot 0: var <q>[public]::\8\7\8\2\2\2\5\6\4\7\8\1:<q>[public]::Boolean  
+    slot 0: var <q>[public]::\3\8\4\5\6\8\2\2\7\3\1:<q>[public]::int  
+    slot 0: var <q>[public]::\4\5\7\2\4\8\1\8\2\5\8:<q>[public]::Boolean = true
+    slot 0: var <q>[public]::\6\8\2\6\7\3\5\3\5\6\8\4\4:<q>[public]::Boolean = false
+    slot 0: var <q>[public]::\4\5\8\1\1\3\3\7\4\8\6\6\1:<q>[public]flash.display::MovieClip  
+    slot 0: var <q>[public]::\6\8\3\1\3\2\5\5\4\3\3\7\5:<q>[public]flash.display::MovieClip  
+    slot 0: var <q>[public]::\5\6\2\6\6\4\3\5\1\7\3:<q>[public]::Boolean = false
+    slot 0: var <q>[public]::\4\7\7\8\1\8\6\1\8\6\2\2:<q>[public]::Boolean = false
+    slot 0: var <q>[public]::\8\7\1\3\4\2\7\3\1\6\1:<q>[public]::\6\2\4\4\4\5\6\7\3\7\2\6\3  
+    slot 0: var <q>[public]::\4\6\8\7\3\8\5\8\4\2\8:<q>[public]::Boolean = false
+    slot 0: var <q>[public]::\8\6\8\3\4\6\4\3\7\8\7:<q>[public]::\5\5\4\4\3\4\8\3\7\3  
+    slot 0: var <q>[public]::\7\5\8\2\1\6\1\2\8\1\7\1\5:<q>[public]::String  
+    slot 0: var <q>[public]::\7\8\6\7\5\8\7\2\5\8\1:<q>[public]::Boolean = false
+    slot 0: var <q>[public]::\2\2\6\7\1\4\2\2\5\6\1\5\6:<q>[public]::int  
+    slot 0: var <q>[public]::\8\7\6\4\3\2\3\2\1\8\8\6\5:<q>[public]::int  
+    slot 0: var <q>[public]::\1\1\2\7\3\4\8\2\3\7:<q>[public]::Boolean = false
+    slot 0: var <q>[public]::\8\1\2\7\5\5\1\6\2\1\5:<q>[public]::Boolean = false
+    slot 0: var <q>[public]::\4\4\4\1\6\2\6\7\1\4\5\3\7:<q>[public]::int  
+    slot 0: var <q>[public]::\1\8\4\1\4\7\8\2\2\7\1:<q>[public]::Boolean = false
+    slot 0: var <q>[public]::\2\5\6\1\5\6\5\5\3\5\1\8:<q>[public]::Boolean = true
+
+
+
+
+
+
+
+"function_static": "88517843452" =
+
+     method <q>[public]::void <q>[public]::\6\3\6\3\3\4\7\2\4\8\5\7\3=(<q>[public]::\2\2\1\8\6\2\8\3\1\4\5, <q>[public]::\2\2\1\8\6\2\8\3\1\4\5)(2 params, 0 optional)
+    [stack:6 locals:3 scope:4-5 flags:] slot:0
+    {
+        00000) + 0:0 getlocal_0 
+        00001) + 1:0 pushscope 
+        00002) + 0:1 getlocal_0 
+        00003) + 1:1 callproperty <q>[public]::\8\4\4\8\4\7\2\6\5\1\1\7, 0 params
+        00004) + 1:1 iffalse ->7
+        00005) + 0:1 getlocal_0 
+        00006) + 1:1 callpropvoid <q>[public]::\8\8\5\1\7\8\4\3\4\5\2, 0 params
+
+
+
+
+
+
+
+"function_static2": "88517843452" =
+
+     method <q>[public]::void <q>[public]::\6\3\6\3\3\4\7\2\4\8\5\7\3=(<q>[public]::\2\2\1\8\6\2\8\3\1\4\5, <q>[public]::\2\2\1\8\6\2\8\3\1\4\5)(2 params, 0 optional)
+    [stack:6 locals:3 scope:4-5 flags:] slot:0
+    {
+        00000) + 0:0 getlocal_0 
+        00001) + 1:0 pushscope 
+        00002) + 0:1 getlocal_0 
+        00003) + 1:1 callproperty <q>[public]::\8\4\4\8\4\7\2\6\5\1\1\7, 0 params
+        00004) + 1:1 iffalse ->7
+        00005) + 0:1 getlocal_0 
+        00006) + 1:1 callpropvoid <q>[public]::\8\8\5\1\7\8\4\3\4\5\2, 0 params
+
+
+
+
+
+
+
+UPDATED = "friction_charge": "4313245667316" =
+
+    slot 0: var <q>[public]::\2\4\5\4\3\1\8\5\8\5\2\7:<q>[public]::\2\2\1\8\6\2\8\3\1\4\5  
+    slot 0: var <q>[public]::\7\6\4\4\8\1\6\6\6\1\3:<q>[public]::Boolean = false
+    slot 0: var <q>[public]::\6\3\8\2\6\3\7\5\6\1\2\7:<q>[public]::Number = 1.#QNAN0
+    slot 0: var <q>[public]::\5\2\8\2\4\6\2\5\1\5\8\3:<q>[public]::int  
+    slot 0: var <q>[public]::\7\3\7\6\7\8\4\3\3\2\7\1:<q>[public]::Boolean = true
+    slot 0: var <q>[public]::\8\1\6\2\6\3\7\5\8\6\2\1\6:<q>[public]::int  
+    slot 0: var <q>[public]::\5\2\6\7\5\3\7\2\4\2\5\1:<q>[public]::Number  
+    slot 0: var <q>[public]::\7\5\8\4\1\6\6\6\3\7\2:<q>[public]::Boolean = false
+    slot 0: var <q>[public]::\6\5\7\8\2\1\2\7\4\7\4\3\5:<q>[public]::Number  
+    slot 0: var <q>[public]::\5\5\2\4\5\6\3\6\7\2\2\3\4:<q>[public]::Boolean = false
+    slot 0: var <q>[public]::\8\5\3\4\2\5\5\3\7\2\1\7:<q>[public]::\7\6\1\2\3\6\7\2\5\6\4\5  
+    slot 0: var <q>[public]::\3\6\2\7\8\7\5\2\8\2\5:<q>[public]::Number  
+    slot 0: var <q>[public]::\6\7\3\4\1\5\7\7\7\6\5\2:<q>[public]::Boolean = false
+    slot 0: var <q>[public]::\4\2\8\6\3\4\8\5\5\5\7\7\1:<q>[public]::Boolean = false
+    slot 0: var <q>[public]::\5\3\1\2\7\2\5\6\1\2\6\6\4:<q>[public]::Number  
+    slot 0: var <q>[public]::\1\5\6\5\1\1\6\4\3\3\2\7:<q>[public]::Boolean = true
+    slot 0: var <q>[public]::\8\6\7\1\4\2\3\3\8\5\2:<q>[public]::Number  
+    slot 0: var <q>[public]::\4\5\8\7\8\4\2\8\5\3\5\3:<q>[public]::Number  
+    slot 0: var <q>[public]::\4\3\1\3\2\4\5\6\6\7\3\1\6:<q>[public]::Number  
+
+
+
+
+
+
+
+UPDATED = "friction_rate": "6578212747435" =
+
+    slot 0: var <q>[public]::\2\4\5\4\3\1\8\5\8\5\2\7:<q>[public]::\2\2\1\8\6\2\8\3\1\4\5  
+    slot 0: var <q>[public]::\7\6\4\4\8\1\6\6\6\1\3:<q>[public]::Boolean = false
+    slot 0: var <q>[public]::\6\3\8\2\6\3\7\5\6\1\2\7:<q>[public]::Number = 1.#QNAN0
+    slot 0: var <q>[public]::\5\2\8\2\4\6\2\5\1\5\8\3:<q>[public]::int  
+    slot 0: var <q>[public]::\7\3\7\6\7\8\4\3\3\2\7\1:<q>[public]::Boolean = true
+    slot 0: var <q>[public]::\8\1\6\2\6\3\7\5\8\6\2\1\6:<q>[public]::int  
+    slot 0: var <q>[public]::\5\2\6\7\5\3\7\2\4\2\5\1:<q>[public]::Number  
+    slot 0: var <q>[public]::\7\5\8\4\1\6\6\6\3\7\2:<q>[public]::Boolean = false
+    slot 0: var <q>[public]::\6\5\7\8\2\1\2\7\4\7\4\3\5:<q>[public]::Number  
+
+
+
+
+
+
+
+UPDATED = "change_player_pos": "21471222516" =
+
+     method <q>[public]::Boolean <q>[public]::\1\5\8\1\1\7\8\8\3\4\8\6\1=()(0 params, 0 optional)
+    [stack:2 locals:1 scope:4-5 flags:] slot:0
+    {
+        00000) + 0:0 getlocal_0 
+        00001) + 1:0 pushscope 
+        00002) + 0:1 getlocal_0 
+        00003) + 1:1 getproperty <q>[public]::\5\4\1\3\6\6\1\4\7\5\5
+        00004) + 1:1 getlex <q>[public]::\7\1\7\8\8\6\3\3\5\3\1\4\4
+        00005) + 2:1 getproperty <q>[public]::\6\8\5\5\8\4\5\8\3\7\2
+        00006) + 2:1 bitand 
+        00007) + 1:1 getlex <q>[public]::\7\1\7\8\8\6\3\3\5\3\1\4\4
+        00008) + 2:1 getproperty <q>[public]::\6\8\5\5\8\4\5\8\3\7\2
+        00009) + 2:1 equals 
+        00010) + 1:1 returnvalue 
+    }
+
+     method <q>[public]::Boolean <q>[public]::\2\1\4\7\1\2\2\2\5\1\6=(<q>[public]::\2\2\1\8\6\2\8\3\1\4\5, <q>[public]::Number)(2 params, 0 optional)
+
+
+
+
+
+
+
+
+UPDATED = "player_pos_class_name": "22186283145" =
+
+     method <q>[public]::Boolean <q>[public]::\1\5\8\1\1\7\8\8\3\4\8\6\1=()(0 params, 0 optional)
+    [stack:2 locals:1 scope:4-5 flags:] slot:0
+    {
+        00000) + 0:0 getlocal_0 
+        00001) + 1:0 pushscope 
+        00002) + 0:1 getlocal_0 
+        00003) + 1:1 getproperty <q>[public]::\5\4\1\3\6\6\1\4\7\5\5
+        00004) + 1:1 getlex <q>[public]::\7\1\7\8\8\6\3\3\5\3\1\4\4
+        00005) + 2:1 getproperty <q>[public]::\6\8\5\5\8\4\5\8\3\7\2
+        00006) + 2:1 bitand 
+        00007) + 1:1 getlex <q>[public]::\7\1\7\8\8\6\3\3\5\3\1\4\4
+        00008) + 2:1 getproperty <q>[public]::\6\8\5\5\8\4\5\8\3\7\2
+        00009) + 2:1 equals 
+        00010) + 1:1 returnvalue 
+    }
+
+     method <q>[public]::Boolean <q>[public]::\2\1\4\7\1\2\2\2\5\1\6=(<q>[public]::\2\2\1\8\6\2\8\3\1\4\5, <q>[public]::Number)(2 params, 0 optional)
+ 
+
+
+
+
+
+
+
+UPDATED = "packets_class_name": "368418467888" =
+
+
+    final  method <q>[public]::void <q>[public]::\5\8\2\5\8\6\5\1\4\5\8\5\1=(<q>[public]::int, <q>[public]::Function)(2 params, 0 optional)
+    [stack:3 locals:3 scope:3-4 flags:] slot:17
+    {
+        00000) + 0:0 getlocal_0 
+        00001) + 1:0 pushscope 
+        00002) + 0:1 getlex <q>[public]::\3\6\8\4\1\8\4\6\7\8\8\8
+        00003) + 1:1 getproperty <q>[public]::\1\4\8\1\8\7\5\5\6\7\8\2\1
+        00004) + 1:1 getlocal_1 
+        00005) + 2:1 getproperty <l,multi>{[private]NULL,[public]"",[private]NULL,[packageinternal]"",[namespace]http://adobe.com/AS3/2006/builtin,[protected]\3\6\8\4\1\8\4\6\7\8\8\8,[staticprotected]\3\6\8\4\1\8\4\6\7\8\8\8}
+        00006) + 1:1 iffalse ->14
+        00007) + 0:1 findpropstrict <q>[public]::Error
+        00008) + 1:1 getlex <q>[public]::\6\2\6\5\7\8\1\5\4\2\7\2\4
+        00009) + 2:1 getlex <q>[public]::\7\4\1\6\5\7\6\1\1\8
+        00010) + 3:1 getproperty <q>[public]::\4\7\6\5\4\2\7\1\3\7\2\7\2
+        00011) + 3:1 callproperty <q>[public]::\2\3\2\5\4\2\1\1\8\4\2\2\7, 1 params
+        00012) + 2:1 constructprop <q>[public]::Error, 1 params
+        00013) + 1:1 throw 
+        00014) + 0:1 getlex <q>[public]::\3\6\8\4\1\8\4\6\7\8\8\8
+        00015) + 1:1 getproperty <q>[public]::\1\4\8\1\8\7\5\5\6\7\8\2\1
+        00016) + 1:1 getlocal_1 
+        00017) + 2:1 getlocal_2 
+        00018) + 3:1 setproperty <l,multi>{[private]NULL,[public]"",[private]NULL,[packageinternal]"",[namespace]http://adobe.com/AS3/2006/builtin,[protected]\3\6\8\4\1\8\4\6\7\8\8\8,[staticprotected]\3\6\8\4\1\8\4\6\7\8\8\8}
+        00019) + 0:1 returnvoid 
+    }
+
+
+
+
+
+
+
+
+UPDATED = "move_player_packet": "5658568712113" =
+
+
+    final  method <q>[public]::\1\5\1\2\6\8\3\1\5\8\5 <q>[public]::\5\6\5\8\5\6\8\7\1\2\1\1\3=(<q>[public]::int, <q>[public]::int, <q>[public]::int, <q>[public]::int, <q>[public]::Boolean)(5 params, 0 optional)
+    [stack:4 locals:6 scope:3-4 flags:] slot:4
+    {
+        00000) + 0:0 getlocal_0 
+        00001) + 1:0 pushscope 
+        00002) + 0:1 findpropstrict <q>[public]::\1\5\1\2\6\8\3\1\5\8\5
+        00003) + 1:1 getlex <q>[public]::\6\2\6\5\7\8\1\5\4\2\7\2\4
+        00004) + 2:1 getlex <q>[public]::\8\7\7\2\7\4\6\3\5\6\6
+        00005) + 3:1 getproperty <q>[public]::\3\3\3\3\8\3\8\5\7\4\2
+        00006) + 3:1 callproperty <q>[public]::\7\7\6\1\8\5\8\8\3\1\1, 1 params
+        00007) + 2:1 getlex <q>[public]::\6\2\6\5\7\8\1\5\4\2\7\2\4
+        00008) + 3:1 getlex <q>[public]::\4\5\1\4\8\5\1\1\6\8\8
+        00009) + 4:1 getproperty <q>[public]::\1\6\3\1\2\8\1\7\7\3\7\3
+        00010) + 4:1 callproperty <q>[public]::\7\7\6\1\8\5\8\8\3\1\1, 1 params
+        00011) + 3:1 constructprop <q>[public]::\1\5\1\2\6\8\3\1\5\8\5, 2 params
+        00012) + 1:1 getlex <q>[public]::\6\2\6\5\7\8\1\5\4\2\7\2\4
+        00013) + 2:1 getlex <q>[public]::\8\5\3\8\8\6\8\3\2\3\1\6\4
+        00014) + 3:1 getproperty <q>[public]::\3\1\2\6\1\6\7\4\8\8\3\4\2
+        00015) + 3:1 callproperty <q>[public]::\7\7\6\1\8\5\8\8\3\1\1, 1 params
+        00016) + 2:1 callproperty <q>[public]::\7\3\6\6\6\4\1\5\1\5\7, 1 params
+        00017) + 1:1 getlocal_1 
+        00018) + 2:1 callproperty <q>[public]::\7\3\6\6\6\4\1\5\1\5\7, 1 params
+        00019) + 1:1 getlocal_2 
+        00020) + 2:1 callproperty <q>[public]::\5\1\3\4\7\3\2\3\2\7\6, 1 params
+        00021) + 1:1 getlocal_3 
+        00022) + 2:1 callproperty <q>[public]::\5\1\3\4\7\3\2\3\2\7\6, 1 params
+        00023) + 1:1 getlocal r4
+        00024) + 2:1 callproperty <q>[public]::\1\5\2\6\3\2\3\8\6\5\3, 1 params
+        00025) + 1:1 getlocal r5
+        00026) + 2:1 callproperty <q>[public]::\6\5\8\4\7\2\7\2\1\5\8, 1 params
+        00027) + 1:1 returnvalue 
+    }
+
+
+
+
+
+
+
+
+UPDATED = "is_self_player": "44433258463" =
+
+    slot 0: var <q>[public]::\2\4\5\4\3\1\8\5\8\5\2\7:<q>[public]::\2\2\1\8\6\2\8\3\1\4\5  
+    slot 0: var <q>[public]::\7\6\4\4\8\1\6\6\6\1\3:<q>[public]::Boolean = false
+    slot 0: var <q>[public]::\6\3\8\2\6\3\7\5\6\1\2\7:<q>[public]::Number = 1.#QNAN0
+    slot 0: var <q>[public]::\5\2\8\2\4\6\2\5\1\5\8\3:<q>[public]::int  
+    slot 0: var <q>[public]::\7\3\7\6\7\8\4\3\3\2\7\1:<q>[public]::Boolean = true
+    slot 0: var <q>[public]::\8\1\6\2\6\3\7\5\8\6\2\1\6:<q>[public]::int  
+    slot 0: var <q>[public]::\5\2\6\7\5\3\7\2\4\2\5\1:<q>[public]::Number  
+    slot 0: var <q>[public]::\7\5\8\4\1\6\6\6\3\7\2:<q>[public]::Boolean = false
+    slot 0: var <q>[public]::\6\5\7\8\2\1\2\7\4\7\4\3\5:<q>[public]::Number  
+    slot 0: var <q>[public]::\5\5\2\4\5\6\3\6\7\2\2\3\4:<q>[public]::Boolean = false
+    slot 0: var <q>[public]::\8\5\3\4\2\5\5\3\7\2\1\7:<q>[public]::\7\6\1\2\3\6\7\2\5\6\4\5  
+    slot 0: var <q>[public]::\3\6\2\7\8\7\5\2\8\2\5:<q>[public]::Number  
+    slot 0: var <q>[public]::\6\7\3\4\1\5\7\7\7\6\5\2:<q>[public]::Boolean = false
+    slot 0: var <q>[public]::\4\2\8\6\3\4\8\5\5\5\7\7\1:<q>[public]::Boolean = false
+    slot 0: var <q>[public]::\5\3\1\2\7\2\5\6\1\2\6\6\4:<q>[public]::Number  
+    slot 0: var <q>[public]::\1\5\6\5\1\1\6\4\3\3\2\7:<q>[public]::Boolean = true
+    slot 0: var <q>[public]::\8\6\7\1\4\2\3\3\8\5\2:<q>[public]::Number  
+    slot 0: var <q>[public]::\4\5\8\7\8\4\2\8\5\3\5\3:<q>[public]::Number  
+    slot 0: var <q>[public]::\4\3\1\3\2\4\5\6\6\7\3\1\6:<q>[public]::Number  
+    slot 0: var <q>[public]::\3\7\7\4\1\1\8\3\4\8\8\7\5:<q>[public]::Number  
+    slot 0: var <q>[public]::\5\2\2\2\8\5\7\5\1\7\7\8:<q>[public]::\8\5\3\4\1\4\8\3\4\8\3\2\6  
+    slot 0: var <q>[public]::\3\2\2\7\7\6\2\2\7\2\8\8\6:<q>[public]::\2\8\1\5\2\3\3\2\4\4\8\4  
+    slot 0: var <q>[public]::\4\4\6\4\4\4\7\8\8\7\4\4\8:<q>[public]::Number  
+    slot 0: var <q>[public]::\1\5\6\2\6\1\1\3\3\7\6\3:<q>[public]::Number  
+    slot 0: var <q>[public]::\8\6\5\8\1\1\5\6\3\4\8:<q>[public]::String  
+    slot 0: var <q>[public]::\4\7\7\1\8\6\3\5\7\1\2\6:<q>[public]::int  
+    slot 0: var <q>[public]::\7\2\4\3\5\6\6\7\6\3\3:<q>[public]::Number  
+    slot 0: var <q>[public]::\2\8\1\8\3\2\3\5\1\2\6:<q>[public]::int  
+    slot 0: var <q>[public]::\8\2\1\3\2\6\4\1\6\4\4\4\1:<q>[public]::Number  
+    slot 0: var <q>[public]::\2\8\7\5\5\2\6\7\7\2\8\7:<q>[public]::Boolean = false
+    slot 0: var <q>[public]::\6\7\5\6\8\3\6\5\2\1\8:<q>[public]::int  
+    slot 0: var <q>[public]::\1\2\2\4\7\1\8\4\6\3\8\8:<q>[public]::int  
+    slot 0: var <q>[public]::\2\8\2\7\2\3\3\7\8\2\3\6:<q>[public]::\2\6\6\5\7\2\6\8\2\3\3\3  
+    slot 0: var <q>[public]::\4\4\4\3\3\2\5\8\4\6\3:<q>[public]::Boolean = false
+
+
+
+
+
+
+
+UPDATED = "socket_name": "64551585168" =
+
+sealed protectedNS([protected]\2\1\1\2\5\7\6\7\6\6\4\2) class <q>[public]::\2\1\1\2\5\7\6\7\6\6\4\2 extends <q>[public]::Object{
+     staticconstructor * =()(0 params, 0 optional)
+    [stack:3 locals:1 scope:3-4 flags:]
+    {
+        00000) + 0:0 getlocal_0 
+        00001) + 1:0 pushscope 
+        00002) + 0:1 findproperty <q>[public]::\1\3\5\6\6\5\2\7\5\4\2
+        00003) + 1:1 pushshort 7303
+        00004) + 2:1 pushshort -7303
+        00005) + 3:1 add 
+        00006) + 2:1 setproperty <q>[public]::\1\3\5\6\6\5\2\7\5\4\2
+        00007) + 0:1 returnvoid 
+    }
+
+    slot 1: var <q>[public]::\6\4\5\5\1\5\8\5\1\6\8:<q>[public]::\2\1\1\2\5\7\6\7\6\6\4\2  
+    slot 2: var <q>[public]::\4\4\6\4\3\6\6\6\5\2\1\1:<q>[public]flash.display::MovieClip  
+    slot 3: var <q>[public]::\3\5\3\6\2\2\7\2\7\8\1\5:<q>[public]flash.display::MovieClip  
+    slot 4: var <q>[public]::\1\3\5\6\6\5\2\7\5\4\2:<q>[public]::int = 0.000000
+    slot 5: var <q>[public]::\6\1\1\4\5\4\1\2\3\5\2:<q>[public]::String  
+     constructor * <q>[public]::\2\1\1\2\5\7\6\7\6\6\4\2=(<q>[public]flash.display::MovieClip)(1 params, 0 optional)
+
+
+
+
+
+
+
+UPDATED = "data_id": "678156183352" =
+
+sealed protectedNS([protected]\6\7\6\4\2\2\4\5\2\7\6\4\3) class <q>[public]::\6\7\6\4\2\2\4\5\2\7\6\4\3 extends <q>[public]::Object{
+     staticconstructor * =()(0 params, 0 optional)
+    [stack:2 locals:1 scope:3-4 flags:]
+    {
+        00000) + 0:0 getlocal_0 
+        00001) + 1:0 pushscope 
+        00002) + 0:1 findproperty <q>[public]::\7\2\3\6\1\4\2\4\4\5\4\4\3
+        00003) + 1:1 pushfalse 
+        00004) + 2:1 setproperty <q>[public]::\7\2\3\6\1\4\2\4\4\5\4\4\3
+        00005) + 0:1 returnvoid 
+    }
+
+    slot 1: var <q>[public]::\5\5\8\1\5\8\1\5\2\1\5\2:<q>[public]::\6\7\6\4\2\2\4\5\2\7\6\4\3  
+    slot 2: var <q>[public]::\7\7\8\4\8\5\4\4\5\6\5\4:<q>[public]::\6\7\6\4\2\2\4\5\2\7\6\4\3  
+    slot 3: var <q>[public]::\7\8\2\7\1\8\7\1\7\6\7:<q>[public]::String  
+    slot 4: var <q>[public]::\6\8\8\2\8\6\4\1\8\5\1\4\8:<q>[public]::int  
+    slot 5: var <q>[public]::\1\6\5\5\2\7\3\6\8\2\1\7:<q>[public]::String  
+    slot 6: var <q>[public]::\7\2\3\6\1\4\2\4\4\5\4\4\3:<q>[public]::Boolean = false
+     constructor * <q>[public]::\6\7\6\4\2\2\4\5\2\7\6\4\3=()(0 params, 0 optional)
+    [stack:4 locals:1 scope:4-5 flags:]
+    {
+        00000) + 0:0 getlocal_0 
+        00001) + 1:0 pushscope 
+        00002) + 0:1 getlocal_0 
+        00003) + 1:1 getlex <q>[public]::Math
+        00004) + 2:1 callproperty <q>[public]::random, 0 params
+        00005) + 2:1 getlex <q>[public]::\6\2\6\5\7\8\1\5\4\2\7\2\4
+        00006) + 3:1 getlex <q>[public]::\8\7\7\2\7\4\6\3\5\6\6
+        00007) + 4:1 getproperty <q>[public]::\4\1\1\7\6\2\8\4\4\7\6\4
+        00008) + 4:1 callproperty <q>[public]::\7\7\6\1\8\5\8\8\3\1\1, 1 params
+        00009) + 3:1 multiply 
+        00010) + 2:1 initproperty <q>[public]::\7\3\1\8\6\7\6\8\7\3\6\5\1
+        00011) + 0:1 getlocal_0 
+        00012) + 1:1 findpropstrict <q>[public]::Array
+        00013) + 2:1 getlex <q>[public]::\6\5\6\3\7\2\1\5\8\1\7
+        00014) + 3:1 getproperty <q>[public]::\7\6\4\7\3\2\2\5\6\6\3\2\2
+        00015) + 3:1 constructprop <q>[public]::Array, 1 params
+        00016) + 2:1 initproperty <q>[public]::\3\5\4\4\4\2\8\4\6\3\2\7\1
+        00017) + 0:1 getlocal_0 
+        00018) + 1:1 findpropstrict <q>[public]flash.utils::ByteArray
+        00019) + 2:1 constructprop <q>[public]flash.utils::ByteArray, 0 params
+        00020) + 2:1 initproperty <q>[public]::\6\3\1\3\7\1\6\2\5\8\3\7\7
+        00021) + 0:1 getlocal_0 
+        00022) + 1:1 getlex <q>[public]::\6\5\6\3\7\2\1\5\8\1\7
+        00023) + 2:1 getproperty <q>[public]::\3\2\5\6\5\2\2\6\7\7\4
+        00024) + 2:1 initproperty <q>[public]::\2\4\1\6\4\4\6\2\3\7\3\5
+        00025) + 0:1 getlocal_0 
+        00026) + 1:1 findpropstrict <q>[public]::\6\4\5\4\7\8\8\8\4\2\5\3\5
+        00027) + 2:1 constructprop <q>[public]::\6\4\5\4\7\8\8\8\4\2\5\3\5, 0 params
+        00028) + 2:1 initproperty <q>[public]::\7\5\4\3\7\8\5\6\3\4\5
+        00029) + 0:1 getlocal_0 
+        00030) + 1:1 getlex <q>[public]::\6\5\6\3\7\2\1\5\8\1\7
+        00031) + 2:1 getproperty <q>[public]::\3\2\5\6\5\2\2\6\7\7\4
+        00032) + 2:1 initproperty <q>[public]::\6\7\8\1\5\6\1\8\3\3\5\2
+        00033) + 0:1 getlocal_0 
+        00034) + 1:1 getlex <q>[public]::\6\2\6\5\7\8\1\5\4\2\7\2\4
+        00035) + 2:1 getlex <q>[public]::\6\5\6\3\7\2\1\5\8\1\7
+        00036) + 3:1 getproperty <q>[public]::\3\2\5\6\5\2\2\6\7\7\4
+        00037) + 3:1 callproperty <q>[public]::\7\7\6\1\8\5\8\8\3\1\1, 1 params
+        00038) + 2:1 initproperty <q>[public]::\8\5\8\7\6\1\7\5\1\2\7\3
+        00039) + 0:1 getlocal_0 
+        00040) + 1:1 getlex <q>[public]::\6\5\6\3\7\2\1\5\8\1\7
+        00041) + 2:1 getproperty <q>[public]::\3\2\5\6\5\2\2\6\7\7\4
+        00042) + 2:1 initproperty <q>[public]::\7\8\1\2\3\5\1\8\4\4\7\4
+        00043) + 0:1 getlocal_0 
+        00044) + 1:1 constructsuper 0 params
+        00045) + 0:1 returnvoid 
+    }
+
+    slot 0: var <q>[public]::\1\3\5\5\4\4\2\5\5\2\6\5:<q>[public]::String  
+    slot 0: var <q>[public]::\8\2\7\3\7\8\8\2\2\6\1\6\7:<q>[public]::String  
+    slot 0: var <q>[public]::\7\3\1\8\6\7\6\8\7\3\6\5\1:<q>[public]::int  
+    slot 0: var <q>[public]::\3\5\4\4\4\2\8\4\6\3\2\7\1:<q>[public]::Array  
+    slot 0: var <q>[public]::\6\3\1\3\7\1\6\2\5\8\3\7\7:<q>[public]flash.utils::ByteArray  
+    slot 0: var <q>[public]::\1\4\2\4\6\1\1\8\3\6\7\5\7:<q>[public]::String  
+    slot 0: var <q>[public]::\3\2\2\1\2\4\7\5\1\7\8\1:<q>[public]::Array  
+    slot 0: var <q>[public]::\3\2\6\1\2\7\4\6\2\5\4\3:<q>[public]::Boolean = false
+    slot 0: var <q>[public]::\1\8\5\5\4\2\6\5\3\3\2\3:<q>[public]::\1\5\1\2\6\8\3\1\5\8\5  
+    slot 0: var <q>[public]::\2\4\1\6\4\4\6\2\3\7\3\5:<q>[public]::Object  
+    slot 0: var <q>[public]::\7\5\4\3\7\8\5\6\3\4\5:<q>[public]::\6\4\5\4\7\8\8\8\4\2\5\3\5  
+    slot 0: var <q>[public]::\6\7\8\1\5\6\1\8\3\3\5\2:<q>[public]::int  
+
+
+
+
+
+
+
+UPDATED = "read_data": "3887483636156" =
+
+sealed protectedNS([protected]\6\7\6\4\2\2\4\5\2\7\6\4\3) class <q>[public]::\6\7\6\4\2\2\4\5\2\7\6\4\3 extends <q>[public]::Object{
+     staticconstructor * =()(0 params, 0 optional)
+    [stack:2 locals:1 scope:3-4 flags:]
+    {
+        00000) + 0:0 getlocal_0 
+        00001) + 1:0 pushscope 
+        00002) + 0:1 findproperty <q>[public]::\7\2\3\6\1\4\2\4\4\5\4\4\3
+        00003) + 1:1 pushfalse 
+        00004) + 2:1 setproperty <q>[public]::\7\2\3\6\1\4\2\4\4\5\4\4\3
+        00005) + 0:1 returnvoid 
+    }
+
+    slot 1: var <q>[public]::\5\5\8\1\5\8\1\5\2\1\5\2:<q>[public]::\6\7\6\4\2\2\4\5\2\7\6\4\3  
+    slot 2: var <q>[public]::\7\7\8\4\8\5\4\4\5\6\5\4:<q>[public]::\6\7\6\4\2\2\4\5\2\7\6\4\3  
+    slot 3: var <q>[public]::\7\8\2\7\1\8\7\1\7\6\7:<q>[public]::String  
+    slot 4: var <q>[public]::\6\8\8\2\8\6\4\1\8\5\1\4\8:<q>[public]::int  
+    slot 5: var <q>[public]::\1\6\5\5\2\7\3\6\8\2\1\7:<q>[public]::String  
+    slot 6: var <q>[public]::\7\2\3\6\1\4\2\4\4\5\4\4\3:<q>[public]::Boolean = false
+     constructor * <q>[public]::\6\7\6\4\2\2\4\5\2\7\6\4\3=()(0 params, 0 optional)
+    [stack:4 locals:1 scope:4-5 flags:]
+    {
+        00000) + 0:0 getlocal_0 
+        00001) + 1:0 pushscope 
+        00002) + 0:1 getlocal_0 
+        00003) + 1:1 getlex <q>[public]::Math
+        00004) + 2:1 callproperty <q>[public]::random, 0 params
+        00005) + 2:1 getlex <q>[public]::\6\2\6\5\7\8\1\5\4\2\7\2\4
+        00006) + 3:1 getlex <q>[public]::\8\7\7\2\7\4\6\3\5\6\6
+        00007) + 4:1 getproperty <q>[public]::\4\1\1\7\6\2\8\4\4\7\6\4
+        00008) + 4:1 callproperty <q>[public]::\7\7\6\1\8\5\8\8\3\1\1, 1 params
+        00009) + 3:1 multiply 
+        00010) + 2:1 initproperty <q>[public]::\7\3\1\8\6\7\6\8\7\3\6\5\1
+        00011) + 0:1 getlocal_0 
+        00012) + 1:1 findpropstrict <q>[public]::Array
+        00013) + 2:1 getlex <q>[public]::\6\5\6\3\7\2\1\5\8\1\7
+        00014) + 3:1 getproperty <q>[public]::\7\6\4\7\3\2\2\5\6\6\3\2\2
+        00015) + 3:1 constructprop <q>[public]::Array, 1 params
+        00016) + 2:1 initproperty <q>[public]::\3\5\4\4\4\2\8\4\6\3\2\7\1
+        00017) + 0:1 getlocal_0 
+        00018) + 1:1 findpropstrict <q>[public]flash.utils::ByteArray
+        00019) + 2:1 constructprop <q>[public]flash.utils::ByteArray, 0 params
+        00020) + 2:1 initproperty <q>[public]::\6\3\1\3\7\1\6\2\5\8\3\7\7
+        00021) + 0:1 getlocal_0 
+        00022) + 1:1 getlex <q>[public]::\6\5\6\3\7\2\1\5\8\1\7
+        00023) + 2:1 getproperty <q>[public]::\3\2\5\6\5\2\2\6\7\7\4
+        00024) + 2:1 initproperty <q>[public]::\2\4\1\6\4\4\6\2\3\7\3\5
+        00025) + 0:1 getlocal_0 
+        00026) + 1:1 findpropstrict <q>[public]::\6\4\5\4\7\8\8\8\4\2\5\3\5
+        00027) + 2:1 constructprop <q>[public]::\6\4\5\4\7\8\8\8\4\2\5\3\5, 0 params
+        00028) + 2:1 initproperty <q>[public]::\7\5\4\3\7\8\5\6\3\4\5
+        00029) + 0:1 getlocal_0 
+        00030) + 1:1 getlex <q>[public]::\6\5\6\3\7\2\1\5\8\1\7
+        00031) + 2:1 getproperty <q>[public]::\3\2\5\6\5\2\2\6\7\7\4
+        00032) + 2:1 initproperty <q>[public]::\6\7\8\1\5\6\1\8\3\3\5\2
+        00033) + 0:1 getlocal_0 
+        00034) + 1:1 getlex <q>[public]::\6\2\6\5\7\8\1\5\4\2\7\2\4
+        00035) + 2:1 getlex <q>[public]::\6\5\6\3\7\2\1\5\8\1\7
+        00036) + 3:1 getproperty <q>[public]::\3\2\5\6\5\2\2\6\7\7\4
+        00037) + 3:1 callproperty <q>[public]::\7\7\6\1\8\5\8\8\3\1\1, 1 params
+        00038) + 2:1 initproperty <q>[public]::\8\5\8\7\6\1\7\5\1\2\7\3
+        00039) + 0:1 getlocal_0 
+        00040) + 1:1 getlex <q>[public]::\6\5\6\3\7\2\1\5\8\1\7
+        00041) + 2:1 getproperty <q>[public]::\3\2\5\6\5\2\2\6\7\7\4
+        00042) + 2:1 initproperty <q>[public]::\7\8\1\2\3\5\1\8\4\4\7\4
+        00043) + 0:1 getlocal_0 
+        00044) + 1:1 constructsuper 0 params
+        00045) + 0:1 returnvoid 
+    }
+
+    slot 0: var <q>[public]::\1\3\5\5\4\4\2\5\5\2\6\5:<q>[public]::String  
+    slot 0: var <q>[public]::\8\2\7\3\7\8\8\2\2\6\1\6\7:<q>[public]::String  
+    slot 0: var <q>[public]::\7\3\1\8\6\7\6\8\7\3\6\5\1:<q>[public]::int  
+    slot 0: var <q>[public]::\3\5\4\4\4\2\8\4\6\3\2\7\1:<q>[public]::Array  
+    slot 0: var <q>[public]::\6\3\1\3\7\1\6\2\5\8\3\7\7:<q>[public]flash.utils::ByteArray  
+    slot 0: var <q>[public]::\1\4\2\4\6\1\1\8\3\6\7\5\7:<q>[public]::String  
+    slot 0: var <q>[public]::\3\2\2\1\2\4\7\5\1\7\8\1:<q>[public]::Array  
+    slot 0: var <q>[public]::\3\2\6\1\2\7\4\6\2\5\4\3:<q>[public]::Boolean = false
+    slot 0: var <q>[public]::\1\8\5\5\4\2\6\5\3\3\2\3:<q>[public]::\1\5\1\2\6\8\3\1\5\8\5  
+    slot 0: var <q>[public]::\2\4\1\6\4\4\6\2\3\7\3\5:<q>[public]::Object  
+    slot 0: var <q>[public]::\7\5\4\3\7\8\5\6\3\4\5:<q>[public]::\6\4\5\4\7\8\8\8\4\2\5\3\5  
+    slot 0: var <q>[public]::\6\7\8\1\5\6\1\8\3\3\5\2:<q>[public]::int  
+    slot 0: var <q>[public]::\8\5\8\7\6\1\7\5\1\2\7\3:<q>[public]::int  
+    slot 0: var <q>[public]::\7\8\1\2\3\5\1\8\4\4\7\4:<q>[public]::int  
+    slot 0: var <q>[public]::\3\8\8\7\4\8\3\6\3\6\1\5\6:<q>[public]::Boolean = false
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+UPDATED = "remove_shaman_obj": "343533168653" =
+
+    final  method <q>[public]::void <q>[public]::\1\5\1\4\8\8\7\6\1\2\2\4=(<q>[public]flash.utils::ByteArray)(1 params, 0 optional)
+    [stack:39 locals:246 scope:3-4 flags:] slot:6
+    {
+        00000) + 0:0 getlocal_0 
+        00001) + 1:0 pushscope 
+        00002) + 0:1 pushnull 
+        00003) + 1:1 coerce <q>[public]::\5\6\4\7\6\7\7\8\4\4\6
+        00004) + 1:1 setlocal_2 
+        00005) + 0:1 pushnull 
+        00006) + 1:1 coerce_s 
+        00007) + 1:1 setlocal_3 
+        00008) + 0:1 pushbyte 0
+        00009) + 1:1 setlocal r4
+        00010) + 0:1 pushbyte 0
+        00011) + 1:1 setlocal r5
+        00012) + 0:1 pushbyte 0
+        00013) + 1:1 setlocal r6
+        00014) + 0:1 pushnull 
+        00015) + 1:1 coerce <q>[public]::\7\1\7\8\8\6\3\3\5\3\1\4\4
+        00016) + 1:1 setlocal r7
+        00017) + 0:1 pushnan 
+        00018) + 1:1 setlocal r8
+        00019) + 0:1 pushnan 
+        00020) + 1:1 setlocal r9
+        00021) + 0:1 pushnull 
+        00022) + 1:1 coerce <q>[public]::\1\7\6\5\8\2\6\5\8\7\2
+        00023) + 1:1 setlocal r10
+        00024) + 0:1 pushnull 
+        00025) + 1:1 coerce <q>[public]::\6\4\4\7\6\7\7\8\4\7\1
+        00026) + 1:1 setlocal r11
+        00027) + 0:1 pushnull 
+        00028) + 1:1 coerce <q>[public]__AS3__.vec::Vector
+        00029) + 1:1 setlocal r12
+        00030) + 0:1 pushbyte 0
+        00031) + 1:1 setlocal r13
+        00032) + 0:1 pushnull 
+        00033) + 1:1 coerce <q>[public]::\6\1\5\3\5\2\3\8\2\6\3\6\7
+        00034) + 1:1 setlocal r14
+        00035) + 0:1 pushnull 
+        00036) + 1:1 coerce <q>[public]::\7\1\7\8\8\6\3\3\5\3\1\4\4
+        00037) + 1:1 setlocal r15
+        00038) + 0:1 pushnull 
+        00039) + 1:1 coerce <q>[public]::\4\4\5\8\1\5\6\3\8\2\4\8
+        00040) + 1:1 setlocal r16
+        00041) + 0:1 pushnull 
+        00042) + 1:1 coerce <q>[public]::\5\2\6\8\3\3\2\4\3\8\7\5
+        00043) + 1:1 setlocal r17
+        00044) + 0:1 pushnull 
+        00045) + 1:1 coerce <q>[public]::\7\3\7\2\3\6\1\8\6\1
+        00046) + 1:1 setlocal r18
+        00047) + 0:1 pushnan 
+        00048) + 1:1 setlocal r19
+        00049) + 0:1 pushbyte 0
+        00050) + 1:1 setlocal r20
+        00051) + 0:1 pushfalse 
+        00052) + 1:1 setlocal r21
+        00053) + 0:1 pushbyte 0
+        00054) + 1:1 setlocal r22
+        00055) + 0:1 pushfalse 
+        00056) + 1:1 setlocal r23
+        00057) + 0:1 pushnull 
+        00058) + 1:1 coerce <q>[public]::\4\1\3\6\2\2\4\5\8\4\7
+        00059) + 1:1 setlocal r24
+        00060) + 0:1 pushnull 
+        00061) + 1:1 coerce <q>[public]::\2\7\2\1\2\7\5\3\3\5\7\2\8
+        00062) + 1:1 setlocal r25
+        00063) + 0:1 pushfalse 
+        00064) + 1:1 setlocal r26
+        00065) + 0:1 pushnull 
+        00066) + 1:1 coerce <q>[public]::\1\7\5\5\6\3\3\2\5\3
+        00067) + 1:1 setlocal r27
+        00068) + 0:1 pushbyte 0
+        00069) + 1:1 setlocal r28
+        00070) + 0:1 pushnull 
+        00071) + 1:1 coerce <q>[public]::\7\1\7\8\8\6\3\3\5\3\1\4\4
+        00072) + 1:1 setlocal r29
+        00073) + 0:1 pushfalse 
+        00074) + 1:1 setlocal r30
+        00075) + 0:1 pushnull 
+        00076) + 1:1 coerce <q>[public]::\8\4\2\8\2\3\6\4\3\3\6\4
+        00077) + 1:1 setlocal r31
+        00078) + 0:1 pushnull 
+        00079) + 1:1 coerce <q>[public]::\4\8\8\7\6\1\3\5\1\2
+        00080) + 1:1 setlocal r32
+        00081) + 0:1 pushnull 
+        00082) + 1:1 coerce <q>[public]::\6\3\4\6\2\7\1\3\5\5
+        00083) + 1:1 setlocal r33
+        00084) + 0:1 pushnull 
+        00085) + 1:1 coerce <q>[public]::\7\2\6\4\2\7\6\1\2\3\3\7
+        00086) + 1:1 setlocal r34
+        00087) + 0:1 pushnull 
+        00088) + 1:1 coerce <q>[public]::\7\1\7\8\8\6\3\3\5\3\1\4\4
+        00089) + 1:1 setlocal r35
+        00090) + 0:1 pushnull 
+        00091) + 1:1 coerce_s 
+        00092) + 1:1 setlocal r36
+        00093) + 0:1 pushnull 
+        00094) + 1:1 coerce <q>[public]::\2\1\8\3\6\6\7\2\4\6\2\4\5
+        00095) + 1:1 setlocal r37
+        00096) + 0:1 pushnan 
+        00097) + 1:1 setlocal r38
+        00098) + 0:1 pushbyte 0
+        00099) + 1:1 setlocal r39
+        00100) + 0:1 pushnan 
+        00101) + 1:1 setlocal r40
+        00102) + 0:1 pushfalse 
+        00103) + 1:1 setlocal r41
+        00104) + 0:1 pushfalse 
+        00105) + 1:1 setlocal r42
+        00106) + 0:1 pushbyte 0
+        00107) + 1:1 setlocal r43
+        00108) + 0:1 pushnull 
+        00109) + 1:1 coerce <q>[public]flash.display::Sprite
+        00110) + 1:1 setlocal r44
+        00111) + 0:1 pushnull 
+        00112) + 1:1 coerce <q>[public]::\2\2\1\8\6\2\8\3\1\4\5
+        00113) + 1:1 setlocal r45
+        00114) + 0:1 pushfalse 
+        00115) + 1:1 setlocal r46
+        00116) + 0:1 pushfalse 
+        00117) + 1:1 setlocal r47
+        00118) + 0:1 pushbyte 0
+        00119) + 1:1 setlocal r48
+        00120) + 0:1 pushbyte 0
+        00121) + 1:1 setlocal r49
+        00122) + 0:1 pushbyte 0
+        00123) + 1:1 setlocal r50
+        00124) + 0:1 pushbyte 0
+        00125) + 1:1 setlocal r51
+        00126) + 0:1 pushnull 
+        00127) + 1:1 coerce <q>[public]::\7\1\7\8\8\6\3\3\5\3\1\4\4
+        00128) + 1:1 setlocal r52
+        00129) + 0:1 pushnull 
+        00130) + 1:1 coerce <q>[public]::\7\1\7\8\8\6\3\3\5\3\1\4\4
+        00131) + 1:1 setlocal r53
+        00132) + 0:1 pushbyte 0
+        00133) + 1:1 setlocal r54
+        00134) + 0:1 pushbyte 0
+        00135) + 1:1 setlocal r55
+        00136) + 0:1 pushbyte 0
+        00137) + 1:1 setlocal r56
+        00138) + 0:1 pushnull 
+        00139) + 1:1 coerce <q>[public]::\8\4\3\8\6\2\7\3\5\6\8\7\8
+        00140) + 1:1 setlocal r57
+        00141) + 0:1 pushbyte 0
+        00142) + 1:1 setlocal r58
+        00143) + 0:1 pushbyte 0
+        00144) + 1:1 setlocal r59
+        00145) + 0:1 pushfalse 
+        00146) + 1:1 setlocal r60
+        00147) + 0:1 pushbyte 0
+        00148) + 1:1 setlocal r61
+        00149) + 0:1 pushbyte 0
+        00150) + 1:1 setlocal r62
+        00151) + 0:1 pushnull 
+        00152) + 1:1 coerce <q>[public]__AS3__.vec::Vector
+        00153) + 1:1 setlocal r63
+        00154) + 0:1 pushbyte 0
+        00155) + 1:1 setlocal r64
+        00156) + 0:1 pushbyte 0
+        00157) + 1:1 setlocal r65
+        00158) + 0:1 pushnull 
+        00159) + 1:1 coerce <q>[public]::\3\3\3\5\4\5\3\3\2\8\5\6
+        00160) + 1:1 setlocal r66
+        00161) + 0:1 pushnull 
+        00162) + 1:1 coerce <q>[public]::\5\1\7\6\1\5\7\5\4\1\8
+        00163) + 1:1 setlocal r67
+        00164) + 0:1 pushfalse 
+        00165) + 1:1 setlocal r68
+        00166) + 0:1 pushnull 
+        00167) + 1:1 coerce <q>[public]::\5\6\4\7\6\7\7\8\4\4\6
+        00168) + 1:1 setlocal r69
+        00169) + 0:1 pushnull 
+        00170) + 1:1 coerce <q>[public]::\5\6\4\7\6\7\7\8\4\4\6
+        00171) + 1:1 setlocal r70
+        00172) + 0:1 pushbyte 0
+        00173) + 1:1 setlocal r71
+        00174) + 0:1 pushnull 
+        00175) + 1:1 coerce <q>[public]::\5\6\4\7\6\7\7\8\4\4\6
+        00176) + 1:1 setlocal r72
+        00177) + 0:1 pushnull 
+        00178) + 1:1 coerce <q>[public]::\7\3\6\6\8\4\6\3\7\6\2\2\5
+        00179) + 1:1 setlocal r73
+        00180) + 0:1 pushnull 
+        00181) + 1:1 coerce <q>[public]::\4\7\1\6\3\6\2\5\6\5\1
+        00182) + 1:1 setlocal r74
+        00183) + 0:1 pushnull 
+        00184) + 1:1 coerce <q>[public]::\5\7\5\2\7\5\3\5\6\5
+        00185) + 1:1 setlocal r75
+        00186) + 0:1 pushnull 
+        00187) + 1:1 coerce <q>[public]::\6\6\8\3\6\2\6\6\1\5\2\7\2
+        00188) + 1:1 setlocal r76
+        00189) + 0:1 pushnull 
+        00190) + 1:1 coerce_s 
+        00191) + 1:1 setlocal r77
+        00192) + 0:1 pushnull 
+        00193) + 1:1 coerce_s 
+        00194) + 1:1 setlocal r78
+        00195) + 0:1 pushbyte 0
+        00196) + 1:1 setlocal r79
+        00197) + 0:1 pushnull 
+        00198) + 1:1 coerce_s 
+        00199) + 1:1 setlocal r80
+        00200) + 0:1 pushbyte 0
+        00201) + 1:1 setlocal r81
+        00202) + 0:1 pushnull 
+        00203) + 1:1 coerce <q>[public]::Array
+        00204) + 1:1 setlocal r82
+        00205) + 0:1 pushnull 
+        00206) + 1:1 coerce <q>[public]::\7\5\1\5\8\6\8\3\4\2\4\3\5
+        00207) + 1:1 setlocal r83
+        00208) + 0:1 pushbyte 0
+        00209) + 1:1 setlocal r84
+        00210) + 0:1 pushnull 
+        00211) + 1:1 coerce_s 
+        00212) + 1:1 setlocal r85
+        00213) + 0:1 pushnull 
+        00214) + 1:1 coerce_s 
+        00215) + 1:1 setlocal r86
+        00216) + 0:1 pushnull 
+        00217) + 1:1 coerce_s 
+        00218) + 1:1 setlocal r87
+        00219) + 0:1 pushnull 
+        00220) + 1:1 coerce <q>[public]::\6\6\4\4\2\1\6\4\3\4\3\1\1
+        00221) + 1:1 setlocal r88
+        00222) + 0:1 pushfalse 
+        00223) + 1:1 setlocal r89
+        00224) + 0:1 pushnull 
+        00225) + 1:1 coerce_s 
+        00226) + 1:1 setlocal r90
+        00227) + 0:1 pushnull 
+        00228) + 1:1 coerce <q>[public]::Array
+        00229) + 1:1 setlocal r91
+        00230) + 0:1 pushnull 
+        00231) + 1:1 coerce <q>[public]::\7\7\5\8\8\2\2\8\1\2\4
+        00232) + 1:1 setlocal r92
+        00233) + 0:1 pushnull 
+        00234) + 1:1 coerce <q>[public]::\7\8\7\6\6\6\4\1\6\3\6\8\8
+        00235) + 1:1 setlocal r93
+        00236) + 0:1 pushnull 
+        00237) + 1:1 coerce <q>[public]::\1\2\7\3\5\1\7\5\5\5\8\7\6
+        00238) + 1:1 setlocal r94
+        00239) + 0:1 pushnull 
+        00240) + 1:1 coerce <q>[public]::\6\5\1\1\8\6\8\1\4\2\1\2\8
+        00241) + 1:1 setlocal r95
+        00242) + 0:1 pushnull 
+        00243) + 1:1 coerce <q>[public]::\5\4\2\5\8\3\5\6\6\4\8
+        00244) + 1:1 setlocal r96
+        00245) + 0:1 pushnull 
+        00246) + 1:1 coerce <q>[public]::\3\4\6\4\8\3\7\6\5\8\3
+        00247) + 1:1 setlocal r97
+        00248) + 0:1 pushnull 
+        00249) + 1:1 coerce <q>[public]::\5\6\4\7\6\7\7\8\4\4\6
+        00250) + 1:1 setlocal r98
+        00251) + 0:1 pushnull 
+        00252) + 1:1 coerce <q>[public]::\5\6\4\7\6\7\7\8\4\4\6
+        00253) + 1:1 setlocal r99
+        00254) + 0:1 pushnull 
+        00255) + 1:1 coerce <q>[public]::\6\4\1\1\3\2\3\8\8\6\4
+        00256) + 1:1 setlocal r100
+        00257) + 0:1 pushfalse 
+        00258) + 1:1 setlocal r101
+        00259) + 0:1 pushnull 
+        00260) + 1:1 coerce <q>[public]::\1\2\6\5\6\1\7\6\4\1\4
+        00261) + 1:1 setlocal r102
+        00262) + 0:1 pushnull 
+        00263) + 1:1 coerce_s 
+        00264) + 1:1 setlocal r103
+        00265) + 0:1 pushundefined 
+        00266) + 1:1 coerce_a 
+        00267) + 1:1 setlocal r104
+        00268) + 0:1 pushnull 
+        00269) + 1:1 coerce <q>[public]::\8\6\1\2\2\1\8\3\6\5\1\4
+        00270) + 1:1 setlocal r105
+        00271) + 0:1 pushnull 
+        00272) + 1:1 coerce <q>[public]::\1\7\2\5\1\6\8\8\3\6\8\2
+        00273) + 1:1 setlocal r106
+        00274) + 0:1 pushbyte 0
+        00275) + 1:1 setlocal r107
+        00276) + 0:1 pushbyte 0
+        00277) + 1:1 setlocal r108
+        00278) + 0:1 pushbyte 0
+        00279) + 1:1 setlocal r109
+        00280) + 0:1 pushfalse 
+        00281) + 1:1 setlocal r110
+        00282) + 0:1 pushbyte 0
+        00283) + 1:1 setlocal r111
+        00284) + 0:1 pushnull 
+        00285) + 1:1 coerce <q>[public]::\6\2\6\3\1\5\5\4\7\3\5
+        00286) + 1:1 setlocal r112
+        00287) + 0:1 pushnull 
+        00288) + 1:1 coerce <q>[public]::\6\8\6\8\5\5\2\2\8\7\4\8\7
+        00289) + 1:1 setlocal r113
+        00290) + 0:1 pushnull 
+        00291) + 1:1 coerce <q>[public]::\2\3\3\6\2\2\5\5\5\7\7\7
+        00292) + 1:1 setlocal r114
+        00293) + 0:1 pushnull 
+        00294) + 1:1 coerce <q>[public]::\3\1\8\4\6\7\6\1\8\4\4
+        00295) + 1:1 setlocal r115
+        00296) + 0:1 pushbyte 0
+        00297) + 1:1 setlocal r116
+        00298) + 0:1 pushnull 
+        00299) + 1:1 coerce <q>[public]::\6\5\7\1\5\3\6\4\8\8\8\1\8
+        00300) + 1:1 setlocal r117
+        00301) + 0:1 pushnull 
+        00302) + 1:1 coerce <q>[public]::\1\6\3\1\8\1\3\5\1\4
+        00303) + 1:1 setlocal r118
+        00304) + 0:1 pushnull 
+        00305) + 1:1 coerce <q>[public]::\3\6\6\1\2\1\5\3\6\5\1
+        00306) + 1:1 setlocal r119
+        00307) + 0:1 pushnull 
+        00308) + 1:1 coerce <q>[public]::\7\7\5\7\6\1\8\7\2\3\5
+        00309) + 1:1 setlocal r120
+        00310) + 0:1 pushnull 
+        00311) + 1:1 coerce <q>[public]::\1\5\1\3\8\7\4\5\8\4\4\6\1
+        00312) + 1:1 setlocal r121
+        00313) + 0:1 pushnull 
+        00314) + 1:1 coerce <q>[public]::\3\8\6\3\6\1\8\3\6\5\7
+        00315) + 1:1 setlocal r122
+        00316) + 0:1 pushnull 
+        00317) + 1:1 coerce <q>[public]::\1\2\2\7\3\5\2\1\3\4\2\4
+        00318) + 1:1 setlocal r123
+        00319) + 0:1 pushnull 
+        00320) + 1:1 coerce <q>[public]::\2\5\8\4\3\5\1\7\6\6\7\7\5
+        00321) + 1:1 setlocal r124
+        00322) + 0:1 pushnull 
+        00323) + 1:1 coerce <q>[public]::\1\7\1\7\2\3\1\2\7\4
+        00324) + 1:1 setlocal r125
+        00325) + 0:1 pushnull 
+        00326) + 1:1 coerce_s 
+        00327) + 1:1 setlocal r126
+        00328) + 0:1 pushbyte 0
+        00329) + 1:1 setlocal r127
+        00330) + 0:1 pushnull 
+        00331) + 1:1 coerce <q>[public]__AS3__.vec::Vector
+        00332) + 1:1 setlocal r128
+        00333) + 0:1 pushnull 
+        00334) + 1:1 coerce <q>[public]::\3\7\8\7\1\1\3\7\7\3\6\3\2
+        00335) + 1:1 setlocal r129
+        00336) + 0:1 pushnull 
+        00337) + 1:1 coerce <q>[public]::\8\3\4\1\5\4\1\4\3\2\5\5\2
+        00338) + 1:1 setlocal r130
+        00339) + 0:1 pushnull 
+        00340) + 1:1 coerce <q>[public]::\6\1\7\6\7\2\6\2\1\3\1\1
+        00341) + 1:1 setlocal r131
+        00342) + 0:1 pushnull 
+        00343) + 1:1 coerce <q>[public]::\4\8\3\3\7\3\6\2\6\4\4
+        00344) + 1:1 setlocal r132
+        00345) + 0:1 pushnull 
+        00346) + 1:1 coerce <q>[public]::\2\3\5\7\8\8\4\4\2\4
+        00347) + 1:1 setlocal r133
+        00348) + 0:1 pushnull 
+        00349) + 1:1 coerce <q>[public]::\6\8\3\4\4\7\7\1\6\7\3\8\4
+        00350) + 1:1 setlocal r134
+        00351) + 0:1 pushnull 
+        00352) + 1:1 coerce <q>[public]::\1\7\8\3\8\4\3\3\8\2\2\8
+        00353) + 1:1 setlocal r135
+        00354) + 0:1 pushbyte 0
+        00355) + 1:1 setlocal r136
+        00356) + 0:1 pushbyte 0
+        00357) + 1:1 setlocal r137
+        00358) + 0:1 pushfalse 
+        00359) + 1:1 setlocal r138
+        00360) + 0:1 pushbyte 0
+        00361) + 1:1 setlocal r139
+        00362) + 0:1 pushnull 
+        00363) + 1:1 coerce <q>[public]::Array
+        00364) + 1:1 setlocal r140
+        00365) + 0:1 pushbyte 0
+        00366) + 1:1 setlocal r141
+        00367) + 0:1 pushnull 
+        00368) + 1:1 coerce <q>[public]::\7\4\6\2\4\6\2\5\4\2\8\5
+        00369) + 1:1 setlocal r142
+        00370) + 0:1 pushbyte 0
+        00371) + 1:1 setlocal r143
+        00372) + 0:1 pushbyte 0
+        00373) + 1:1 setlocal r144
+        00374) + 0:1 pushnull 
+        00375) + 1:1 coerce <q>[public]__AS3__.vec::Vector
+        00376) + 1:1 setlocal r145
+        00377) + 0:1 pushfalse 
+        00378) + 1:1 setlocal r146
+        00379) + 0:1 pushnull 
+        00380) + 1:1 coerce <q>[public]::\6\3\5\7\6\4\1\8\3\3\3\8\6
+        00381) + 1:1 setlocal r147
+        00382) + 0:1 pushnull 
+        00383) + 1:1 coerce <q>[public]::\7\7\3\4\3\8\8\5\6\7
+        00384) + 1:1 setlocal r148
+        00385) + 0:1 pushnull 
+        00386) + 1:1 coerce <q>[public]::\8\3\2\5\8\7\7\3\5\5\5\8\3
+        00387) + 1:1 setlocal r149
+        00388) + 0:1 pushnull 
+        00389) + 1:1 coerce <q>[public]::\6\1\4\7\3\5\5\2\8\6\4\4
+        00390) + 1:1 setlocal r150
+        00391) + 0:1 pushnull 
+        00392) + 1:1 coerce <q>[public]::\5\1\1\3\6\2\6\8\6\6\6
+        00393) + 1:1 setlocal r151
+        00394) + 0:1 pushnull 
+        00395) + 1:1 coerce <q>[public]::\7\8\2\6\6\4\5\2\1\8\3
+        00396) + 1:1 setlocal r152
+        00397) + 0:1 pushnull 
+        00398) + 1:1 coerce <q>[public]__AS3__.vec::Vector
+        00399) + 1:1 setlocal r153
+        00400) + 0:1 pushbyte 0
+        00401) + 1:1 setlocal r154
+        00402) + 0:1 pushnull 
+        00403) + 1:1 coerce <q>[public]flash.utils::Dictionary
+        00404) + 1:1 setlocal r155
+        00405) + 0:1 pushbyte 0
+        00406) + 1:1 setlocal r156
+        00407) + 0:1 pushnull 
+        00408) + 1:1 coerce_s 
+        00409) + 1:1 setlocal r157
+        00410) + 0:1 pushnull 
+        00411) + 1:1 coerce <q>[public]::\8\8\7\7\2\2\7\3\6\2\7\1\4
+        00412) + 1:1 setlocal r158
+        00413) + 0:1 pushnull 
+        00414) + 1:1 coerce <q>[public]::\7\2\4\4\2\7\8\5\3\7\7
+        00415) + 1:1 setlocal r159
+        00416) + 0:1 pushnull 
+        00417) + 1:1 coerce <q>[public]::\3\8\7\1\3\2\2\1\8\7
+        00418) + 1:1 setlocal r160
+        00419) + 0:1 pushbyte 0
+        00420) + 1:1 setlocal r161
+        00421) + 0:1 pushbyte 0
+        00422) + 1:1 setlocal r162
+        00423) + 0:1 pushnull 
+        00424) + 1:1 coerce_s 
+        00425) + 1:1 setlocal r163
+        00426) + 0:1 pushnull 
+        00427) + 1:1 coerce <q>[public]::\3\5\7\5\8\7\1\2\2\6\8
+        00428) + 1:1 setlocal r164
+        00429) + 0:1 pushnull 
+        00430) + 1:1 coerce <q>[public]::\7\6\7\1\5\8\4\4\8\3\7
+        00431) + 1:1 setlocal r165
+        00432) + 0:1 pushnull 
+        00433) + 1:1 coerce <q>[public]::\1\6\2\5\4\1\5\3\2\3
+        00434) + 1:1 setlocal r166
+        00435) + 0:1 pushnull 
+        00436) + 1:1 coerce <q>[public]::\5\2\6\7\2\5\6\6\3\2
+        00437) + 1:1 setlocal r167
+        00438) + 0:1 pushnull 
+        00439) + 1:1 coerce <q>[public]::\8\3\6\6\3\4\1\2\8\5
+        00440) + 1:1 setlocal r168
+        00441) + 0:1 pushnull 
+        00442) + 1:1 coerce <q>[public]::\3\7\8\5\7\8\3\1\5\7\5
+        00443) + 1:1 setlocal r169
+        00444) + 0:1 pushnull 
+        00445) + 1:1 coerce <q>[public]::\7\8\8\7\6\3\4\4\5\8\7
+        00446) + 1:1 setlocal r170
+        00447) + 0:1 pushnull 
+        00448) + 1:1 coerce <q>[public]::\6\4\5\3\4\6\3\1\1\4\7\6
+        00449) + 1:1 setlocal r171
+        00450) + 0:1 pushnull 
+        00451) + 1:1 coerce <q>[public]::\1\7\1\6\2\2\5\3\7\3\6
+        00452) + 1:1 setlocal r172
+        00453) + 0:1 pushnull 
+        00454) + 1:1 coerce <q>[public]::\5\5\4\8\4\1\2\1\8\5\1
+        00455) + 1:1 setlocal r173
+        00456) + 0:1 pushnull 
+        00457) + 1:1 coerce <q>[public]::\5\8\1\4\1\7\8\7\6\4\7
+        00458) + 1:1 setlocal r174
+        00459) + 0:1 pushnull 
+        00460) + 1:1 coerce <q>[public]::\2\1\1\3\2\8\5\4\2\8\6
+        00461) + 1:1 setlocal r175
+        00462) + 0:1 pushbyte 0
+        00463) + 1:1 setlocal r176
+        00464) + 0:1 pushnull 
+        00465) + 1:1 coerce_s 
+        00466) + 1:1 setlocal r177
+        00467) + 0:1 pushfalse 
+        00468) + 1:1 setlocal r178
+        00469) + 0:1 pushnull 
+        00470) + 1:1 coerce <q>[public]::\3\8\5\2\4\2\1\4\8\3\4\7\7
+        00471) + 1:1 setlocal r179
+        00472) + 0:1 pushnull 
+        00473) + 1:1 coerce <q>[public]::\1\3\2\4\5\6\8\5\8\4\4
+        00474) + 1:1 setlocal r180
+        00475) + 0:1 pushnull 
+        00476) + 1:1 coerce <q>[public]::\5\6\4\7\6\7\7\8\4\4\6
+        00477) + 1:1 setlocal r181
+        00478) + 0:1 pushbyte 0
+        00479) + 1:1 setlocal r182
+        00480) + 0:1 pushbyte 0
+        00481) + 1:1 setlocal r183
+        00482) + 0:1 pushnull 
+        00483) + 1:1 coerce <q>[public]::\2\3\5\7\2\4\3\8\8\7\8\6\5
+        00484) + 1:1 setlocal r184
+        00485) + 0:1 pushnull 
+        00486) + 1:1 coerce <q>[public]::Function
+        00487) + 1:1 setlocal r185
+        00488) + 0:1 pushnull 
+        00489) + 1:1 coerce <q>[public]::\1\8\1\6\2\7\3\2\6\8\7\8\7
+        00490) + 1:1 setlocal r186
+        00491) + 0:1 pushnull 
+        00492) + 1:1 coerce <q>[public]::\2\2\2\5\8\8\7\6\5\1
+        00493) + 1:1 setlocal r187
+        00494) + 0:1 pushnull 
+        00495) + 1:1 coerce <q>[public]flash.utils::ByteArray
+        00496) + 1:1 setlocal r188
+        00497) + 0:1 pushnull 
+        00498) + 1:1 coerce <q>[public]::\4\5\6\3\2\4\5\4\1\1\6\3
+        00499) + 1:1 setlocal r189
+        00500) + 0:1 pushbyte 0
+        00501) + 1:1 setlocal r190
+        00502) + 0:1 pushbyte 0
+        00503) + 1:1 setlocal r191
+        00504) + 0:1 pushfalse 
+        00505) + 1:1 setlocal r192
+        00506) + 0:1 pushbyte 0
+        00507) + 1:1 setlocal r193
+        00508) + 0:1 pushnull 
+        00509) + 1:1 coerce <q>[public]::\6\2\8\8\5\3\6\6\7\3
+        00510) + 1:1 setlocal r194
+        00511) + 0:1 pushnull 
+        00512) + 1:1 coerce <q>[public]::\8\7\2\3\8\3\2\7\7\1\8
+        00513) + 1:1 setlocal r195
+        00514) + 0:1 pushnull 
+        00515) + 1:1 coerce <q>[public]::\8\7\3\2\1\5\6\8\6\7\2
+        00516) + 1:1 setlocal r196
+        00517) + 0:1 pushbyte 0
+        00518) + 1:1 setlocal r197
+        00519) + 0:1 pushnull 
+        00520) + 1:1 coerce_s 
+        00521) + 1:1 setlocal r198
+        00522) + 0:1 pushnull 
+        00523) + 1:1 coerce <q>[public]::\3\2\3\5\4\1\2\2\4\3\6
+        00524) + 1:1 setlocal r199
+        00525) + 0:1 pushnull 
+        00526) + 1:1 coerce_s 
+        00527) + 1:1 setlocal r200
+        00528) + 0:1 pushnull 
+        00529) + 1:1 coerce <q>[public]::\1\7\1\7\2\3\1\2\7\4
+        00530) + 1:1 setlocal r201
+        00531) + 0:1 pushbyte 0
+        00532) + 1:1 setlocal r202
+        00533) + 0:1 pushnull 
+        00534) + 1:1 coerce_s 
+        00535) + 1:1 setlocal r203
+        00536) + 0:1 pushbyte 0
+        00537) + 1:1 setlocal r204
+        00538) + 0:1 pushnull 
+        00539) + 1:1 coerce_s 
+        00540) + 1:1 setlocal r205
+        00541) + 0:1 pushnull 
+        00542) + 1:1 coerce <q>[public]::\1\1\3\7\4\7\8\8\7\7\4
+        00543) + 1:1 setlocal r206
+        00544) + 0:1 pushnull 
+        00545) + 1:1 coerce <q>[public]flash.text::TextField
+        00546) + 1:1 setlocal r207
+        00547) + 0:1 pushnull 
+        00548) + 1:1 coerce_s 
+        00549) + 1:1 setlocal r208
+        00550) + 0:1 pushfalse 
+        00551) + 1:1 setlocal r209
+        00552) + 0:1 pushnull 
+        00553) + 1:1 coerce_s 
+        00554) + 1:1 setlocal r210
+        00555) + 0:1 pushnull 
+        00556) + 1:1 coerce <q>[public]::\8\5\6\3\7\2\7\3\6\7\4\4\3
+        00557) + 1:1 setlocal r211
+        00558) + 0:1 pushnull 
+        00559) + 1:1 coerce_s 
+        00560) + 1:1 setlocal r212
+        00561) + 0:1 pushbyte 0
+        00562) + 1:1 setlocal r213
+        00563) + 0:1 pushbyte 0
+        00564) + 1:1 setlocal r214
+        00565) + 0:1 pushnull 
+        00566) + 1:1 coerce <q>[public]::\7\1\1\8\1\5\1\3\7\4\8
+        00567) + 1:1 setlocal r215
+        00568) + 0:1 pushnull 
+        00569) + 1:1 coerce <q>[public]::Array
+        00570) + 1:1 setlocal r216
+        00571) + 0:1 pushbyte 0
+        00572) + 1:1 setlocal r217
+        00573) + 0:1 pushnull 
+        00574) + 1:1 coerce_s 
+        00575) + 1:1 setlocal r218
+        00576) + 0:1 pushbyte 0
+        00577) + 1:1 setlocal r219
+        00578) + 0:1 pushnull 
+        00579) + 1:1 coerce_s 
+        00580) + 1:1 setlocal r220
+        00581) + 0:1 pushbyte 0
+        00582) + 1:1 setlocal r221
+        00583) + 0:1 pushbyte 0
+        00584) + 1:1 setlocal r222
+        00585) + 0:1 pushbyte 0
+        00586) + 1:1 setlocal r223
+        00587) + 0:1 pushbyte 0
+        00588) + 1:1 setlocal r224
+        00589) + 0:1 pushnull 
+        00590) + 1:1 coerce <q>[public]__AS3__.vec::Vector
+        00591) + 1:1 setlocal r225
+        00592) + 0:1 pushnull 
+        00593) + 1:1 coerce <q>[public]::\8\6\4\8\6\3\8\7\3\6\3
+        00594) + 1:1 setlocal r226
+        00595) + 0:1 pushfalse 
+        00596) + 1:1 setlocal r227
+        00597) + 0:1 pushbyte 0
+        00598) + 1:1 setlocal r228
+        00599) + 0:1 pushbyte 0
+        00600) + 1:1 setlocal r229
+        00601) + 0:1 pushbyte 0
+        00602) + 1:1 setlocal r230
+        00603) + 0:1 pushnull 
+        00604) + 1:1 coerce <q>[public]::\5\6\4\7\6\7\7\8\4\4\6
+        00605) + 1:1 setlocal r231
+        00606) + 0:1 pushbyte 0
+        00607) + 1:1 setlocal r232
+        00608) + 0:1 pushfalse 
+        00609) + 1:1 setlocal r233
+        00610) + 0:1 pushbyte 0
+        00611) + 1:1 setlocal r234
+        00612) + 0:1 pushfalse 
+        00613) + 1:1 setlocal r235
+        00614) + 0:1 pushbyte 0
+        00615) + 1:1 setlocal r236
+        00616) + 0:1 pushbyte 0
+        00617) + 1:1 setlocal r237
+        00618) + 0:1 pushfalse 
+        00619) + 1:1 setlocal r238
+        00620) + 0:1 pushnull 
+        00621) + 1:1 coerce <q>[public]::\3\8\1\7\5\1\8\7\2\4\2\4
+        00622) + 1:1 setlocal r239
+        00623) + 0:1 pushnull 
+        00624) + 1:1 coerce <q>[public]::\6\7\6\4\2\2\4\5\2\7\6\4\3
+        00625) + 1:1 setlocal r240
+        00626) + 0:1 pushnull 
+        00627) + 1:1 coerce <q>[public]lapitchnet.reseau.interfaces::_IPaquetEntrant
+        00628) + 1:1 setlocal r241
+        00629) + 0:1 pushnull 
+        00630) + 1:1 coerce_s 
+        00631) + 1:1 setlocal r242
+        00632) + 0:1 pushnull 
+        00633) + 1:1 coerce <q>[public]::\4\1\1\8\6\4\8\5\4\6\2
+        00634) + 1:1 setlocal r243
+        00635) + 0:1 getlocal_1 
+        00636) + 1:1 getlex <q>[public]::\6\5\6\3\7\2\1\5\8\1\7
+        00637) + 2:1 getproperty <q>[public]::\3\2\5\6\5\2\2\6\7\7\4
+        00638) + 2:1 setproperty <q>[public]::position
+        00639) + 0:1 getlex <q>[public]::\6\2\7\2\6\8\2\3\7\1\4\7\4
+        00640) + 1:1 getlocal_1 
+        00641) + 2:1 callproperty <q>[public]::readUnsignedByte, 0 params
+        00642) + 2:1 setproperty <q>[public]::\1\6\6\2\3\7\5\7\1\1\6\5
+        00643) + 0:1 getlex <q>[public]::\6\2\7\2\6\8\2\3\7\1\4\7\4
+        00644) + 1:1 getlocal_1 
+        00645) + 2:1 callproperty <q>[public]::readUnsignedByte, 0 params
+        00646) + 2:1 setproperty <q>[public]::\8\5\8\3\4\6\5\4\4\4\3
+        00647) + 0:1 getlex <q>[public]::\6\2\7\2\6\8\2\3\7\1\4\7\4
+        00648) + 1:1 getlex <q>[public]::\6\2\6\5\7\8\1\5\4\2\7\2\4
+        00649) + 2:1 getlex <q>[public]::\3\7\5\4\8\7\8\7\6\6
+        00650) + 3:1 getproperty <q>[public]::\3\3\4\1\5\1\4\8\5\8\3\7\3
+        00651) + 3:1 callproperty <q>[public]::\2\3\2\5\4\2\1\1\8\4\2\2\7, 1 params
+        00652) + 2:1 setproperty <q>[public]::\6\5\5\7\6\6\8\8\5\6\4
+        00653) + 0:1 getlex <q>[public]::\8\7\7\2\7\4\6\3\5\6\6
+        00654) + 1:1 getproperty <q>[public]::\3\3\3\3\8\3\8\5\7\4\2
+        00655) + 1:1 getlex <q>[public]::\6\2\7\2\6\8\2\3\7\1\4\7\4
+        00656) + 2:1 getproperty <q>[public]::\1\6\6\2\3\7\5\7\1\1\6\5
+        00657) + 2:1 ifne ->664
+        00658) + 0:1 getlex <q>[public]::\5\8\3\4\7\8\7\5\5\6\8\1\5
+        00659) + 1:1 getlocal_1 
+        00660) + 2:1 getlex <q>[public]::\6\2\7\2\6\8\2\3\7\1\4\7\4
+        00661) + 3:1 getproperty <q>[public]::\8\5\8\3\4\6\5\4\4\4\3
+        00662) + 3:1 callpropvoid <q>[public]::\1\5\1\4\8\8\7\6\1\2\2\4, 2 params
+        00663) + 0:1 returnvoid 
+        00664) + 0:1 getlex <q>[public]::\6\2\7\2\6\8\2\3\7\1\4\7\4
+        00665) + 1:1 getproperty <q>[public]::\1\6\6\2\3\7\5\7\1\1\6\5
+        00666) + 1:1 pushshort 144
+        00667) + 2:1 greaterequals 
+        00668) + 1:1 dup 
+        00669) + 2:1 iffalse ->675
+        00670) + 1:1 pop 
+        00671) + 0:1 getlex <q>[public]::\6\2\7\2\6\8\2\3\7\1\4\7\4
+        00672) + 1:1 getproperty <q>[public]::\1\6\6\2\3\7\5\7\1\1\6\5
+        00673) + 1:1 pushshort 149
+        00674) + 2:1 lessequals 
+        00675) + 1:1 iffalse ->692
+        00676) + 0:1 getlex <q>[public]::\3\6\8\4\1\8\4\6\7\8\8\8
+        00677) + 1:1 getlex <q>[public]::\6\2\7\2\6\8\2\3\7\1\4\7\4
+        00678) + 2:1 getproperty <q>[public]::\1\6\6\2\3\7\5\7\1\1\6\5
+        00679) + 2:1 getlex <q>[public]::\6\2\6\5\7\8\1\5\4\2\7\2\4
+        00680) + 3:1 getlex <q>[public]::\4\5\1\4\8\5\1\1\6\8\8
+        00681) + 4:1 getproperty <q>[public]::\1\4\8\2\3\4\1\4\6\8\4\3
+        00682) + 4:1 callproperty <q>[public]::\7\7\6\1\8\5\8\8\3\1\1, 1 params
+        00683) + 3:1 lshift 
+        00684) + 2:1 getlex <q>[public]::\6\2\7\2\6\8\2\3\7\1\4\7\4
+        00685) + 3:1 getproperty <q>[public]::\8\5\8\3\4\6\5\4\4\4\3
+        00686) + 3:1 pushshort 255
+        00687) + 4:1 bitand 
+        00688) + 3:1 bitor 
+        00689) + 2:1 getlocal_1 
+        00690) + 3:1 callpropvoid <q>[public]::\1\5\1\4\8\8\7\6\1\2\2\4, 2 params
+        00691) + 0:1 returnvoid 
+        00692) + 0:1 getlex <q>[public]::\6\2\7\2\6\8\2\3\7\1\4\7\4
+        00693) + 1:1 getproperty <q>[public]::\1\6\6\2\3\7\5\7\1\1\6\5
+        00694) + 1:1 pushshort 176
+        00695) + 2:1 ifne ->712
+        00696) + 0:1 getlex <q>[public]::\8\6\4\5\3\5\6\1\1\7\1\6\3
+        00697) + 1:1 getlex <q>[public]::\6\2\7\2\6\8\2\3\7\1\4\7\4
+        00698) + 2:1 getproperty <q>[public]::\1\6\6\2\3\7\5\7\1\1\6\5
+        00699) + 2:1 getlex <q>[public]::\6\2\6\5\7\8\1\5\4\2\7\2\4
+        00700) + 3:1 getlex <q>[public]::\4\5\1\4\8\5\1\1\6\8\8
+        00701) + 4:1 getproperty <q>[public]::\1\4\8\2\3\4\1\4\6\8\4\3
+        00702) + 4:1 callproperty <q>[public]::\7\7\6\1\8\5\8\8\3\1\1, 1 params
+        00703) + 3:1 lshift 
+        00704) + 2:1 getlex <q>[public]::\6\2\7\2\6\8\2\3\7\1\4\7\4
+        00705) + 3:1 getproperty <q>[public]::\8\5\8\3\4\6\5\4\4\4\3
+        00706) + 3:1 pushshort 255
+        00707) + 4:1 bitand 
+        00708) + 3:1 bitor 
+        00709) + 2:1 getlocal_1 
+        00710) + 3:1 callpropvoid <q>[public]::\1\5\1\4\8\8\7\6\1\2\2\4, 2 params
+        00711) + 0:1 returnvoid 
+        00712) + 0:1 getlex <q>[public]::\6\2\7\2\6\8\2\3\7\1\4\7\4
+        00713) + 1:1 getproperty <q>[public]::\1\6\6\2\3\7\5\7\1\1\6\5
+        00714) + 1:1 getlex <q>[public]::\6\2\6\5\7\8\1\5\4\2\7\2\4
+        00715) + 2:1 getlex <q>[public]::\1\1\7\1\6\6\1\7\4\2\7\6
+        00716) + 3:1 getproperty <q>[public]::\1\8\4\1\4\3\2\1\4\1\6\2
+        00717) + 3:1 callproperty <q>[public]::\7\7\6\1\8\5\8\8\3\1\1, 1 params
+        00718) + 2:1 ifne ->725
+        00719) + 0:1 getlex <q>[public]::\3\8\3\3\3\6\8\1\3\6\7\6\5
+        00720) + 1:1 getlocal_1 
+        00721) + 2:1 getlex <q>[public]::\6\2\7\2\6\8\2\3\7\1\4\7\4
+        00722) + 3:1 getproperty <q>[public]::\8\5\8\3\4\6\5\4\4\4\3
+        00723) + 3:1 callpropvoid <q>[public]::\1\5\1\4\8\8\7\6\1\2\2\4, 2 params
+        00724) + 0:1 returnvoid 
+        00725) + 0:1 getlex <q>[public]::\6\2\7\2\6\8\2\3\7\1\4\7\4
+        00726) + 1:1 getproperty <q>[public]::\1\6\6\2\3\7\5\7\1\1\6\5
+        00727) + 1:1 getlex <q>[public]::\8\7\7\2\7\4\6\3\5\6\6
+        00728) + 2:1 getproperty <q>[public]::\3\7\2\4\1\7\8\4\4\8\7\6
+        00729) + 2:1 ifne ->1398
+        00730) + 0:1 getlex <q>[public]::\6\2\7\2\6\8\2\3\7\1\4\7\4
+        00731) + 1:1 getproperty <q>[public]::\8\5\8\3\4\6\5\4\4\4\3
+        00732) + 1:1 getlex <q>[public]::\8\5\3\8\8\6\8\3\2\3\1\6\4
+        00733) + 2:1 getproperty <q>[public]::\3\1\2\6\1\6\7\4\8\8\3\4\2
+        00734) + 2:1 ifne ->758
+        00735) + 0:1 findpropstrict <q>[public]::\1\7\6\5\8\2\6\5\8\7\2
+        00736) + 1:1 getlocal_1 
+        00737) + 2:1 constructprop <q>[public]::\1\7\6\5\8\2\6\5\8\7\2, 1 params
+        00738) + 1:1 coerce <q>[public]::\1\7\6\5\8\2\6\5\8\7\2
+        00739) + 1:1 setlocal r10
+        00740) + 0:1 getlex <q>[public]::\4\7\1\6\3\6\2\5\6\5\1
+        00741) + 1:1 getproperty <q>[public]::\6\4\5\5\1\5\8\5\1\6\8
+        00742) + 1:1 getlocal r10
+        00743) + 2:1 getproperty <q>[public]::\2\1\2\3\3\5\6\6\4\5
+        00744) + 2:1 getlocal r10
+        00745) + 3:1 getproperty <q>[public]::\1\7\1\1\3\8\4\7\6\2\8\2\6
+        00746) + 3:1 getlocal r10
+        00747) + 4:1 getproperty <q>[public]::\8\6\5\5\1\2\2\2\2\6\6\7\8
+        00748) + 4:1 getlocal r10
+        00749) + 5:1 getproperty <q>[public]::\8\3\7\8\4\1\4\7\7\4\8\1
+        00750) + 5:1 getlocal r10
+        00751) + 6:1 getproperty <q>[public]::\7\6\5\6\1\2\2\2\6\3
+        00752) + 6:1 getlocal r10
+        00753) + 7:1 getproperty <q>[public]::\6\2\3\6\8\3\7\4\5\8\6\1
+        00754) + 7:1 getlocal r10
+        00755) + 8:1 getproperty <q>[public]::\7\2\3\6\3\1\4\6\2\6\2
+        00756) + 8:1 callpropvoid <q>[public]::\3\7\4\8\8\7\2\5\3\8\2\7\7, 7 params
+        00757) + 0:1 returnvoid 
+        00758) + 0:1 getlex <q>[public]::\6\2\7\2\6\8\2\3\7\1\4\7\4
+        00759) + 1:1 getproperty <q>[public]::\8\5\8\3\4\6\5\4\4\4\3
+        00760) + 1:1 getlex <q>[public]::\6\2\6\5\7\8\1\5\4\2\7\2\4
+        00761) + 2:1 getlex <q>[public]::\7\6\5\3\1\1\5\5\6\5\8
+        00762) + 3:1 getproperty <q>[public]::\5\4\3\4\8\4\5\8\6\1\3\7
+        00763) + 3:1 callproperty <q>[public]::\7\7\6\1\8\5\8\8\3\1\1, 1 params
+        00764) + 2:1 ifne ->919
+        00765) + 0:1 findpropstrict <q>[public]::\6\4\4\7\6\7\7\8\4\7\1
+        00766) + 1:1 getlocal_1 
+        00767) + 2:1 constructprop <q>[public]::\6\4\4\7\6\7\7\8\4\7\1, 1 params
+        00768) + 1:1 coerce <q>[public]::\6\4\4\7\6\7\7\8\4\7\1
+        00769) + 1:1 setlocal r11
+        00770) + 0:1 getlocal r11
+        00771) + 1:1 getproperty <q>[public]::\4\4\4\7\4\1\2\6\3\1\5\8
+        00772) + 1:1 coerce <q>[public]__AS3__.vec::Vector
+        00773) + 1:1 setlocal r12
+        00774) + 0:1 getlocal r12
+        00775) + 1:1 getproperty <q>[public]::length
+        00776) + 1:1 convert_i 
+        00777) + 1:1 setlocal r5
+        00778) + 0:1 getlex <q>[public]::\4\7\1\6\3\6\2\5\6\5\1
+        00779) + 1:1 callproperty <q>[public]::\6\6\1\6\3\8\4\6\6\2\5\5, 0 params
+        00780) + 1:1 convert_i 
+        00781) + 1:1 setlocal r13
+        00782) + 0:1 getlex <q>[public]::\6\5\6\3\7\2\1\5\8\1\7
+        00783) + 1:1 getproperty <q>[public]::\3\2\5\6\5\2\2\6\7\7\4
+        00784) + 1:1 convert_i 
+        00785) + 1:1 setlocal r6
+        00786) + 0:1 jump ->915
+        00787) + 0:1 label 
+        00788) + 0:1 getlocal r12
+        00789) + 1:1 getlocal r6
+        00790) + 2:1 getproperty <l,multi>{[private]NULL,[public]"",[private]NULL,[packageinternal]"",[namespace]http://adobe.com/AS3/2006/builtin,[protected]\6\2\7\2\6\8\2\3\7\1\4\7\4,[staticprotected]\6\2\7\2\6\8\2\3\7\1\4\7\4}
+        00791) + 1:1 coerce <q>[public]::\6\1\5\3\5\2\3\8\2\6\3\6\7
+        00792) + 1:1 setlocal r14
+        00793) + 0:1 getlex <q>[public]::\4\7\1\6\3\6\2\5\6\5\1
+        00794) + 1:1 getproperty <q>[public]::\6\4\5\5\1\5\8\5\1\6\8
+        00795) + 1:1 getproperty <q>[public]::\1\6\1\7\7\2\3\5\8\8\7
+        00796) + 1:1 getlocal r14
+        00797) + 2:1 getproperty <q>[public]::\6\7\5\6\8\3\6\5\2\1\8
+        00798) + 2:1 getproperty <l,multi>{[private]NULL,[public]"",[private]NULL,[packageinternal]"",[namespace]http://adobe.com/AS3/2006/builtin,[protected]\6\2\7\2\6\8\2\3\7\1\4\7\4,[staticprotected]\6\2\7\2\6\8\2\3\7\1\4\7\4}
+        00799) + 1:1 coerce <q>[public]::\7\1\7\8\8\6\3\3\5\3\1\4\4
+        00800) + 1:1 setlocal r15
+        00801) + 0:1 getlocal r15
+        00802) + 1:1 iffalse ->806
+        00803) + 0:1 getlocal r15
+        00804) + 1:1 getlocal r13
+        00805) + 2:1 setproperty <q>[public]::\1\2\2\4\7\1\8\4\6\3\8\8
+        00806) + 0:1 getlocal r14
+        00807) + 1:1 getproperty <q>[public]::\3\1\3\2\5\1\5\3\5\6\6
+        00808) + 1:1 iffalse ->815
+        00809) + 0:1 getlex <q>[public]::\4\7\1\6\3\6\2\5\6\5\1
+        00810) + 1:1 getproperty <q>[public]::\6\4\5\5\1\5\8\5\1\6\8
+        00811) + 1:1 getlocal r14
+        00812) + 2:1 getproperty <q>[public]::\6\7\5\6\8\3\6\5\2\1\8
+        00813) + 2:1 callpropvoid <q>[public]::\3\4\3\5\3\3\1\6\8\6\5\3, 1 params
+
+
+
+
+
+
+
+UPDATED = "shaman_obj_var": "67568365218" =
+
+sealed protectedNS([protected]\6\1\5\3\5\2\3\8\2\6\3\6\7) class <q>[public]::\6\1\5\3\5\2\3\8\2\6\3\6\7 extends <q>[public]::Object{
+     staticconstructor * =()(0 params, 0 optional)
+    [stack:1 locals:1 scope:3-4 flags:]
+    {
+        00000) + 0:0 getlocal_0 
+        00001) + 1:0 pushscope 
+        00002) + 0:1 returnvoid 
+    }
+
+     constructor * <q>[public]::\6\1\5\3\5\2\3\8\2\6\3\6\7=(<q>[public]::int, <q>[public]::int, <q>[public]::int = 0, <q>[public]::int = 0, <q>[public]::int = 0, <q>[public]::int = 0, <q>[public]::int = 0, <q>[public]::int = 0, <q>[public]::Boolean = false, <q>[public]::Boolean = false, <q>[public]::Boolean = false)(11 params, 9 optional)
+    [stack:4 locals:12 scope:4-5 flags: has_optional]
+    {
+        00000) + 0:0 getlocal_0 
+        00001) + 1:0 pushscope 
+        00002) + 0:1 getlocal_0 
+        00003) + 1:1 constructsuper 0 params
+        00004) + 0:1 getlocal_0 
+        00005) + 1:1 getlocal_1 
+        00006) + 2:1 initproperty <q>[public]::\6\7\5\6\8\3\6\5\2\1\8
+
+
+
+
+
+
+
+
+
+
+UPDATED = "get_linear_velocity": "42151457288" =
+
+ internalmethod <q>[public]::void 000011ec =(<q>[public]flash.utils::ByteArray)(1 params, 0 optional)
+[stack:8 locals:24 scope:4-4 flags:]
+{
+    00000) + 0:0 pushnan 
+    00001) + 1:0 setlocal r16
+    00002) + 0:0 pushnan 
+    00003) + 1:0 setlocal r17
+    00004) + 0:0 pushfalse 
+    00005) + 1:0 setlocal r18
+    00006) + 0:0 pushfalse 
+    00007) + 1:0 setlocal r19
+    00008) + 0:0 pushfalse 
+    00009) + 1:0 setlocal r20
+    00010) + 0:0 pushnull 
+    00011) + 1:0 coerce <q>[public]::\7\1\7\8\8\6\3\3\5\3\1\4\4
+    00012) + 1:0 setlocal r21
+    00013) + 0:0 pushfalse 
+    00014) + 1:0 setlocal r22
+    00015) + 0:0 pushbyte 0
+    00016) + 1:0 setlocal r23
+    00017) + 0:0 findpropstrict <q>[public]::\4\8\8\7\6\1\3\5\1\2
+    00018) + 1:0 getlocal_1 
+    00019) + 2:0 constructprop <q>[public]::\4\8\8\7\6\1\3\5\1\2, 1 params
+    00020) + 1:0 coerce <q>[public]::\4\8\8\7\6\1\3\5\1\2
+    00021) + 1:0 setlocal_2 
+    00022) + 0:0 getlocal_2 
+    00023) + 1:0 callproperty <q>[public]::\4\3\6\7\8\1\5\5\6\5\8\8\5, 0 params
+    00024) + 1:0 convert_i 
+    00025) + 1:0 setlocal_3 
+    00026) + 0:0 getlocal_2 
+    00027) + 1:0 callproperty <q>[public]::\3\2\5\8\6\2\1\2\3\4\3, 0 params
+    00028) + 1:0 convert_b 
+    00029) + 1:0 setlocal r4
+    00030) + 0:0 getlocal_2 
+    00031) + 1:0 callproperty <q>[public]::\3\2\5\8\6\2\1\2\3\4\3, 0 params
+    00032) + 1:0 convert_b 
+    00033) + 1:0 setlocal r5
+    00034) + 0:0 getlocal_2 
+    00035) + 1:0 callproperty <q>[public]::\4\3\6\7\8\1\5\5\6\5\8\8\5, 0 params
+    00036) + 1:0 convert_i 
+    00037) + 1:0 setlocal r6
+    00038) + 0:0 getlocal_2 
+    00039) + 1:0 callproperty <q>[public]::\4\3\6\7\8\1\5\5\6\5\8\8\5, 0 params
+    00040) + 1:0 convert_i 
+    00041) + 1:0 setlocal r7
+    00042) + 0:0 getlocal_2 
+    00043) + 1:0 callproperty <q>[public]::\4\3\6\7\8\1\5\5\6\5\8\8\5, 0 params
+    00044) + 1:0 getlex <q>[public]::\6\2\6\5\7\8\1\5\4\2\7\2\4
+    00045) + 2:0 getlex <q>[public]::\6\5\6\3\7\2\1\5\8\1\7
+    00046) + 3:0 getproperty <q>[public]::\7\8\8\2\6\5\4\1\8\8\6\8
+    00047) + 3:0 callproperty <q>[public]::\2\3\2\6\4\4\1\7\2\3\4\5, 1 params
+    00048) + 2:0 divide 
+    00049) + 1:0 convert_d 
+    00050) + 1:0 setlocal r8
+    00051) + 0:0 getlocal_2 
+    00052) + 1:0 callproperty <q>[public]::\4\3\6\7\8\1\5\5\6\5\8\8\5, 0 params
+    00053) + 1:0 getlex <q>[public]::\6\5\6\3\7\2\1\5\8\1\7
+    00054) + 2:0 getproperty <q>[public]::\7\8\8\2\6\5\4\1\8\8\6\8
+    00055) + 2:0 divide 
+    00056) + 1:0 convert_d 
+    00057) + 1:0 setlocal r9
+    00058) + 0:0 getlocal_2 
+    00059) + 1:0 callproperty <q>[public]::\4\3\6\7\8\1\5\5\6\5\8\8\5, 0 params
+    00060) + 1:0 getlex <q>[public]::\6\2\6\5\7\8\1\5\4\2\7\2\4
+    00061) + 2:0 getlex <q>[public]::\6\5\6\3\7\2\1\5\8\1\7
+    00062) + 3:0 getproperty <q>[public]::\7\8\8\2\6\5\4\1\8\8\6\8
+    00063) + 3:0 callproperty <q>[public]::\2\3\2\6\4\4\1\7\2\3\4\5, 1 params
+    00064) + 2:0 divide 
+    00065) + 1:0 convert_d 
+    00066) + 1:0 setlocal r10
+    00067) + 0:0 getlocal_2 
+    00068) + 1:0 callproperty <q>[public]::\4\3\6\7\8\1\5\5\6\5\8\8\5, 0 params
+    00069) + 1:0 getlex <q>[public]::\8\5\6\6\7\7\8\6\7\7\3
+    00070) + 2:0 getproperty <q>[public]::\5\3\5\2\1\5\2\6\2\6\2
+    00071) + 2:0 divide 
+    00072) + 1:0 coerce_a 
+    00073) + 1:0 setlocal r11
+    00074) + 0:0 getlocal_2 
+    00075) + 1:0 callproperty <q>[public]::\3\2\5\8\6\2\1\2\3\4\3, 0 params
+    00076) + 1:0 convert_b 
+    00077) + 1:0 setlocal r12
+    00078) + 0:0 getlocal_2 
+    00079) + 1:0 callproperty <q>[public]::\4\3\6\7\8\1\5\5\6\5\8\8\5, 0 params
+    00080) + 1:0 convert_i 
+    00081) + 1:0 setlocal r13
+    00082) + 0:0 getlocal_2 
+    00083) + 1:0 callproperty <q>[public]::\4\3\6\7\8\1\5\5\6\5\8\8\5, 0 params
+    00084) + 1:0 convert_i 
+    00085) + 1:0 setlocal r14
+    00086) + 0:0 getlocal_1 
+    00087) + 1:0 getproperty <q>[public]::bytesAvailable
+    00088) + 1:0 iffalse ->109
+    00089) + 0:0 getlocal_2 
+    00090) + 1:0 callproperty <q>[public]::\4\3\6\7\8\1\5\5\6\5\8\8\5, 0 params
+    00091) + 1:0 getlex <q>[public]::\6\2\6\5\7\8\1\5\4\2\7\2\4
+    00092) + 2:0 getlex <q>[public]::\6\5\6\3\7\2\1\5\8\1\7
+    00093) + 3:0 getproperty <q>[public]::\7\8\8\2\6\5\4\1\8\8\6\8
+    00094) + 3:0 callproperty <q>[public]::\2\3\2\6\4\4\1\7\2\3\4\5, 1 params
+    00095) + 2:0 divide 
+    00096) + 1:0 convert_d 
+    00097) + 1:0 setlocal r16
+    00098) + 0:0 getlocal_2 
+    00099) + 1:0 callproperty <q>[public]::\4\3\6\7\8\1\5\5\6\5\8\8\5, 0 params
+    00100) + 1:0 getlex <q>[public]::\6\5\6\3\7\2\1\5\8\1\7
+    00101) + 2:0 getproperty <q>[public]::\7\8\8\2\6\5\4\1\8\8\6\8
+    00102) + 2:0 divide 
+    00103) + 1:0 convert_d 
+    00104) + 1:0 setlocal r17
+    00105) + 0:0 getlocal_2 
+    00106) + 1:0 callproperty <q>[public]::\3\2\5\8\6\2\1\2\3\4\3, 0 params
+    00107) + 1:0 convert_b 
+    00108) + 1:0 setlocal r18
+    00109) + 0:0 getlex <q>[public]::\4\7\1\6\3\6\2\5\6\5\1
+    00110) + 1:0 getproperty <q>[public]::\6\4\5\5\1\5\8\5\1\6\8
+    00111) + 1:0 getproperty <q>[public]::\1\4\1\4\2\3\7\5\6\3
+    00112) + 1:0 getlocal_3 
+    00113) + 2:0 getproperty <l,multi>{[private]NULL,[public]"",[private]NULL,[packageinternal]"",[namespace]http://adobe.com/AS3/2006/builtin,[protected]\3\6\8\4\1\8\4\6\7\8\8\8,[staticprotected]\3\6\8\4\1\8\4\6\7\8\8\8}
+    00114) + 1:0 coerce <q>[public]::\5\6\4\7\6\7\7\8\4\4\6
+    00115) + 1:0 setlocal r15
+    00116) + 0:0 getlocal r15
+    00117) + 1:0 convert_b 
+    00118) + 1:0 dup 
+    00119) + 2:0 iffalse ->124
+    00120) + 1:0 pop 
+    00121) + 0:0 getlocal r15
+    00122) + 1:0 getproperty <q>[public]::\4\4\4\3\3\2\5\8\4\6\3
+    00123) + 1:0 not 
+    00124) + 1:0 iffalse ->410
+    00125) + 0:0 getlocal r15
+    00126) + 1:0 getproperty <q>[public]::\8\7\8\2\2\2\5\6\4\7\8\1
+    00127) + 1:0 convert_b 
+    00128) + 1:0 setlocal r19
+    00129) + 0:0 getlocal r15
+    00130) + 1:0 getproperty <q>[public]::\8\5\3\8\7\1\2\5\7\8\8\2\6
+    00131) + 1:0 convert_b 
+    00132) + 1:0 setlocal r20
+    00133) + 0:0 getlocal r15
+    00134) + 1:0 getlocal r4
+    00135) + 2:0 setproperty <q>[public]::\8\7\8\2\2\2\5\6\4\7\8\1
+    00136) + 0:0 getlocal r15
+    00137) + 1:0 getlocal r5
+    00138) + 2:0 setproperty <q>[public]::\8\5\3\8\7\1\2\5\7\8\8\2\6
+    00139) + 0:0 getlocal r4
+    00140) + 1:0 convert_b 
+    00141) + 1:0 dup 
+    00142) + 2:0 iftrue ->146
+    00143) + 1:0 pop 
+    00144) + 0:0 getlocal r5
+    00145) + 1:0 convert_b 
+    00146) + 1:0 iffalse ->151
+    00147) + 0:0 getlocal r15
+    00148) + 1:0 getlex <q>[public]::\8\2\1\5\2\1\3\5\7\3\2\6\4
+    00149) + 2:0 getproperty <q>[public]::\6\3\4\8\3\8\7\6\8\2\3
+    00150) + 2:0 setproperty <q>[public]::\2\5\6\1\5\6\5\5\3\5\1\8
+    00151) + 0:0 getlocal r15
+    00152) + 1:0 getproperty <q>[public]::\1\2\2\6\2\8\3\4\7\2\6\3\4
+    00153) + 1:0 coerce <q>[public]::\7\1\7\8\8\6\3\3\5\3\1\4\4
+    00154) + 1:0 setlocal r21
+    00155) + 0:0 getlex <q>[public]::\6\2\6\5\7\8\1\5\4\2\7\2\4
+    00156) + 1:0 getlex <q>[public]::\6\2\6\5\7\8\1\5\4\2\7\2\4
+    00157) + 2:0 getlex <q>[public]::\6\2\6\5\7\8\1\5\4\2\7\2\4
+    00158) + 3:0 getlocal r21
+    00159) + 4:0 getproperty <q>[public]::\2\1\4\7\1\2\2\2\5\1\6
+    00160) + 4:0 callproperty <q>[public]::\1\2\4\4\5\8\6\5\6\2\1\2, 1 params
+    00161) + 3:0 callproperty <q>[public]::\1\2\4\4\5\8\6\5\6\2\1\2, 1 params
+    00162) + 2:0 callproperty <q>[public]::\1\2\4\4\5\8\6\5\6\2\1\2, 1 params
+    00163) + 1:0 getglobalscope 
+    00164) + 2:0 findpropstrict <q>[public]::\2\2\1\8\6\2\8\3\1\4\5
+    00165) + 3:0 getlocal r6
+    00166) + 4:0 getlex <q>[public]::\6\2\6\5\7\8\1\5\4\2\7\2\4
+    00167) + 5:0 getlex <q>[public]::\6\5\6\3\7\2\1\5\8\1\7
+    00168) + 6:0 getproperty <q>[public]::\7\8\8\2\6\5\4\1\8\8\6\8
+    00169) + 6:0 callproperty <q>[public]::\2\3\2\6\4\4\1\7\2\3\4\5, 1 params
+    00170) + 5:0 divide 
+    00171) + 4:0 getlocal r7
+    00172) + 5:0 getlex <q>[public]::\6\5\6\3\7\2\1\5\8\1\7
+    00173) + 6:0 getproperty <q>[public]::\7\8\8\2\6\5\4\1\8\8\6\8
+    00174) + 6:0 divide 
+    00175) + 5:0 constructprop <q>[public]::\2\2\1\8\6\2\8\3\1\4\5, 2 params
+    00176) + 3:0 getlocal r15
+    00177) + 4:0 getproperty <q>[public]::\1\1\2\7\3\4\8\2\3\7
+    00178) + 4:0 convert_b 
+    00179) + 4:0 dup 
+    00180) + 5:0 iftrue ->185
+    00181) + 4:0 pop 
+    00182) + 3:0 getlocal r15
+    00183) + 4:0 getproperty <q>[public]::\1\8\4\1\4\7\8\2\2\7\1
+    00184) + 4:0 convert_b 
+    00185) + 4:0 iffalse ->189
+    00186) + 3:0 getlocal r16
+    00187) + 4:0 coerce_a 
+    00188) + 4:0 jump ->194
+    00189) + 3:0 getlex <q>[public]::\6\2\6\5\7\8\1\5\4\2\7\2\4
+    00190) + 4:0 getlex <q>[public]::\6\5\6\3\7\2\1\5\8\1\7
+    00191) + 5:0 getproperty <q>[public]::\3\2\5\6\5\2\2\6\7\7\4
+    00192) + 5:0 callproperty <q>[public]::\7\7\6\1\8\5\8\8\3\1\1, 1 params
+    00193) + 4:0 coerce_a 
+    00194) + 4:0 call 2 params
+    00195) + 1:0 pop 
+    00196) + 0:0 getlocal r15
+    00197) + 1:0 getproperty <q>[public]::\1\1\2\7\3\4\8\2\3\7
+    00198) + 1:0 convert_b 
+    00199) + 1:0 dup 
+    00200) + 2:0 iftrue ->205
+    00201) + 1:0 pop 
+    00202) + 0:0 getlocal r15
+    00203) + 1:0 getproperty <q>[public]::\1\8\4\1\4\7\8\2\2\7\1
+    00204) + 1:0 convert_b 
+    00205) + 1:0 iffalse ->212
+    00206) + 0:0 getlocal r21
+    00207) + 1:0 getlocal r17
+    00208) + 2:0 callpropvoid <q>[public]::\8\1\4\1\1\6\7\3\5\8\5, 1 params
+    00209) + 0:0 getlocal r21
+    00210) + 1:0 getlocal r18
+    00211) + 2:0 callpropvoid <q>[public]::\4\5\8\7\4\8\2\7\4\7\1\8, 1 params
+    00212) + 0:0 getlocal r21
+    00213) + 1:0 getproperty <q>[public]::\4\2\1\5\1\4\5\7\2\8\8
+    00214) + 1:0 getlocal r8
+    00215) + 2:0 setproperty <q>[public]::\1\7\1\1\3\8\4\7\6\2\8\2\6
+    00216) + 0:0 getlocal r21
+    00217) + 1:0 getproperty <q>[public]::\4\2\1\5\1\4\5\7\2\8\8
+
+
+
+
+
+
+
+UPDATED = "current_frame": "134547457561" =
+
+        00085) + 2:1 callpropvoid <multi>{[private]NULL,[public]"",[private]NULL,[packageinternal]"",[namespace]http://adobe.com/AS3/2006/builtin,[protected]\3\6\8\4\1\8\4\6\7\8\8\8,[staticprotected]\3\6\8\4\1\8\4\6\7\8\8\8}::\5\4\4\3\3\6\1\2\5\8\2\6\5, 1 params
+        00086) + 0:1 getlocal_3 
+        00087) + 1:1 getlocal_1 
+        00088) + 2:1 getproperty <q>[public]::\8\7\1\8\7\5\8\6\8\2\6\3\4
+        00089) + 2:1 callpropvoid <multi>{[private]NULL,[public]"",[private]NULL,[packageinternal]"",[namespace]http://adobe.com/AS3/2006/builtin,[protected]\3\6\8\4\1\8\4\6\7\8\8\8,[staticprotected]\3\6\8\4\1\8\4\6\7\8\8\8}::\6\5\8\4\7\2\7\2\1\5\8, 1 params
+        00090) + 0:1 getlocal_3 
+        00091) + 1:1 getlocal_1 
+        00092) + 2:1 getproperty <q>[public]::\1\3\4\5\4\7\4\5\7\5\6\1
+        00093) + 2:1 callpropvoid <multi>{[private]NULL,[public]"",[private]NULL,[packageinternal]"",[namespace]http://adobe.com/AS3/2006/builtin,[protected]\3\6\8\4\1\8\4\6\7\8\8\8,[staticprotected]\3\6\8\4\1\8\4\6\7\8\8\8}::\5\4\4\3\3\6\1\2\5\8\2\6\5, 1 params
+        00094) + 0:1 getlocal_3 
+        00095) + 1:1 getlocal_2 
+        00096) + 2:1 callpropvoid <multi>{[private]NULL,[public]"",[private]NULL,[packageinternal]"",[namespace]http://adobe.com/AS3/2006/builtin,[protected]\3\6\8\4\1\8\4\6\7\8\8\8,[staticprotected]\3\6\8\4\1\8\4\6\7\8\8\8}::\5\4\4\3\3\6\1\2\5\8\2\6\5, 1 params
+        00097) + 0:1 getlocal_3 
+        00098) + 1:1 returnvalue 
+    }
+
+
+
+
+
+
+
+
+UPDATED = "is_jumping": "8718758682634" =
+
+    slot 0: var <q>[public]::\7\8\7\5\3\3\2\6\6\4\5:<q>[public]::Number  
+    slot 0: var <q>[public]::\8\5\5\2\5\4\4\1\1\2\6\5:<q>[public]flash.display::MovieClip  
+    slot 0: var <q>[public]::\4\6\4\3\1\2\1\6\7\4\7\7:<q>[public]::Boolean = true
+    slot 0: var <q>[public]::\2\8\4\3\2\2\8\5\1\2\5\2:<q>[public]::int  
+    slot 0: var <q>[public]::\1\6\8\1\4\4\4\3\3\3\1\1:<q>[public]flash.display::MovieClip  
+    slot 0: var <q>[public]::\1\3\5\1\6\3\1\3\8\1\1\2\2:<q>[public]flash.display::MovieClip  
+    slot 0: var <q>[public]::\4\8\1\6\2\6\2\2\7\2\8\1\5:<q>[public]flash.display::Sprite  
+    slot 0: var <q>[public]::\3\6\3\6\4\5\8\2\1\4\3\1\3:<q>[public]::Boolean = true
+    slot 0: var <q>[public]::\1\8\3\4\6\6\1\3\3\7\3\8:<q>[public]::Boolean = false
+    slot 0: var <q>[public]::\5\6\2\8\1\1\6\6\6\3\7\6:<q>[public]::Boolean = false
+    slot 0: var <q>[public]::\5\5\2\3\1\2\8\1\8\6\2:<q>[public]::int  
+    slot 0: var <q>[public]::\5\4\2\5\2\7\2\8\3\3\1\7\4:<q>[public]::Boolean = true
+    slot 0: var <q>[public]::\7\5\1\8\5\5\8\3\8\6\4\5:<q>[public]::int  
+    slot 0: var <q>[public]::\8\3\1\1\1\8\8\1\3\7\4\6\4:<q>[public]__AS3__.vec::Vector  
+    slot 0: var <q>[public]::\8\6\2\8\5\7\5\5\6\2\6:<q>[public]__AS3__.vec::Vector  
+    slot 0: var <q>[public]::\3\7\8\8\3\2\8\8\3\4\4:<q>[public]::\1\7\5\5\6\3\3\2\5\3  
+    slot 0: var <q>[public]::\4\2\4\7\8\7\8\7\4\1\5\5:<q>[public]::Boolean = false
+    slot 0: var <q>[public]::\8\7\1\8\7\5\8\6\8\2\6\3\4:<q>[public]::Boolean = false
+
+
+
+
+
+
+
+UPDATED = "image_url_class_name": "3754878766" =
+
+    final  method <q>[public]::\7\1\7\8\8\6\3\3\5\3\1\4\4 <q>[public]::\3\7\2\6\5\2\3\7\8\2\1\3=(<q>[public]__AS3__.vec::Vector, <q>[public]::Number, <q>[public]::Number, <q>[public]flash.geom::Point = null, <q>[public]flash.display::MovieClip = null, <q>[public]flash.geom::Point = null, <q>[public]::\5\4\6\7\5\4\3\7\6\8\6\7 = null)(7 params, 4 optional)
+    [stack:7 locals:15 scope:3-4 flags: has_optional] slot:4
+    {
+        00000) + 0:0 getlocal_0 
+        00001) + 1:0 pushscope 
+        00002) + 0:1 pushnull 
+        00003) + 1:1 coerce <q>[public]flash.geom::Point
+        00004) + 1:1 setlocal r13
+        00005) + 0:1 pushnull 
+        00006) + 1:1 coerce <q>[public]flash.geom::Point
+        00007) + 1:1 setlocal r14
+        00008) + 0:1 findpropstrict <q>[public]::\7\1\8\2\7\7\8\3\2\2
+        00009) + 1:1 pushfalse 
+        00010) + 2:1 constructprop <q>[public]::\7\1\8\2\7\7\8\3\2\2, 1 params
+        00011) + 1:1 coerce <q>[public]::\7\1\8\2\7\7\8\3\2\2
+        00012) + 1:1 setlocal r8
+        00013) + 0:1 getlocal r8
+        00014) + 1:1 getproperty <q>[public]::position
+        00015) + 1:1 getlocal r4
+        00016) + 2:1 iffalse ->26
+        00017) + 1:1 getlocal r4
+        00018) + 2:1 getproperty <q>[public]::x
+        00019) + 2:1 getlex <q>[public]::\6\2\6\5\7\8\1\5\4\2\7\2\4
+        00020) + 3:1 getlex <q>[public]::\8\7\3\5\3\7\2\2\2\1\8\2\6
+        00021) + 4:1 getproperty <q>[public]::\1\5\4\2\8\1\1\3\1\8\7
+        00022) + 4:1 callproperty <q>[public]::\2\3\2\6\4\4\1\7\2\3\4\5, 1 params
+        00023) + 3:1 divide 
+        00024) + 2:1 convert_d 
+        00025) + 2:1 jump ->31
+        00026) + 1:1 getlex <q>[public]::\6\2\6\5\7\8\1\5\4\2\7\2\4
+        00027) + 2:1 getlex <q>[public]::\6\5\6\3\7\2\1\5\8\1\7
+        00028) + 3:1 getproperty <q>[public]::\3\2\5\6\5\2\2\6\7\7\4
+        00029) + 3:1 callproperty <q>[public]::\7\7\6\1\8\5\8\8\3\1\1, 1 params
+        00030) + 2:1 convert_d 
+        00031) + 2:1 getlocal r4
+        00032) + 3:1 iffalse ->42
+        00033) + 2:1 getlocal r4
+        00034) + 3:1 getproperty <q>[public]::y
+        00035) + 3:1 getlex <q>[public]::\6\2\6\5\7\8\1\5\4\2\7\2\4
+        00036) + 4:1 getlex <q>[public]::\8\7\3\5\3\7\2\2\2\1\8\2\6
+        00037) + 5:1 getproperty <q>[public]::\1\5\4\2\8\1\1\3\1\8\7
+        00038) + 5:1 callproperty <q>[public]::\2\3\2\6\4\4\1\7\2\3\4\5, 1 params
+        00039) + 4:1 divide 
+        00040) + 3:1 convert_d 
+        00041) + 3:1 jump ->47
+        00042) + 2:1 getlex <q>[public]::\6\2\6\5\7\8\1\5\4\2\7\2\4
+        00043) + 3:1 getlex <q>[public]::\6\5\6\3\7\2\1\5\8\1\7
+        00044) + 4:1 getproperty <q>[public]::\3\2\5\6\5\2\2\6\7\7\4
+        00045) + 4:1 callproperty <q>[public]::\7\7\6\1\8\5\8\8\3\1\1, 1 params
+        00046) + 3:1 convert_d 
+        00047) + 3:1 callpropvoid <q>[public]::\1\8\7\3\7\5\6\3\6\6\8\3, 2 params
+        00048) + 0:1 getlocal r8
+        00049) + 1:1 getlex <q>[public]::\6\2\6\5\7\8\1\5\4\2\7\2\4
+        00050) + 2:1 getlex <q>[public]::\6\5\6\3\7\2\1\5\8\1\7
+        00051) + 3:1 getproperty <q>[public]::\3\2\5\6\5\2\2\6\7\7\4
+        00052) + 3:1 callproperty <q>[public]::\7\7\6\1\8\5\8\8\3\1\1, 1 params
+        00053) + 2:1 setproperty <q>[public]::\3\4\3\3\4\8\5\7\8\8\7
+        00054) + 0:1 getlocal r5
+        00055) + 1:1 iffalse ->64
+        00056) + 0:1 getlocal r8
+        00057) + 1:1 getlocal r5
+        00058) + 2:1 setproperty <q>[public]::userData
+        00059) + 0:1 getlex <q>[public]::\8\6\6\1\3\8\3\3\8\2\7\6\8
+        00060) + 1:1 getproperty <q>[public]::\5\8\6\5\1\4\4\4\1\2\3\4
+        00061) + 1:1 getproperty <q>[public]::\6\2\7\5\2\7\7\4\5\5\2\6\5
+        00062) + 1:1 getlocal r5
+        00063) + 2:1 callpropvoid <q>[public]::addChild, 1 params
+        00064) + 0:1 getlex <q>[public]::\8\6\6\1\3\8\3\3\8\2\7\6\8
+        00065) + 1:1 getproperty <q>[public]::\5\8\6\5\1\4\4\4\1\2\3\4
+        00066) + 1:1 getproperty <q>[public]::\1\6\4\5\3\7\3\7\1\7\7\3\4
+        00067) + 1:1 getlocal r8
+        00068) + 2:1 callproperty <q>[public]::\6\1\7\7\4\3\4\6\5\2\8\6\2, 1 params
+        00069) + 1:1 coerce <q>[public]::\7\1\7\8\8\6\3\3\5\3\1\4\4
+        00070) + 1:1 setlocal r9
+        00071) + 0:1 getlocal r7
+        00072) + 1:1 iftrue ->97
+        00073) + 0:1 findpropstrict <q>[public]::\5\4\6\7\5\4\3\7\6\8\6\7
+        00074) + 1:1 constructprop <q>[public]::\5\4\6\7\5\4\3\7\6\8\6\7, 0 params
+        00075) + 1:1 coerce <q>[public]::\5\4\6\7\5\4\3\7\6\8\6\7
+        00076) + 1:1 setlocal r7
+        00077) + 0:1 getlocal r7
+        00078) + 1:1 getlex <q>[public]::\6\2\6\5\7\8\1\5\4\2\7\2\4
+        00079) + 2:1 getlex <q>[public]::\6\5\6\3\7\2\1\5\8\1\7
+        00080) + 3:1 getproperty <q>[public]::\7\2\4\7\1\6\7\6\5\7\3
+        00081) + 3:1 callproperty <q>[public]::\7\7\6\1\8\5\8\8\3\1\1, 1 params
+        00082) + 2:1 setproperty <q>[public]::\2\6\1\7\1\3\6\2\6\7\2\1
+        00083) + 0:1 getlocal r7
+        00084) + 1:1 getlex <q>[public]::\3\7\5\4\8\7\8\7\6\6
+
+
+
+
+
+
+
+UPDATED = "image_url": "823672755684" =
+
+        00145) + 0:1 findproperty <q>[public]::\8\2\3\6\7\2\7\5\5\6\8\4
+        00146) + 1:1 pushstring "http://transformice.com/images/wallpaper/"
+        00147) + 2:1 setproperty <q>[public]::\8\2\3\6\7\2\7\5\5\6\8\4
+
+
+
+
+
+
+
+UPDATED = "login_screen": "1373613735148" =
+
+        00253) + 0:1 getlocal_0 
+        00254) + 1:1 getproperty <q>[public]::\1\3\7\3\6\1\3\7\3\5\1\4\8
+        00255) + 1:1 getproperty <multi>{[private]NULL,[public]"",[private]NULL,[packageinternal]"",[namespace]http://adobe.com/AS3/2006/builtin,[protected]\2\3\6\3\2\7\6\8\7,[staticprotected]\2\3\6\3\2\7\6\8\7,[staticprotected]\2\4\3\3\6\5\1\7\7\3\2\1,[staticprotected]\4\4\2\5\4\8\4\5\7\8\6\3\2,[staticprotected]\1\1\5\1\6\5\3\1\8\5,[staticprotected]flash.display:Sprite,[staticprotected]flash.display:DisplayObjectContainer,[staticprotected]flash.display:InteractiveObject,[staticprotected]flash.display:DisplayObject,[staticprotected]flash.events:EventDispatcher}::x_pos_login
+        00256) + 1:1 getlex <q>[public]flash.display::MovieClip
+        00257) + 2:1 astypelate 
+        00258) + 1:1 coerce <q>[public]flash.display::MovieClip
+        00259) + 1:1 setlocal_2 
+        00260) + 0:1 getlocal_2 
+        00261) + 1:1 iffalse ->277
+        00262) + 0:1 getlocal_0 
+        00263) + 1:1 getproperty <q>[public]::\1\3\7\3\6\1\3\7\3\5\1\4\8
