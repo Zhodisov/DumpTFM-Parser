@@ -2,10 +2,9 @@
 
 ## Contact
 
-Pour toute question, contactez-moi sur Discord :
+Pour toute question :
 
-- **Discord Username**: `lamoukate__974`
-- ![Profile](images/Profile.png)
+- **Discord Username**: `Blancsnz`
 
 
 
