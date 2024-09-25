@@ -2,9 +2,7 @@
 
 ## Contact
 
-Pour toute question :
-
-- **Discord Username**: `Blancsnz`
+- **Discord Username**: `zhodiyn`
 
 
 
